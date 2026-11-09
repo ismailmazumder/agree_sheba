@@ -348,6 +348,48 @@
     .send { height: 46px; padding: 0 24px; border: 0; border-radius: 999px; background: var(--blue); color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
     .send:disabled { opacity: .5; cursor: wait; }
     @media (max-width: 700px) { .tabbar { overflow-x: auto; scrollbar-width: none; } .tabbar::-webkit-scrollbar { display: none; } .tab-button { flex: 1 0 auto; } .bubble { max-width: 86%; } #ai-fab { height: 50px; } #tab-ai { flex-direction: row; gap: 6px; } }
+    /* ===== wide layout: use the full width, less scrolling ===== */
+    .empty-state { display: none; }
+    .season-list { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 12px; }
+    .season-list > .season-card { flex: 1 1 220px; min-width: 0; }
+    .season-list > .rotation-note { flex: 0 0 100%; order: 99; margin: 2px 0 0; }
+    #rotation, .month-card { display: flex; flex-direction: column; }
+    #rotation > #season-list { order: 1; } #rotation > #ranking-note { order: 2; margin: 12px 0 0; } #rotation > #crop-guidance { order: 3; }
+    .month-card > #start-now-list { order: 1; } .month-card > .month-note { order: 2; margin: 12px 0 0; }
+    .guidance-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+    .metrics { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+    @media (min-width: 700px) {
+      .hero { padding-top: 26px; }
+      h1 { margin: 10px 0 8px; font-size: clamp(2rem, 4.2vw, 3rem); }
+      .intro { font-size: 1.02rem; max-width: 70ch; }
+      .tabbar { margin-top: 16px; }
+      .panel { padding-top: 20px; }
+    }
+    @media (min-width: 1000px) {
+      .panel, .foot { max-width: 1760px; padding-inline: clamp(16px, 2.5vw, 48px); }
+      #results-panel:not([hidden]) { display: grid; grid-template-columns: minmax(360px, 440px) minmax(0, 1fr); gap: 0 28px; align-items: start; }
+      .side { grid-column: 1; grid-row: 1; position: sticky; top: 138px; }
+      #results, .empty-state { grid-column: 2; grid-row: 1; margin-top: 0; }
+      #results[hidden] + .empty-state { display: grid; place-items: center; align-content: center; gap: 8px; min-height: 360px; padding: 30px; border: 1px dashed var(--bd); border-radius: 24px; background: var(--card); color: var(--mu); text-align: center; }
+      .empty-state b { color: var(--tx); font-size: 1.1rem; }
+      .empty-ic { font-size: 2.4rem; }
+      .side .location-grid { gap: 10px; }
+      .side .hint { margin-top: 10px; }
+      .mapcard { margin-top: 10px; }
+      #map { height: clamp(240px, 40vh, 420px); }
+      .priority-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .method-card { column-count: 3; column-gap: 28px; }
+      .method-card h3 { column-span: all; }
+      .method-card p { break-inside: avoid; margin-top: 0; margin-bottom: 8px; }
+      #ai-panel:not([hidden]) { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 0 22px; align-items: start; }
+      #ai-panel .ai-head { grid-column: 1 / -1; }
+      #ai-panel .chat { grid-column: 1; grid-row: 2 / span 2; }
+      #ai-panel .ctx-card { grid-column: 2; grid-row: 2; margin: 0; }
+      #ai-panel .live-note { grid-column: 2; grid-row: 3; align-self: start; margin-top: 12px; }
+      .ctx-card pre { max-height: 46vh; }
+      .chat-messages { height: min(56vh, 520px); }
+    }
+
     /* ===== welcome popup + AI context card ===== */
     .pop-scrim { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 18px; background: rgb(15 23 42 / .55); backdrop-filter: blur(6px); animation: fade .3s; }
     .pop-scrim[hidden] { display: none !important; }
@@ -422,6 +464,7 @@
     </nav>
 
     <section class="panel" id="results-panel" role="tabpanel" aria-labelledby="tab-results">
+      <div class="side">
       <div class="location-grid">
         <div class="field">
           <label for="district">District · জেলা</label>
@@ -439,6 +482,7 @@
 
       <p id="selection" class="hint" aria-live="polite">Choose a district and upazila to see recommendations.</p>
       <section class="mapcard" aria-label="Map · মানচিত্র"><div id="map"></div><p id="map-info" class="hint" aria-live="polite"></p><button id="geo-btn" class="button-secondary" type="button">⌖ Use my location · আমার অবস্থান</button></section>
+      </div>
       <section id="results" class="results" aria-live="polite" hidden>
         <h2 id="results-title"></h2>
         <section class="month-card" aria-labelledby="month-title">
@@ -460,6 +504,7 @@
           </section>
         </section>
       </section>
+      <div class="empty-state" aria-hidden="true"><div class="empty-ic">🌾</div><b><span class="en">Your crop ranking appears here</span><span class="sep"> · </span><span lang="bn">আপনার ফসলের তালিকা এখানে দেখা যাবে</span></b><span><span class="en">Pick a district and upazila, or click anywhere on the map.</span><span class="sep"> · </span><span lang="bn">জেলা ও উপজেলা বাছাই করুন, অথবা মানচিত্রে ক্লিক করুন।</span></span></div>
     </section>
 
     <section class="panel" id="priorities-panel" role="tabpanel" aria-labelledby="tab-priorities" hidden>
@@ -922,12 +967,12 @@ const labeledData = [{"district_name":"Bagerhat","thana_name":"Bagerhat Sadar","
           button.className = "crop-pick";
           const name = document.createElement("span");
           name.className = "crop-name";
-          name.textContent = crop.crop_name + " — " + scoreCrop(crop).toFixed(1) + "/100 · tap for crop guidance";
+          name.textContent = crop.crop_name + " — " + scoreCrop(crop).toFixed(1) + "/100";
           const details = document.createElement("span");
           details.className = "crop-detail";
           details.textContent = "Gross margin ৳" + crop.gm_tk_dec.toLocaleString("en-US") + "/decimal · BCR total " + crop.bcr_tc.toFixed(2) + " · BCR variable " + crop.bcr_vc.toFixed(2)
             + " · salt tolerant: " + (crop.saline_tolerant ? "yes" : "no")
-            + " · submergence tolerant: " + (crop.submergence_tolerant ? "yes" : "no");
+            + " · submergence tolerant: " + (crop.submergence_tolerant ? "yes" : "no") + " · tap for crop guidance";
           button.append(name,details);
           button.addEventListener("click",()=>showCropGuidance(crop.crop_name));
           item.append(button);
@@ -1365,6 +1410,7 @@ const labeledData = [{"district_name":"Bagerhat","thana_name":"Bagerhat Sadar","
       $("tab-ai").addEventListener("click", attachContext);
       Object.values(priorityControls).forEach((i) => i.addEventListener("input", refreshCard));
       refreshCard();
+      if (matchMedia("(min-width:1000px)").matches) $("ctx-card").open = true;
     })();
   </script>
 </body>
