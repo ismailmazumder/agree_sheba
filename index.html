@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="both">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,6 +35,10 @@
     .tabbar { display: flex; gap: 8px; padding: 12px clamp(14px, 4vw, 36px) 0; border-bottom: 1px solid #e0eae3; background: #f8fbf9; }
     .tab-button { min-height: 46px; padding: 10px 16px; border: 0; border-bottom: 3px solid transparent; border-radius: 10px 10px 0 0; background: transparent; color: #50685a; font: inherit; font-weight: 700; cursor: pointer; }
     .tab-button[aria-selected="true"] { border-bottom-color: #20834e; color: #176b42; background: #fff; }
+    .tab-button { line-height: 1.35; }
+    .tab-en, .tab-bn { white-space: nowrap; }
+    .tab-bn { font-family: "Noto Sans Bengali", "Nirmala UI", "Kalpurush", "SolaimanLipi", "Vrinda", system-ui, sans-serif; }
+    .tab-sep { white-space: pre; }
     .tab-button:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible { outline: 3px solid #a8dfbc; outline-offset: 2px; }
     .panel { padding: 22px clamp(16px, 4vw, 36px) 34px; }
     .location-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
@@ -88,7 +92,8 @@
       .panel { padding-top: 18px; }
       .location-grid, .priority-grid { grid-template-columns: 1fr; }
       .tabbar { position: sticky; top: 0; z-index: 2; }
-      .tab-button { flex: 1; }
+      .tab-button { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 8px 6px; text-align: center; }
+      .tab-sep { display: none; }
     }
 
     .month-card { margin: 0 0 18px; padding: 16px; border: 1px solid #cfe5d5; border-radius: 13px; background: #f0f8f2; }
@@ -111,9 +116,214 @@
     .guidance-section li + li { margin-top: 7px; }
     .guidance-warning { margin: 12px 0 0; padding: 11px 12px; border-radius: 8px; background: #fff5dd; color: #725717; font-size: .88rem; line-height: 1.45; }
     @media (max-width: 600px) { .guidance-grid { grid-template-columns: 1fr; } }
+
+    /* ===== modern theme ===== */
+    :root { --ink:#10261c; --mut:#5b6d63; --line:#e3ece6; --g:#176b42; --g2:#2a9d62; }
+    body { background: #f1f6f3; }
+    main { border: 0; border-radius: 26px; box-shadow: 0 24px 64px rgb(16 38 28 / 10%); }
+    .hero { position: relative; background: linear-gradient(135deg,#0b3d2a 0%,#176b42 62%,#2a9d62 100%); }
+    .hero::after { content:""; position:absolute; inset:auto -60px -90px auto; width:260px; height:260px; border-radius:50%; background:radial-gradient(circle,rgb(255 255 255 / 18%),transparent 70%); pointer-events:none; }
+    h1 { letter-spacing: -.02em; }
+    .tabbar { position: sticky; top: 0; z-index: 5; gap: 6px; padding: 10px clamp(12px,4vw,32px); overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--line); background: rgb(248 251 249 / 88%); backdrop-filter: blur(10px); }
+    .tabbar::-webkit-scrollbar { display: none; }
+    .tab-button { flex: 0 0 auto; min-height: 44px; padding: 8px 16px; border: 0; border-radius: 999px; transition: background .15s, color .15s, box-shadow .15s; }
+    .tab-button:hover { background: #e8f2eb; }
+    .tab-button[aria-selected="true"] { background: var(--g); color: #fff; box-shadow: 0 6px 16px rgb(23 107 66 / 28%); }
+    .metric, .priority-card, .season-card, .guidance-section { border-radius: 16px; border-color: var(--line); box-shadow: 0 1px 2px rgb(16 38 28 / 4%); transition: transform .15s, box-shadow .15s; }
+    .metric:hover, .priority-card:hover, .season-card:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgb(16 38 28 / 8%); }
+    .month-card, .method-card, .priority-summary { border-radius: 16px; }
+    select { border-radius: 12px; }
+    .live-top { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:10px; margin-bottom:14px; }
+    .live-badge { display:inline-flex; align-items:center; gap:7px; padding:6px 12px; border-radius:999px; background:#e8f6ee; color:var(--g); font-size:.82rem; font-weight:750; }
+    .live-badge i { width:8px; height:8px; border-radius:50%; background:#22c55e; animation:pulse 1.8s infinite; }
+    .live-badge.off i { background:#f59e0b; animation:none; }
+    @keyframes pulse { 0%{box-shadow:0 0 0 0 rgb(34 197 94 / 55%)} 100%{box-shadow:0 0 0 9px rgb(34 197 94 / 0%)} }
+    .live-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+    .tile { padding:16px; border:1px solid var(--line); border-radius:18px; background:linear-gradient(180deg,#fff,#f6faf7); box-shadow:0 1px 2px rgb(16 38 28 / 4%); }
+    .tile-name { color:var(--mut); font-size:.84rem; font-weight:700; }
+    .tile-val { margin:6px 0 2px; font-size:2rem; font-weight:800; letter-spacing:-.02em; color:var(--ink); }
+    .tile-val small { font-size:.9rem; font-weight:700; color:var(--mut); margin-left:3px; }
+    .tile-delta { font-size:.8rem; color:var(--mut); }
+    .tile svg { display:block; width:100%; height:38px; margin-top:10px; }
+    .tile polyline { fill:none; stroke:var(--g2); stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
+    .advice { margin-top:14px; padding:14px 16px; border-radius:16px; background:#fff8e6; color:#6b4f0e; line-height:1.5; }
+    .advice.ok { background:#eef8f1; color:#274737; }
+    .live-note { margin:12px 0 0; color:var(--mut); font-size:.82rem; line-height:1.5; }
+    .skeleton { height:128px; border-radius:18px; background:linear-gradient(90deg,#edf3ef 25%,#f8fbf9 50%,#edf3ef 75%); background-size:200% 100%; animation:sh 1.2s infinite; }
+    @keyframes sh { to { background-position:-200% 0; } }
+    @media (max-width: 600px) { main { border-radius: 0; } .tab-button { font-size: .86rem; padding: 6px 12px; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+    /* ===== Field Shift dark app shell ===== */
+    :root { color-scheme: dark; --bg:#060d1f; --side:#081230; --card:#0a1a38; --card2:#0d2147; --bd:#15305f; --tx:#e8eefc; --mu:#8da0c4; --lime:#c8f542; --blue:#3b6cf6; color: var(--tx); background: var(--bg); }
+    body { padding: 0; background: var(--bg); color: var(--tx); }
+    [lang="bn"], .tab-bn { font-family: "Noto Sans Bengali","Nirmala UI","Kalpurush","SolaimanLipi","Vrinda",system-ui,sans-serif; }
+    html[data-lang="en"] :is([lang="bn"],.sep,.tab-sep):not(button) { display: none !important; }
+    html[data-lang="bn"] :is(.en,.tab-en,.sep,.tab-sep) { display: none !important; }
+    main { width: auto; margin: 0 0 0 272px; padding-top: 66px; min-height: 100vh; overflow: visible; border-radius: 0; background: transparent; box-shadow: none; }
+    .hero { max-width: 1060px; margin: 0 auto; padding: 40px clamp(16px,4vw,40px) 0; background: transparent; }
+    .hero::after { display: none; }
+    .eyebrow { color: var(--lime); }
+    h1 { color: var(--tx); font-size: clamp(1.7rem,3.4vw,2.3rem); }
+    h1::before { content: "◎ "; color: var(--lime); }
+    .intro, .hint, .rotation-note, .priority-intro, .month-note, .crop-detail, .priority-help, .guidance-region, .live-note, .tile-name, .tile-delta, .metric-name { color: var(--mu); }
+    .panel { max-width: 1060px; margin: 0 auto; padding: 24px clamp(16px,4vw,40px) 40px; }
+    /* sidebar = tablist */
+    .tabbar { position: fixed; inset: 0 auto 0 0; z-index: 30; width: 272px; flex-direction: column; gap: 6px; padding: 22px 14px; overflow-y: auto; border: 0; border-right: 1px solid var(--bd); background: var(--side); backdrop-filter: none; transition: transform .22s; }
+    .tabbar::before { content: "FIELD SHIFT"; order: -2; padding: 0 12px; color: var(--lime); font-size: 1.35rem; font-weight: 850; letter-spacing: -.01em; }
+    .tabbar::after { content: "EARTH DATA. SMARTER FARMS."; order: -1; margin-bottom: 18px; padding: 0 12px; color: var(--mu); font-size: .66rem; letter-spacing: .18em; }
+    .tab-button { display: grid; grid-template-columns: 28px 1fr; column-gap: 10px; align-items: center; width: 100%; padding: 10px 14px; border-radius: 12px; color: #b9c6e4; text-align: left; font-size: .98rem; }
+    .tab-button::before { grid-row: 1 / 3; font-size: 1.15rem; opacity: .85; }
+    #tab-results::before { content: "▤"; } #tab-priorities::before { content: "⚖"; } #tab-live::before { content: "◉"; }
+    .tab-en, .tab-bn { grid-column: 2; }
+    .tab-bn { font-size: .76rem; font-weight: 500; opacity: .72; }
+    .tab-sep { display: none; }
+    .tab-button:hover { background: #0f1f45; }
+    .tab-button[aria-selected="true"] { background: var(--blue); color: #fff; box-shadow: none; }
+    /* top bar */
+    .topbar { position: fixed; inset: 0 0 auto 272px; z-index: 20; display: flex; align-items: center; gap: 12px; height: 66px; padding: 0 20px; border-bottom: 1px solid var(--bd); background: var(--bg); }
+    .menu-btn { display: none; width: 42px; height: 42px; border: 1px solid var(--bd); border-radius: 10px; background: var(--card); color: var(--tx); font-size: 1.2rem; cursor: pointer; }
+    .search { position: relative; flex: 1; max-width: 720px; }
+    .search input { width: 100%; height: 46px; padding: 0 14px 0 42px; border: 1px solid var(--bd); border-radius: 10px; background: #08122b; color: var(--tx); font: inherit; }
+    .search::before { content: "⌕"; position: absolute; left: 14px; top: 9px; color: var(--mu); font-size: 1.35rem; }
+    .search kbd { position: absolute; right: 12px; top: 12px; padding: 1px 8px; border: 1px solid var(--bd); border-radius: 6px; color: var(--mu); font-size: .8rem; }
+    .sr { position: absolute; inset: 52px 0 auto 0; z-index: 40; margin: 0; padding: 6px; list-style: none; border: 1px solid var(--bd); border-radius: 12px; background: var(--card2); box-shadow: 0 18px 40px rgb(0 0 0 / 45%); }
+    .sr li { display: flex; justify-content: space-between; gap: 10px; padding: 9px 12px; border-radius: 8px; cursor: pointer; }
+    .sr li small { color: var(--mu); }
+    .sr li.on, .sr li:hover { background: var(--blue); }
+    .chip { display: inline-flex; align-items: center; gap: 7px; height: 36px; padding: 0 14px; border: 1px solid var(--bd); border-radius: 999px; background: #08122b; color: var(--tx); font: inherit; font-size: .9rem; cursor: pointer; }
+    .chip i { width: 8px; height: 8px; border-radius: 50%; background: #f59e0b; }
+    .chip.live i { background: #22c55e; }
+    .seg { display: inline-flex; padding: 3px; border: 1px solid var(--bd); border-radius: 10px; background: #08122b; }
+    .seg button { height: 32px; padding: 0 12px; border: 0; border-radius: 8px; background: transparent; color: var(--mu); font: inherit; font-weight: 750; cursor: pointer; }
+    .seg button[aria-pressed="true"] { background: var(--blue); color: #fff; }
+    /* components */
+    label { color: var(--mu); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
+    select { border-color: var(--bd); border-radius: 12px; background: #08122b; color: var(--tx); }
+    select:disabled { background: #0a1530; color: #5b6d8c; }
+    .metric, .season-card, .priority-card, .method-card, .guidance-section, .tile, .crop-guidance { border-color: var(--bd); background: var(--card); box-shadow: none; }
+    .tile { background: var(--card); }
+    .month-card { border-color: var(--bd); background: var(--card2); }
+    .crop-list li { background: #0d2147; }
+    .metric-value, .tile-val, .method-card h3, .guidance-section h4 { color: var(--tx); }
+    .metric-label, .season-card h4, .month-card h3, .priority-preview-wrap h3, .guidance-header h3, .priority-heading output { color: var(--lime); }
+    .rotation, .priority-preview-wrap { border-top-color: var(--bd); }
+    .priority-summary { border-left-color: var(--lime); background: var(--card2); color: var(--tx); }
+    .button-secondary, .start-chip, .guidance-close { border-color: var(--blue); background: transparent; color: #8fb0ff; }
+    .start-chip:hover, .crop-pick:hover, .button-secondary:hover { border-color: var(--lime); background: #0f2550; }
+    .guidance-section p, .guidance-section ul, .method-card { color: #b6c4e2; }
+    .guidance-warning, .advice { background: #2a2208; color: #f3d98a; }
+    .advice.ok { background: #0b2a24; color: #9be8c5; }
+    .live-badge { background: #0b2a24; color: #7ee2a8; }
+    .tile polyline { stroke: var(--lime); }
+    .tile-val small { color: var(--mu); }
+    .skeleton { background: linear-gradient(90deg,#0a1a38 25%,#112a55 50%,#0a1a38 75%); background-size: 200% 100%; }
+    input[type="range"] { accent-color: var(--lime); }
+    .foot { max-width: 1060px; margin: 0 auto; padding: 8px clamp(16px,4vw,40px) 40px; color: var(--mu); font-size: .8rem; line-height: 1.6; }
+    .foot p { margin: 0 0 6px; }
+    .mapcard { margin: 18px 0 4px; }
+    #map { position: relative; z-index: 0; isolation: isolate; height: min(54vh, 430px); border: 1px solid var(--bd); border-radius: 18px; background: #0a1a38; }
+    .mapcard .hint { margin: 10px 0 8px; line-height: 1.5; }
+    .leaflet-tooltip { background: #0a1a38; color: #e8eefc; border-color: #15305f; }
+    .leaflet-tooltip-top::before { border-top-color: #15305f; }
+    .scrim { display: none; }
+    @media (max-width: 900px) {
+      main { margin-left: 0; }
+      .topbar { left: 0; padding: 0 12px; gap: 8px; }
+      .menu-btn { display: block; flex: none; }
+      .tabbar { transform: translateX(-100%); width: min(82vw, 300px); }
+      body.nav-open .tabbar { transform: none; box-shadow: 0 0 60px rgb(0 0 0 / 60%); }
+      body.nav-open .scrim { display: block; position: fixed; inset: 0; z-index: 25; background: rgb(0 0 0 / 55%); }
+      .chip { display: none; } .search kbd { display: none; }
+      .search { min-width: 0; } .seg button { padding: 0 7px; font-size: .8rem; } .search input { padding-left: 34px; } .search::before { left: 10px; }
+      .tab-button { flex: none; padding: 10px 14px; font-size: .98rem; }
+    }
+
+    /* ===== Aurora glass theme (premium) ===== */
+    :root { color-scheme: light dark; --bg:#f5f5f7; --tx:#1d1d1f; --mu:#6e6e73; --glass:rgb(255 255 255 / .72); --card:rgb(255 255 255 / .72); --card2:rgb(255 255 255 / .86); --side:var(--glass); --bd:rgb(0 0 0 / .08); --lime:#0b8f84; --blue:linear-gradient(135deg,#06b6a4,#6366f1); --field:rgb(255 255 255 / .85); --shadow:0 24px 60px -28px rgb(30 40 80 / .35); --ring:rgb(99 102 241 / .35);
+      font-family: "Inter","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#050507; --tx:#f5f5f7; --mu:#a1a1a6; --glass:rgb(30 30 36 / .62); --card:rgb(28 28 34 / .6); --card2:rgb(40 40 48 / .75); --bd:rgb(255 255 255 / .1); --lime:#5eead4; --field:rgb(255 255 255 / .06); --shadow:0 24px 60px -28px rgb(0 0 0 / .8); --ring:rgb(94 234 212 / .35); }
+      .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) saturate(.6) brightness(.88) contrast(.92); } }
+    html { background: var(--bg); scroll-behavior: smooth; }
+    body { background: transparent; isolation: isolate; -webkit-font-smoothing: antialiased; }
+    body::before { content:""; position: fixed; inset: -10%; z-index: -1; pointer-events: none; animation: drift 26s ease-in-out infinite alternate;
+      background: radial-gradient(48vw 44vh at 12% 4%, rgb(16 185 129 / .26), transparent 70%), radial-gradient(44vw 44vh at 92% 8%, rgb(99 102 241 / .24), transparent 70%), radial-gradient(56vw 50vh at 62% 100%, rgb(14 165 233 / .2), transparent 70%); }
+    @keyframes drift { to { transform: translate3d(-2%, 3%, 0) scale(1.08); } }
+    /* nav */
+    .topbar { inset: 0 0 auto 0; height: 60px; padding: 0 clamp(12px,3vw,28px); gap: 12px; border-bottom: 1px solid var(--bd); background: color-mix(in srgb, var(--bg) 66%, transparent); backdrop-filter: blur(24px) saturate(180%); -webkit-backdrop-filter: blur(24px) saturate(180%); }
+    .topbar::before { content: "● Field Shift"; flex: none; font-weight: 800; letter-spacing: -.02em; font-size: 1.08rem; background: var(--blue); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .menu-btn, .scrim { display: none !important; }
+    .search { flex: 1; max-width: 440px; margin-inline: auto; }
+    .search input { height: 38px; border-radius: 999px; background: var(--field); border-color: var(--bd); }
+    .search input:focus { outline: 0; box-shadow: 0 0 0 4px var(--ring); }
+    .search::before { top: 5px; }
+    .search kbd { top: 8px; background: var(--bd); border: 0; }
+    .sr { inset: 46px 0 auto 0; border-radius: 18px; background: var(--card2); backdrop-filter: blur(24px); }
+    .sr li.on, .sr li:hover { background: var(--blue); color: #fff; } .sr li.on small, .sr li:hover small { color: #ffffffcc; }
+    .chip { height: 34px; background: var(--field); border-color: var(--bd); }
+    .seg { background: var(--field); border-color: var(--bd); border-radius: 999px; } .seg button { height: 30px; border-radius: 999px; }
+    .seg button[aria-pressed="true"] { background: var(--blue); }
+    main { margin: 0; padding-top: 60px; }
+    .hero { text-align: center; max-width: 880px; padding-top: clamp(36px,7vw,72px); }
+    .eyebrow { display: inline-block; padding: 6px 14px; border-radius: 999px; background: var(--card); border: 1px solid var(--bd); color: var(--lime); letter-spacing: .1em; }
+    h1 { margin: 14px 0 12px; font-size: clamp(2.5rem, 7vw, 4.6rem); line-height: 1.02; font-weight: 800; letter-spacing: -.045em; background: linear-gradient(120deg, var(--tx) 25%, #0ea5a4 62%, #6366f1); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    h1::before { content: none; }
+    .intro { max-width: 52ch; margin: 0 auto; font-size: clamp(1.02rem, 2vw, 1.25rem); line-height: 1.5; }
+    /* floating tab control with sliding thumb */
+    .tabbar { position: sticky; inset: auto; top: 70px; bottom: auto; z-index: 15; flex-direction: row; gap: 2px; width: max-content; max-width: calc(100% - 24px); height: auto; margin: 26px auto 0; padding: 5px; overflow: visible; transform: none !important; border: 1px solid var(--bd); border-radius: 999px; background: var(--glass); backdrop-filter: blur(22px) saturate(180%); -webkit-backdrop-filter: blur(22px) saturate(180%); box-shadow: var(--shadow); }
+    .tabbar::before, .tabbar::after { content: none; }
+    .tab-button { position: relative; z-index: 1; display: flex; align-items: center; gap: 8px; width: auto; padding: 9px 20px; border-radius: 999px; color: var(--mu); font-size: .95rem; white-space: nowrap; transition: color .25s, background .25s; }
+    .tab-button::before { grid-row: auto; font-size: 1rem; }
+    .tab-bn { font-size: .78rem; opacity: .8; }
+    .tab-button:hover { background: var(--bd); } .tab-button[aria-selected="true"] { background: transparent; color: #fff; box-shadow: none; }
+    .thumb { position: absolute; z-index: 0; top: 5px; bottom: 5px; left: 0; width: 0; border-radius: 999px; background: var(--blue); box-shadow: 0 10px 26px -8px rgb(99 102 241 / .65); transition: transform .5s cubic-bezier(.2,.9,.25,1.12), width .5s cubic-bezier(.2,.9,.25,1.12); }
+    /* surfaces */
+    .panel { padding-top: 30px; }
+    .panel:not([hidden]) { animation: fade .55s cubic-bezier(.2,.8,.2,1); }
+    @keyframes fade { from { opacity: 0; transform: translateY(14px); } }
+    .metric, .season-card, .priority-card, .method-card, .guidance-section, .tile, .crop-guidance, .month-card { border-radius: 24px; border: 1px solid var(--bd); background: var(--card); backdrop-filter: blur(18px) saturate(160%); -webkit-backdrop-filter: blur(18px) saturate(160%); box-shadow: var(--shadow), inset 0 1px 0 rgb(255 255 255 / .35); transition: transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s; }
+    .metric:hover, .priority-card:hover, .season-card:hover, .tile:hover { transform: translateY(-4px); }
+    .month-card h3, .season-card h4, .priority-preview-wrap h3, .guidance-header h3, .metric-label { color: var(--lime); }
+    .metric-value, .tile-val, .method-card h3, .guidance-section h4 { color: var(--tx); }
+    .tile-val { font-size: 2.3rem; font-weight: 800; letter-spacing: -.04em; background: linear-gradient(120deg, var(--tx), var(--lime)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .tile-val small { -webkit-text-fill-color: var(--mu); }
+    .tile polyline { stroke: url(#g) var(--lime); stroke: var(--lime); }
+    .crop-list li { background: var(--bd); border-radius: 14px; }
+    select { height: 50px; border-radius: 16px; background-color: var(--field); border: 1px solid var(--bd); transition: box-shadow .2s, border-color .2s; }
+    select:focus { outline: 0; box-shadow: 0 0 0 4px var(--ring); border-color: transparent; } select:disabled { background-color: var(--bd); color: var(--mu); }
+    label { color: var(--mu); }
+    .button-secondary, .start-chip, .guidance-close { border: 1px solid var(--bd); border-radius: 999px; background: var(--field); color: var(--tx); transition: transform .2s, box-shadow .2s, background .2s; }
+    .button-secondary:hover, .start-chip:hover, .crop-pick:hover { transform: translateY(-1px); border-color: transparent; background: var(--blue); color: #fff; box-shadow: 0 10px 24px -10px rgb(99 102 241 / .7); }
+    .priority-summary { border-left: 0; border-radius: 20px; background: var(--card2); border: 1px solid var(--bd); }
+    .guidance-warning { background: rgb(245 158 11 / .14); color: inherit; border-radius: 14px; }
+    .advice { background: rgb(245 158 11 / .14); color: var(--tx); border-radius: 20px; } .advice.ok { background: rgb(16 185 129 / .14); color: var(--tx); }
+    .live-badge { background: rgb(16 185 129 / .14); color: var(--lime); }
+    .skeleton { background: linear-gradient(90deg, var(--bd) 25%, var(--card2) 50%, var(--bd) 75%); background-size: 200% 100%; border-radius: 24px; }
+    #map { border-radius: 26px; box-shadow: var(--shadow); border-color: var(--bd); }
+    .leaflet-tooltip { background: var(--card2); color: var(--tx); border-color: var(--bd); backdrop-filter: blur(12px); }
+    .foot { text-align: center; }
+    @keyframes rise { from { opacity: 0; transform: translateY(26px) scale(.98); } }
+    @supports (animation-timeline: view()) { .metric, .season-card, .priority-card, .month-card, .tile, .method-card, .mapcard, .crop-guidance { animation: rise linear backwards; animation-timeline: view(); animation-range: entry 0% entry 38%; } }
+    @media (max-width: 700px) {
+      .topbar::before { content: "●"; } .search { min-width: 0; }
+      .tabbar { width: calc(100% - 24px); } .tab-button { flex: 1; justify-content: center; padding: 9px 8px; font-size: .86rem; }
+      html:not([data-lang="bn"]) .tab-bn { display: none; } .tab-button::before { display: none; }
+      .hero { padding-inline: 16px; }
+    }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js">
+  </script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 </head>
 <body>
+  <header class="topbar">
+    <button class="menu-btn" id="menu-btn" type="button" aria-label="Menu">☰</button>
+    <div class="search"><input id="q" type="search" placeholder="Search district or upazila…" autocomplete="off" aria-label="Search district or upazila"><kbd>/</kbd><ul class="sr" id="sr" role="listbox" hidden></ul></div>
+    <button class="chip" id="top-badge" type="button" title="Open live NASA POWER data"><i></i><span>precomputed</span></button>
+    <div class="seg" id="seg" role="group" aria-label="Language"><button type="button" data-l="bn" aria-pressed="false" lang="bn">বাং</button><button type="button" data-l="en" aria-pressed="false">EN</button><button type="button" data-l="both" aria-pressed="true">EN+বাং</button></div>
+  </header>
+  <div class="scrim" id="scrim"></div>
   <main>
     <header class="hero">
       <p class="eyebrow">Field decision helper · Bangladesh</p>
@@ -122,8 +332,9 @@
     </header>
 
     <nav class="tabbar" role="tablist" aria-label="Decision sections">
-      <button class="tab-button" id="tab-results" type="button" role="tab" aria-selected="true" aria-controls="results-panel">Crop ranking · ফসলের তালিকা</button>
-      <button class="tab-button" id="tab-priorities" type="button" role="tab" aria-selected="false" aria-controls="priorities-panel">Priority · অগ্রাধিকার</button>
+      <button class="tab-button" id="tab-results" type="button" role="tab" aria-selected="true" aria-controls="results-panel"><span class="tab-en">Crop ranking</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">ফসলের তালিকা</span></button>
+      <button class="tab-button" id="tab-priorities" type="button" role="tab" aria-selected="false" aria-controls="priorities-panel"><span class="tab-en">Priority</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">অগ্রাধিকার</span></button>
+      <button class="tab-button" id="tab-live" type="button" role="tab" aria-selected="false" aria-controls="live-panel"><span class="tab-en">Live field</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">সরাসরি মাঠ</span></button>
     </nav>
 
     <section class="panel" id="results-panel" role="tabpanel" aria-labelledby="tab-results">
@@ -143,6 +354,7 @@
       </div>
 
       <p id="selection" class="hint" aria-live="polite">Choose a district and upazila to see recommendations.</p>
+      <section class="mapcard" aria-label="Map · মানচিত্র"><div id="map"></div><p id="map-info" class="hint" aria-live="polite"></p><button id="geo-btn" class="button-secondary" type="button">⌖ Use my location · আমার অবস্থান</button></section>
       <section id="results" class="results" aria-live="polite" hidden>
         <h2 id="results-title"></h2>
         <section class="month-card" aria-labelledby="month-title">
@@ -208,6 +420,17 @@
         <p>These are transparent demo weights and source-data labels, not a field-validated yield forecast. Confirm choices with a local agriculture officer.</p>
       </div>
     </section>
+
+    <section class="panel" id="live-panel" role="tabpanel" aria-labelledby="tab-live" hidden>
+      <div class="live-top">
+        <div><h2 style="margin:0 0 4px">Live field conditions · সরাসরি মাঠের অবস্থা</h2><p id="live-where" class="hint" style="margin:0">Choose a district and upazila on the Crop ranking tab.</p></div>
+        <span style="display:flex;gap:8px;flex-wrap:wrap"><span id="live-badge" class="live-badge off"><i></i><span id="live-status">Waiting for location</span></span><button id="live-refresh" class="button-secondary" type="button">↻ Refresh</button></span>
+      </div>
+      <div id="live-grid" class="live-grid"></div>
+      <div id="live-advice" class="advice ok" hidden></div>
+      <p class="live-note">Daily NASA POWER (AG community) values for the last two weeks, fetched live in your browser. Satellite and model estimates for a ~50 km grid cell, usually 2–3 days behind. Not an official NASA product.</p>
+    </section>
+    <footer class="foot"><p>Built for the NASA Space Apps Challenge — a community science initiative. Not an official NASA product. · NASA স্পেস অ্যাপস চ্যালেঞ্জের জন্য তৈরি — একটি কমিউনিটি সায়েন্স উদ্যোগ। এটি NASA-র কোনো দাপ্তরিক পণ্য নয়।</p></footer>
   </main>
 
   <script>
@@ -299,15 +522,14 @@ const labeledData = [{"district_name":"Bagerhat","thana_name":"Bagerhat Sadar","
     }
 
     function activateTab(which) {
-      const showResults = which === "results";
-      resultsTab.setAttribute("aria-selected", String(showResults));
-      prioritiesTab.setAttribute("aria-selected", String(!showResults));
-      resultsPanel.hidden = !showResults;
-      prioritiesPanel.hidden = showResults;
+      const map = { results: [resultsTab, resultsPanel], priorities: [prioritiesTab, prioritiesPanel], live: [document.getElementById("tab-live"), document.getElementById("live-panel")] };
+      for (const [k, [t, p]] of Object.entries(map)) { t.setAttribute("aria-selected", String(k === which)); p.hidden = k !== which; }
+      if (which === "live") loadLive();
     }
 
     resultsTab.addEventListener("click", () => activateTab("results"));
     prioritiesTab.addEventListener("click", () => activateTab("priorities"));
+    document.getElementById("tab-live").addEventListener("click", () => activateTab("live"));
     for (const input of Object.values(priorityControls)) {
       input.addEventListener("input", updatePriorityDisplay);
     }
@@ -708,6 +930,188 @@ const labeledData = [{"district_name":"Bagerhat","thana_name":"Bagerhat Sadar","
     upazilaSelect.addEventListener("change", () => {
       showLocationData();
     });
+  
+    /* ===== live NASA POWER panel ===== */
+    const LIVE = [
+      { k: "T2M", en: "Air temperature", bn: "তাপমাত্রা", unit: "°C", d: 1 },
+      { k: "PRECTOTCORR", en: "Rain (14-day total)", bn: "বৃষ্টি", unit: "mm", d: 0, sum: true },
+      { k: "GWETTOP", en: "Topsoil wetness", bn: "মাটির আর্দ্রতা", unit: "%", d: 0, mult: 100 },
+      { k: "RH2M", en: "Relative humidity", bn: "আপেক্ষিক আর্দ্রতা", unit: "%", d: 0 }
+    ];
+    const liveCache = {};
+    let liveKey = "";
+    const ymd = (d) => d.toISOString().slice(0, 10).replace(/-/g, "");
+    function setLive(msg, on) {
+      const tb = document.getElementById("top-badge"); tb.classList.toggle("live", on); tb.lastChild.textContent = on ? "NASA POWER live" : "precomputed";
+      document.getElementById("live-status").textContent = msg;
+      document.getElementById("live-badge").classList.toggle("off", !on);
+    }
+    async function geocode(names) {
+      for (const n of names) {
+        const r = await fetch("https://geocoding-api.open-meteo.com/v1/search?count=5&countryCode=BD&name=" + encodeURIComponent(n));
+        const hit = ((await r.json()).results || []).find((x) => x.country_code === "BD");
+        if (hit) return hit;
+      }
+      throw new Error("location not found");
+    }
+    async function fetchPower(lat, lon) {
+      const end = new Date(Date.now() - 864e5), start = new Date(end - 13 * 864e5);
+      const url = "https://power.larc.nasa.gov/api/temporal/daily/point?community=AG&format=JSON&parameters=" + LIVE.map((p) => p.k).join(",")
+        + "&latitude=" + lat.toFixed(3) + "&longitude=" + lon.toFixed(3) + "&start=" + ymd(start) + "&end=" + ymd(end);
+      const r = await fetch(url);
+      if (!r.ok) throw new Error("NASA POWER " + r.status);
+      return (await r.json()).properties.parameter;
+    }
+    function spark(vals) {
+      const lo = Math.min(...vals), hi = Math.max(...vals), span = hi - lo || 1;
+      const pts = vals.map((v, i) => (i / Math.max(vals.length - 1, 1) * 100).toFixed(1) + "," + (34 - (v - lo) / span * 30).toFixed(1));
+      return '<svg viewBox="0 0 100 38" preserveAspectRatio="none" aria-hidden="true"><polyline points="' + pts.join(" ") + '"/></svg>';
+    }
+    function renderLive(par, place) {
+      const grid = document.getElementById("live-grid"), out = {};
+      let lastDate = "";
+      grid.innerHTML = LIVE.map((p) => {
+        const days = Object.entries(par[p.k] || {}).filter(([, v]) => v > -900).sort(([a], [b]) => a.localeCompare(b));
+        if (!days.length) return "";
+        const vals = days.map(([, v]) => v * (p.mult || 1));
+        lastDate = days[days.length - 1][0];
+        const now = p.sum ? vals.reduce((a, b) => a + b, 0) : vals[vals.length - 1];
+        const half = vals.length >> 1, avg = (a) => a.reduce((x, y) => x + y, 0) / (a.length || 1);
+        const delta = p.sum ? avg(vals.slice(half)) - avg(vals.slice(0, half)) : vals[vals.length - 1] - vals[0];
+        out[p.k] = now;
+        const dl = (p.sum ? "last week vs prior: " : "vs 2 weeks ago: ") + (delta >= 0 ? "▲ " : "▼ ") + Math.abs(delta).toFixed(p.sum ? 1 : p.d) + (p.sum ? " mm/day" : " " + p.unit);
+        return '<div class="tile"><div class="tile-name">' + p.en + ' · <span lang="bn">' + p.bn + '</span></div><div class="tile-val">' + now.toFixed(p.d) + '<small>' + p.unit + '</small></div><div class="tile-delta">' + dl + '</div>' + spark(vals) + '</div>';
+      }).join("");
+      const adv = document.getElementById("live-advice"), msgs = [];
+      if (out.PRECTOTCORR > 100) msgs.push("Very wet fortnight — check drainage and waterlogging risk. · অতিরিক্ত বৃষ্টি, নিষ্কাশন দেখুন।");
+      if (out.GWETTOP > 85) msgs.push("Topsoil is near saturation — delay sowing of dryland crops. · মাটি প্রায় সম্পৃক্ত।");
+      if (out.T2M > 32) msgs.push("Hot spell — plan irrigation and avoid midday field work. · তাপপ্রবাহের সম্ভাবনা।");
+      if (out.GWETTOP < 35 && out.PRECTOTCORR < 20) msgs.push("Dry topsoil and little rain — consider irrigation. · মাটি শুকনো, সেচ বিবেচনা করুন।");
+      adv.className = "advice" + (msgs.length ? "" : " ok");
+      adv.replaceChildren(...(msgs.length ? msgs : ["No stress signals in the last two weeks. · গত দুই সপ্তাহে বড় কোনো চাপের লক্ষণ নেই।"]).map((t) => { const d = document.createElement("div"); d.textContent = t; return d; }));
+      adv.hidden = false;
+      document.querySelectorAll("#live-grid .tile-val").forEach((el) => { const n = el.firstChild, to = parseFloat(n.nodeValue), dp = (n.nodeValue.split(".")[1] || "").length, t0 = performance.now(); (function f(t) { const k = Math.min((t - t0) / 700, 1); n.nodeValue = (to * (1 - Math.pow(1 - k, 3))).toFixed(dp); if (k < 1) requestAnimationFrame(f); })(t0); });
+      const dt = lastDate ? lastDate.slice(0, 4) + "-" + lastDate.slice(4, 6) + "-" + lastDate.slice(6) : "";
+      setLive("NASA POWER · live · data to " + dt, true);
+      document.getElementById("live-where").textContent = place;
+    }
+    async function loadLive() {
+      const d = districtSelect.value, u = upazilaSelect.value, grid = document.getElementById("live-grid");
+      document.getElementById("live-advice").hidden = true;
+      if (!d || !u) { grid.replaceChildren(); document.getElementById("live-where").textContent = "Choose a district and upazila on the Crop ranking tab."; setLive("Waiting for location", false); return; }
+      const key = d + "|" + u;
+      liveKey = key;
+      const place = u + ", " + d;
+      grid.innerHTML = '<div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>';
+      document.getElementById("live-where").textContent = place;
+      setLive("Fetching NASA POWER…", false);
+      try {
+        if (!liveCache[key]) {
+          const g = await geocode([u.replace(/ Sadar$/i, "") + " " + d, u, d]);
+          liveCache[key] = await fetchPower(g.latitude, g.longitude);
+        }
+        if (liveKey === key) renderLive(liveCache[key], place);
+      } catch (e) {
+        if (liveKey !== key) return;
+        grid.replaceChildren();
+        setLive("Live data unavailable — check connection and retry", false);
+      }
+    }
+    for (const el of [districtSelect, upazilaSelect]) el.addEventListener("change", () => { if (!document.getElementById("live-panel").hidden) loadLive(); });
+  
+    /* ===== app shell: search, language, drawer, bilingual tagging ===== */
+    (function () {
+      const $ = (id) => document.getElementById(id), q = $("q"), sr = $("sr");
+      const idx = [...new Set(locations.map((l) => l.district))].map((d) => ({ d, u: "", t: d, sub: "District" }))
+        .concat(locations.map((l) => ({ d: l.district, u: l.location, t: l.location, sub: l.district })));
+      let hits = [], cur = 0;
+      function pick(h) {
+        districtSelect.value = h.d; districtSelect.dispatchEvent(new Event("change"));
+        if (h.u) { upazilaSelect.value = h.u; upazilaSelect.dispatchEvent(new Event("change")); }
+        activateTab("results"); if (!h.u) upazilaSelect.focus(); q.value = ""; sr.hidden = true; document.body.classList.remove("nav-open");
+        $("selection").scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+      function draw() {
+        sr.replaceChildren(...hits.map((h, i) => { const li = document.createElement("li"); li.className = i === cur ? "on" : ""; li.innerHTML = "<span></span><small></small>"; li.firstChild.textContent = h.t; li.lastChild.textContent = h.sub; li.onmousedown = (e) => { e.preventDefault(); pick(h); }; return li; }));
+        sr.hidden = !hits.length;
+      }
+      q.addEventListener("input", () => { const v = q.value.trim().toLowerCase(); hits = v ? idx.filter((x) => x.t.toLowerCase().includes(v)).sort((a, b) => a.t.toLowerCase().indexOf(v) - b.t.toLowerCase().indexOf(v)).slice(0, 8) : []; cur = 0; draw(); });
+      q.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowDown") { cur = Math.min(cur + 1, hits.length - 1); draw(); e.preventDefault(); }
+        else if (e.key === "ArrowUp") { cur = Math.max(cur - 1, 0); draw(); e.preventDefault(); }
+        else if (e.key === "Enter" && hits[cur]) pick(hits[cur]);
+        else if (e.key === "Escape") { q.value = ""; sr.hidden = true; q.blur(); }
+      });
+      q.addEventListener("blur", () => { sr.hidden = true; });
+      document.addEventListener("keydown", (e) => { if (e.key === "/" && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) { e.preventDefault(); q.focus(); } });
+      $("menu-btn").onclick = () => document.body.classList.toggle("nav-open");
+      $("scrim").onclick = () => document.body.classList.remove("nav-open");
+      for (const t of document.querySelectorAll(".tab-button")) t.addEventListener("click", () => document.body.classList.remove("nav-open"));
+      $("top-badge").onclick = () => activateTab("live");
+      $("live-refresh").onclick = () => { delete liveCache[districtSelect.value + "|" + upazilaSelect.value]; loadLive(); };
+      function setLang(l) {
+        document.documentElement.dataset.lang = l;
+        for (const b of $("seg").children) b.setAttribute("aria-pressed", String(b.dataset.l === l));
+        try { localStorage.setItem("fs-lang", l); } catch (e) {}
+      }
+      for (const b of $("seg").children) b.onclick = () => setLang(b.dataset.l);
+      try { setLang(localStorage.getItem("fs-lang") || "both"); } catch (e) { setLang("both"); }
+      // tag "English · বাংলা" text runs so each language can be shown/hidden and gets a Bengali font
+      function splitBn(root) {
+        const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => / · [\u0980-\u09FF]/.test(n.nodeValue) && !(n.parentElement && n.parentElement.closest("script,style,option,select,textarea,.tab-button,[lang=bn],.sr")) ? 1 : 2 });
+        const list = []; while (w.nextNode()) list.push(w.currentNode);
+        for (const n of list) {
+          const m = n.nodeValue.match(/^([\s\S]*?) · ([\u0980-\u09FF][\s\S]*)$/); if (!m) continue;
+          const f = document.createDocumentFragment();
+          for (const [c, t] of [["en", m[1]], ["sep", " · "], ["", m[2]]]) { const e = document.createElement("span"); if (c) e.className = c; else e.lang = "bn"; e.textContent = t; f.append(e); }
+          n.replaceWith(f);
+        }
+      }
+      splitBn(document.body);
+      new MutationObserver((ms) => { for (const m of ms) for (const n of m.addedNodes) { if (n.nodeType === 1) splitBn(n); else if (n.parentElement) splitBn(n.parentElement); } }).observe(document.querySelector("main"), { childList: true, subtree: true });
+    })();
+  
+    /* ===== interactive map (Leaflet + OpenStreetMap) ===== */
+    (function () {
+      const info = document.getElementById("map-info");
+      if (!window.L) { info.textContent = "Map could not load (offline?). Use the dropdowns instead."; return; }
+      const C = {}; "Bagerhat:22.66,89.79;Bandarban:22.19,92.22;Barguna:22.15,90.12;Barishal:22.70,90.37;Bhola:22.69,90.65;Bogura:24.85,89.37;Brahamanbaria:23.96,91.11;Chandpur:23.23,90.66;Chapainawabganj:24.60,88.28;Chattogram:22.34,91.83;Chuadanga:23.64,88.85;Cox'sbazar:21.45,91.98;Cumilla:23.46,91.18;Dhaka:23.81,90.41;Dinajpur:25.63,88.64;Faridpur:23.60,89.84;Feni:23.02,91.40;Gaibandha:25.33,89.53;Gazipur:24.00,90.42;Gopalganj:23.01,89.83;Habiganj:24.38,91.42;Jamalpur:24.92,89.95;Jashore:23.17,89.21;Jhalokathi:22.64,90.20;Jhenaidah:23.54,89.17;Joypurhat:25.10,89.02;Khagrachhari:23.12,91.98;Khulna:22.82,89.55;Kishoreganj:24.43,90.78;Kurigram:25.81,89.65;Kushtia:23.90,89.12;Lakshmipur:22.94,90.84;Lalmonirhat:25.92,89.45;Madaripur:23.17,90.20;Magura:23.49,89.42;Manikganj:23.86,90.00;Maulvibazar:24.48,91.77;Meherpur:23.76,88.63;Munshiganj:23.55,90.53;Mymensingh:24.75,90.41;Naogaon:24.80,88.93;Narail:23.17,89.50;Narayanganj:23.63,90.50;Narsingdi:23.92,90.72;Natore:24.41,88.99;Netrakona:24.88,90.73;Nilphamari:25.93,88.86;Noakhali:22.87,91.10;Pabna:24.00,89.23;Panchagarh:26.34,88.55;Patuakhali:22.36,90.33;Pirojpur:22.58,89.97;Rajbari:23.76,89.64;Rajshahi:24.37,88.60;Rangamati:22.65,92.17;Rangpur:25.75,89.25;Satkhira:22.71,89.07;Shariatpur:23.24,90.43;Sherpur:25.02,90.02;Sirajganj:24.45,89.70;Sunamganj:25.07,91.40;Sylhet:24.90,91.87;Tangail:24.25,89.92;Thakurgaon:26.03,88.46".split(";").forEach((r) => { const [n, p] = r.split(":"); C[n] = p.split(",").map(Number); });
+      const map = L.map("map").setView([23.7, 90.4], 7);
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "© OpenStreetMap contributors" }).addTo(map);
+      const pin = L.circleMarker([0, 0], { radius: 11, color: "#fff", weight: 3, fillColor: "#c8f542", fillOpacity: 1 });
+      const km = (a, b) => { const r = Math.PI / 180, x = Math.sin((b[0] - a[0]) * r / 2) ** 2 + Math.cos(a[0] * r) * Math.cos(b[0] * r) * Math.sin((b[1] - a[1]) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
+      const nearest = (ll) => Object.keys(C).reduce((m, d) => { const k = km(ll, C[d]); return k < m.k ? { d, k } : m; }, { d: "", k: 1e9 });
+      let pinned = null, seq = 0; const gc = {};
+      function choose(ll) {
+        pinned = ll; const n = nearest(ll);
+        districtSelect.value = n.d; districtSelect.dispatchEvent(new Event("change"));
+      }
+      for (const d of Object.keys(C)) L.circleMarker(C[d], { radius: 5, color: "#fff", weight: 1, fillColor: "#3b82c4", fillOpacity: .95 }).addTo(map).bindTooltip(d).on("click", (e) => { L.DomEvent.stopPropagation(e); choose(C[d]); });
+      map.on("click", (e) => choose([e.latlng.lat, e.latlng.lng]));
+      async function update() {
+        const d = districtSelect.value, u = upazilaSelect.value, id = ++seq;
+        if (!d) { pin.remove(); info.textContent = "Click the map or choose a district — it snaps to the nearest district data point. · মানচিত্রে ক্লিক করুন বা জেলা বাছাই করুন।"; return; }
+        let ll = C[d], what = "District point (approx.)";
+        if (pinned && nearest(pinned).d === d) { ll = pinned; what = "Your map pick"; }
+        if (u) { try { const k = d + "|" + u; gc[k] = gc[k] || await geocode([u.replace(/ Sadar$/i, "") + " " + d, u, d]); const g = [gc[k].latitude, gc[k].longitude]; if (km(g, C[d]) < 80) { ll = g; what = u + " (geocoded)"; } else what = "District point (approx.) — upazila lookup looked off"; } catch (e) {} if (id !== seq) return; }
+        pin.setLatLng(ll).addTo(map).bindTooltip(u ? u + ", " + d : d); map.flyTo(ll, u ? 10 : 8, { duration: .8 });
+        info.textContent = what + ": " + ll[0].toFixed(4) + "°N, " + ll[1].toFixed(4) + "°E — " + km(ll, C[d]).toFixed(1) + " km from the " + d + " data point.";
+      }
+      districtSelect.addEventListener("change", update); upazilaSelect.addEventListener("change", update);
+      document.querySelectorAll(".tab-button").forEach((b) => b.addEventListener("click", () => setTimeout(() => map.invalidateSize(), 60)));
+      document.getElementById("geo-btn").onclick = () => navigator.geolocation ? navigator.geolocation.getCurrentPosition((p) => choose([p.coords.latitude, p.coords.longitude]), () => { info.textContent = "Location permission denied or unavailable."; }) : 0;
+      update();
+    })();
+  
+    /* sliding tab thumb */
+    (function () {
+      const bar = document.querySelector(".tabbar"), th = document.createElement("i");
+      th.className = "thumb"; th.setAttribute("aria-hidden", "true"); bar.prepend(th);
+      const place = () => { const t = bar.querySelector('[aria-selected="true"]'); if (t) { th.style.width = t.offsetWidth + "px"; th.style.transform = "translateX(" + t.offsetLeft + "px)"; } };
+      bar.addEventListener("click", () => requestAnimationFrame(place));
+      new ResizeObserver(place).observe(bar); bar.querySelectorAll(".tab-button").forEach((b) => new ResizeObserver(place).observe(b));
+      if (document.fonts) document.fonts.ready.then(place); place();
+    })();
   </script>
 </body>
 </html>
