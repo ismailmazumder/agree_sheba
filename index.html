@@ -316,6 +316,62 @@
     .crop-detail, .priority-help, .guidance-region, .month-note { color: var(--mu); }
     #map { background: #e8eef3; }
     .crop-pick:hover { background: rgb(99 102 241 / .08); color: inherit; transform: none; box-shadow: none; border-radius: 14px; }
+
+    /* ===== AI Copilot: highlighted tab, FAB, chat ===== */
+    @keyframes sheen { to { background-position: 200% 0; } }
+    @keyframes ring { 0% { box-shadow: 0 0 0 0 rgb(236 72 153 / .45); } 100% { box-shadow: 0 0 0 14px rgb(236 72 153 / 0); } }
+    @keyframes blink { 0%,80%,100% { opacity: .25; transform: scale(.8); } 40% { opacity: 1; transform: scale(1); } }
+    #tab-ai { color: #b4237a; font-weight: 800; background: linear-gradient(135deg, rgb(244 114 182 / .16), rgb(99 102 241 / .16)); animation: ring 2.2s infinite; }
+    #tab-ai[aria-selected="true"] { color: #fff; background: transparent; animation: none; }
+    .new { font-style: normal; font-size: .62rem; font-weight: 800; letter-spacing: .06em; padding: 2px 7px; border-radius: 999px; color: #fff; background: linear-gradient(90deg,#f97316,#ec4899,#8b5cf6,#f97316); background-size: 200% 100%; animation: sheen 2.4s linear infinite; }
+    #ai-fab { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); z-index: 60; display: flex; align-items: center; gap: 8px; height: 54px; padding: 0 22px 0 18px; border: 0; border-radius: 999px; color: #fff; font: inherit; font-size: 1rem; font-weight: 800; cursor: pointer; background: linear-gradient(120deg,#ec4899,#8b5cf6,#06b6d4,#ec4899); background-size: 250% 100%; animation: sheen 6s linear infinite, ring 2.2s infinite; box-shadow: 0 16px 36px -10px rgb(139 92 246 / .7); transition: transform .25s; }
+    #ai-fab:hover { transform: translateY(-3px) scale(1.04); }
+    .fab-tip { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: 84px; z-index: 60; max-width: 250px; padding: 12px 16px; border: 1px solid var(--bd); border-radius: 18px 18px 6px 18px; background: var(--card2); backdrop-filter: blur(20px); color: var(--tx); font: inherit; font-size: .88rem; line-height: 1.45; text-align: left; cursor: pointer; box-shadow: var(--shadow); animation: fade .5s; }
+    body.ai-open #ai-fab, body.ai-open .fab-tip { display: none; }
+    #ai-panel { scroll-margin-top: 130px; }
+    .ai-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; align-items: center; margin-bottom: 14px; }
+    .ai-head h2 { margin: 0 0 4px; }
+    .chat { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--bd); border-radius: 28px; background: var(--card); backdrop-filter: blur(18px) saturate(160%); box-shadow: var(--shadow); }
+    .chat-messages { height: min(52vh, 460px); padding: 18px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; scroll-behavior: smooth; }
+    .message { display: flex; align-items: flex-end; gap: 8px; animation: fade .25s; }
+    .message.user { flex-direction: row-reverse; }
+    .avatar { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font-size: .72rem; font-weight: 800; color: #fff; background: linear-gradient(135deg,#ec4899,#8b5cf6); }
+    .message.user .avatar { background: var(--blue); }
+    .bubble { max-width: 78%; padding: 11px 15px; border-radius: 20px 20px 20px 6px; background: #fff; border: 1px solid var(--bd); color: var(--tx); line-height: 1.5; white-space: pre-wrap; word-break: break-word; box-shadow: 0 2px 8px rgb(30 40 80 / .06); }
+    .message.user .bubble { border: 0; border-radius: 20px 20px 6px 20px; background: var(--blue); color: #fff; }
+    .dots i { display: inline-block; width: 7px; height: 7px; margin: 0 2px; border-radius: 50%; background: var(--mu); animation: blink 1.2s infinite; }
+    .dots i:nth-child(2) { animation-delay: .15s; } .dots i:nth-child(3) { animation-delay: .3s; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 18px 14px; }
+    .chat-input { display: flex; align-items: flex-end; gap: 10px; padding: 12px 14px; border-top: 1px solid var(--bd); }
+    .chat-input textarea { flex: 1; min-height: 46px; max-height: 140px; padding: 12px 16px; border: 1px solid var(--bd); border-radius: 23px; background: var(--field); color: var(--tx); font: inherit; line-height: 1.4; resize: none; }
+    .chat-input textarea:focus { outline: 0; box-shadow: 0 0 0 4px var(--ring); }
+    .send { height: 46px; padding: 0 24px; border: 0; border-radius: 999px; background: var(--blue); color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+    .send:disabled { opacity: .5; cursor: wait; }
+    @media (max-width: 700px) { .tabbar { overflow-x: auto; scrollbar-width: none; } .tabbar::-webkit-scrollbar { display: none; } .tab-button { flex: 1 0 auto; } .bubble { max-width: 86%; } #ai-fab { height: 50px; } #tab-ai { flex-direction: row; gap: 6px; } }
+    /* ===== welcome popup + AI context card ===== */
+    .pop-scrim { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 18px; background: rgb(15 23 42 / .55); backdrop-filter: blur(6px); animation: fade .3s; }
+    .pop-scrim[hidden] { display: none !important; }
+    @keyframes popin { from { opacity: 0; transform: translateY(26px) scale(.95); } }
+    .pop { width: min(100%, 470px); max-height: calc(100vh - 36px); overflow: auto; padding: 26px 24px 20px; border: 1px solid var(--bd); border-radius: 28px; background: #fff; color: var(--tx); box-shadow: 0 30px 80px -20px rgb(30 40 80 / .55); animation: popin .45s cubic-bezier(.2,.9,.3,1.15); }
+    .pop-icon { display: grid; place-items: center; width: 54px; height: 54px; margin-bottom: 14px; border-radius: 18px; color: #fff; font-size: 1.5rem; background: linear-gradient(120deg,#ec4899,#8b5cf6,#06b6d4); box-shadow: 0 12px 28px -10px rgb(139 92 246 / .7); }
+    .pop h2 { margin: 0 0 8px; font-size: 1.3rem; line-height: 1.3; }
+    .pop p { margin: 0 0 14px; color: var(--mu); line-height: 1.55; font-size: .95rem; }
+    .pop-list { display: grid; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+    .pop-list li { display: flex; gap: 11px; align-items: center; padding: 10px 12px; border: 1px solid var(--bd); border-radius: 14px; background: rgb(99 102 241 / .06); font-size: .9rem; line-height: 1.35; }
+    .pop-list li b { display: block; color: var(--tx); }
+    .pop-list li span.ic { flex: none; font-size: 1.25rem; }
+    .pop-tip { padding: 10px 12px; border-left: 4px solid #8b5cf6; border-radius: 8px; background: rgb(139 92 246 / .08); color: var(--tx) !important; font-size: .88rem !important; }
+    .pop-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px; }
+    .pop-actions button { flex: 1 1 150px; min-height: 46px; padding: 0 18px; border-radius: 999px; font: inherit; font-weight: 800; cursor: pointer; }
+    .pop-go { border: 0; color: #fff; background: linear-gradient(120deg,#ec4899,#8b5cf6,#06b6d4); }
+    .pop-ok { border: 1px solid var(--bd); color: var(--tx); background: #fff; }
+    .pop-skip { display: flex; gap: 8px; align-items: center; margin-top: 14px; color: var(--mu); font-size: .84rem; cursor: pointer; }
+    body.pop-open { overflow: hidden; }
+    .ctx-card { margin: 0 0 12px; padding: 10px 14px; border: 1px dashed var(--bd); border-radius: 18px; background: var(--card); font-size: .88rem; }
+    .ctx-card summary { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-weight: 700; color: var(--tx); cursor: pointer; }
+    .ctx-card summary em { font-style: normal; font-weight: 600; color: var(--mu); }
+    .ctx-card pre { max-height: 220px; margin: 10px 0 0; overflow: auto; color: var(--mu); font: inherit; font-size: .82rem; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
+    .ctx-msg .bubble { border-style: dashed; }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js">
@@ -330,6 +386,27 @@
     <div class="seg" id="seg" role="group" aria-label="Language"><button type="button" data-l="bn" aria-pressed="false" lang="bn">বাং</button><button type="button" data-l="en" aria-pressed="false">EN</button><button type="button" data-l="both" aria-pressed="true">EN+বাং</button></div>
   </header>
   <div class="scrim" id="scrim"></div>
+  <div class="pop-scrim" id="welcome-pop" hidden>
+    <div class="pop" role="dialog" aria-modal="true" aria-labelledby="pop-title" aria-describedby="pop-desc">
+      <div class="pop-icon" aria-hidden="true">✦</div>
+      <h2 id="pop-title"><span class="en">Your AI Copilot now knows your farm</span><span class="sep"> · </span><span lang="bn">আপনার এআই সহকারী এখন আপনার খামারের তথ্য জানে</span></h2>
+      <p id="pop-desc"><span class="en">When you tap <b>✦ Ask AI</b>, the app automatically adds your farm context to the chat — no need to type it all out.</span><span class="sep"> · </span><span lang="bn"><b>✦ Ask AI</b> বাটনে ক্লিক করলে আপনার খামারের তথ্য স্বয়ংক্রিয়ভাবে চ্যাটে যুক্ত হবে।</span></p>
+      <ul class="pop-list">
+        <li><span class="ic" aria-hidden="true">📍</span><div><b><span class="en">Your location</span><span class="sep"> · </span><span lang="bn">আপনার এলাকা</span></b><span class="en">District, upazila, rainfall and climate labels</span></div></li>
+        <li><span class="ic" aria-hidden="true">🌾</span><div><b><span class="en">Crop ranking</span><span class="sep"> · </span><span lang="bn">ফসলের তালিকা</span></b><span class="en">Top crops per season and what can start this month</span></div></li>
+        <li><span class="ic" aria-hidden="true">⚖️</span><div><b><span class="en">Your priorities</span><span class="sep"> · </span><span lang="bn">আপনার অগ্রাধিকার</span></b><span class="en">Income, salinity, waterlogging and suitability weights</span></div></li>
+        <li><span class="ic" aria-hidden="true">🌦️</span><div><b><span class="en">Live weather</span><span class="sep"> · </span><span lang="bn">সরাসরি আবহাওয়া</span></b><span class="en">Last 14 days from NASA POWER</span></div></li>
+      </ul>
+      <p class="pop-tip"><span class="en">Tip: choose your district and upazila first for the most accurate answers.</span><span class="sep"> · </span><span lang="bn">সঠিক উত্তরের জন্য আগে জেলা ও উপজেলা বাছাই করুন।</span></p>
+      <div class="pop-actions">
+        <button type="button" class="pop-go" id="pop-go">✦ <span class="en">Try Ask AI</span><span class="sep"> · </span><span lang="bn">এআই চেষ্টা করুন</span></button>
+        <button type="button" class="pop-ok" id="pop-ok"><span class="en">Got it</span><span class="sep"> · </span><span lang="bn">বুঝেছি</span></button>
+      </div>
+      <label class="pop-skip"><input type="checkbox" id="pop-skip"> <span class="en">Don't show this again</span><span class="sep"> · </span><span lang="bn">আর দেখাবেন না</span></label>
+    </div>
+  </div>
+  <button id="fab-tip" class="fab-tip" type="button" hidden>New: ask the AI about your crops · নতুন: আপনার ফসল নিয়ে এআইকে জিজ্ঞেস করুন</button>
+  <button id="ai-fab" type="button" aria-label="Open AI Copilot">✦ Ask AI</button>
   <main>
     <header class="hero">
       <p class="eyebrow">Field decision helper · Bangladesh</p>
@@ -341,6 +418,7 @@
       <button class="tab-button" id="tab-results" type="button" role="tab" aria-selected="true" aria-controls="results-panel"><span class="tab-en">Crop ranking</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">ফসলের তালিকা</span></button>
       <button class="tab-button" id="tab-priorities" type="button" role="tab" aria-selected="false" aria-controls="priorities-panel"><span class="tab-en">Priority</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">অগ্রাধিকার</span></button>
       <button class="tab-button" id="tab-live" type="button" role="tab" aria-selected="false" aria-controls="live-panel"><span class="tab-en">Live field</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">সরাসরি মাঠ</span></button>
+      <button class="tab-button" id="tab-ai" type="button" role="tab" aria-selected="false" aria-controls="ai-panel"><span class="tab-en">AI Copilot</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">এআই সহকারী</span><em class="new">NEW</em></button>
     </nav>
 
     <section class="panel" id="results-panel" role="tabpanel" aria-labelledby="tab-results">
@@ -436,6 +514,19 @@
       <div id="live-advice" class="advice ok" hidden></div>
       <p class="live-note">Daily NASA POWER (AG community) values for the last two weeks, fetched live in your browser. Satellite and model estimates for a ~50 km grid cell, usually 2–3 days behind. Not an official NASA product.</p>
     </section>
+    <section class="panel" id="ai-panel" role="tabpanel" aria-labelledby="tab-ai" hidden>
+      <div class="ai-head">
+        <div><h2>AI Copilot · এআই সহকারী</h2><p class="hint" style="margin:0">Ask about crops, planting time or weather for your selected location.</p></div>
+        <span class="live-badge"><i></i><span id="ai-ctx-t">Bangladesh</span></span>
+      </div>
+      <details class="ctx-card" id="ctx-card"><summary><span><span class="en">✦ Context added automatically</span><span class="sep"> · </span><span lang="bn">প্রসঙ্গ স্বয়ংক্রিয়ভাবে যুক্ত</span></span><em id="ctx-sum">Bangladesh</em></summary><pre id="ctx-pre"></pre></details>
+      <div class="chat">
+        <div class="chat-messages" id="chatMessages" aria-live="polite"></div>
+        <div class="chips" id="chips"></div>
+        <div class="chat-input"><textarea id="userInput" rows="1" placeholder="Type a message…" aria-label="Message"></textarea><button id="sendBtn" class="send" type="button">Send</button></div>
+      </div>
+      <p class="live-note">Replies come from an external AI service and can be wrong — double-check important farming decisions. Please don't share personal details. Not an official NASA product.</p>
+    </section>
     <footer class="foot"><p>Built for the NASA Space Apps Challenge — a community science initiative. Not an official NASA product. · NASA স্পেস অ্যাপস চ্যালেঞ্জের জন্য তৈরি — একটি কমিউনিটি সায়েন্স উদ্যোগ। এটি NASA-র কোনো দাপ্তরিক পণ্য নয়।</p></footer>
   </main>
 
@@ -528,14 +619,16 @@ const labeledData = [{"district_name":"Bagerhat","thana_name":"Bagerhat Sadar","
     }
 
     function activateTab(which) {
-      const map = { results: [resultsTab, resultsPanel], priorities: [prioritiesTab, prioritiesPanel], live: [document.getElementById("tab-live"), document.getElementById("live-panel")] };
+      const map = { results: [resultsTab, resultsPanel], priorities: [prioritiesTab, prioritiesPanel], live: [document.getElementById("tab-live"), document.getElementById("live-panel")], ai: [document.getElementById("tab-ai"), document.getElementById("ai-panel")] };
       for (const [k, [t, p]] of Object.entries(map)) { t.setAttribute("aria-selected", String(k === which)); p.hidden = k !== which; }
       if (which === "live") loadLive();
+      document.body.classList.toggle("ai-open", which === "ai");
     }
 
     resultsTab.addEventListener("click", () => activateTab("results"));
     prioritiesTab.addEventListener("click", () => activateTab("priorities"));
     document.getElementById("tab-live").addEventListener("click", () => activateTab("live"));
+    document.getElementById("tab-ai").addEventListener("click", () => activateTab("ai"));
     for (const input of Object.values(priorityControls)) {
       input.addEventListener("input", updatePriorityDisplay);
     }
@@ -1064,7 +1157,7 @@ const labeledData = [{"district_name":"Bagerhat","thana_name":"Bagerhat Sadar","
       try { setLang(localStorage.getItem("fs-lang") || "both"); } catch (e) { setLang("both"); }
       // tag "English · বাংলা" text runs so each language can be shown/hidden and gets a Bengali font
       function splitBn(root) {
-        const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => / · [\u0980-\u09FF]/.test(n.nodeValue) && !(n.parentElement && n.parentElement.closest("script,style,option,select,textarea,.tab-button,[lang=bn],.sr")) ? 1 : 2 });
+        const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => / · [\u0980-\u09FF]/.test(n.nodeValue) && !(n.parentElement && n.parentElement.closest("script,style,option,select,textarea,.tab-button,[lang=bn],.sr,.chat-messages")) ? 1 : 2 });
         const list = []; while (w.nextNode()) list.push(w.currentNode);
         for (const n of list) {
           const m = n.nodeValue.match(/^([\s\S]*?) · ([\u0980-\u09FF][\s\S]*)$/); if (!m) continue;
@@ -1117,6 +1210,161 @@ const labeledData = [{"district_name":"Bagerhat","thana_name":"Bagerhat Sadar","
       bar.addEventListener("click", () => requestAnimationFrame(place));
       new ResizeObserver(place).observe(bar); bar.querySelectorAll(".tab-button").forEach((b) => new ResizeObserver(place).observe(b));
       if (document.fonts) document.fonts.ready.then(place); place();
+    })();
+  
+    /* ===== welcome popup ===== */
+    (function () {
+      const pop = document.getElementById("welcome-pop"), cbs = [];
+      let skip = false; try { skip = localStorage.getItem("fs-welcome-off") === "1"; } catch (e) {}
+      let state = skip ? "closed" : "open";
+      window.fsWelcome = { onClose: (fn) => { state === "closed" ? fn() : cbs.push(fn); } };
+      if (skip) return;
+      const go = document.getElementById("pop-go"), ok = document.getElementById("pop-ok"), cb = document.getElementById("pop-skip");
+      function close(openAI) {
+        if (state === "closed") return; state = "closed";
+        if (cb.checked) { try { localStorage.setItem("fs-welcome-off", "1"); } catch (e) {} }
+        pop.hidden = true; document.body.classList.remove("pop-open");
+        document.removeEventListener("keydown", onKey);
+        cbs.splice(0).forEach((fn) => fn());
+        if (openAI) document.getElementById("ai-fab").click();
+      }
+      function onKey(e) {
+        if (e.key === "Escape") close(false);
+        else if (e.key === "Tab") {
+          const f = [go, ok, cb], i = f.indexOf(document.activeElement);
+          if (e.shiftKey && i <= 0) { e.preventDefault(); f[f.length - 1].focus(); }
+          else if (!e.shiftKey && i === f.length - 1) { e.preventDefault(); f[0].focus(); }
+        }
+      }
+      go.onclick = () => close(true); ok.onclick = () => close(false);
+      pop.addEventListener("click", (e) => { if (e.target === pop) close(false); });
+      setTimeout(() => { pop.hidden = false; document.body.classList.add("pop-open"); document.addEventListener("keydown", onKey); go.focus({ preventScroll: true }); }, 350);
+    })();
+
+    /* ===== AI Copilot chat ===== */
+    (function () {
+      const $ = (id) => document.getElementById(id), msgs = $("chatMessages"), input = $("userInput"), send = $("sendBtn");
+      const API = "https://ai-api-al6k.onrender.com/ask";
+      function add(text, who) {
+        const w = document.createElement("div"); w.className = "message " + who;
+        const a = document.createElement("div"); a.className = "avatar"; a.textContent = who === "user" ? "U" : "AI";
+        const b = document.createElement("div"); b.className = "bubble"; b.textContent = text;
+        w.append(a, b); msgs.append(w); msgs.scrollTop = msgs.scrollHeight; return w;
+      }
+      const grow = () => { input.style.height = "auto"; input.style.height = Math.min(input.scrollHeight, 140) + "px"; };
+      /* --- farm context that is attached to every question --- */
+      const pending = {}, wait = (ms) => new Promise((r) => setTimeout(r, ms));
+      function ensureLive() {
+        const d = districtSelect.value, u = upazilaSelect.value; if (!d || !u) return Promise.resolve(false);
+        const key = d + "|" + u; if (liveCache[key]) return Promise.resolve(true);
+        return pending[key] = pending[key] || (async () => {
+          try { const g = await geocode([u.replace(/ Sadar$/i, "") + " " + d, u, d]); liveCache[key] = await fetchPower(g.latitude, g.longitude); return true; }
+          catch (e) { return false; } finally { delete pending[key]; }
+        })();
+      }
+      function priorityPct() {
+        const v = Object.fromEntries(Object.entries(priorityControls).map(([k, i]) => [k, Number(i.value)])), t = Object.values(v).reduce((x, y) => x + y, 0);
+        const p = t ? Object.fromEntries(Object.entries(v).map(([k, n]) => [k, Math.round(n / t * 100)])) : defaultPriorities;
+        return "income " + p.income + "%, salinity tolerance " + p.salinity + "%, waterlogging tolerance " + p.flood + "%, crop suitability " + p.suitability + "%";
+      }
+      function liveParts() {
+        const par = liveCache[districtSelect.value + "|" + upazilaSelect.value]; if (!par) return null;
+        const parts = []; let last = "";
+        for (const p of LIVE) {
+          const days = Object.entries(par[p.k] || {}).filter(([, v]) => v > -900).sort(([x], [y]) => x.localeCompare(y)); if (!days.length) continue;
+          const vals = days.map(([, v]) => v * (p.mult || 1)); last = days[days.length - 1][0];
+          parts.push({ en: p.en, text: (p.sum ? vals.reduce((x, y) => x + y, 0) : vals[vals.length - 1]).toFixed(p.d) + " " + p.unit });
+        }
+        return parts.length ? { parts, date: last.slice(0, 4) + "-" + last.slice(4, 6) + "-" + last.slice(6) } : null;
+      }
+      function topCrops(rot) {
+        return rot.seasons.map((se) => ({ name: se.season_name, crops: [...se.crops].sort((x, y) => scoreCrop(y) - scoreCrop(x) || y.gm_tk_dec - x.gm_tk_dec).slice(0, 3) }));
+      }
+      function startNow(rot) {
+        const out = new Map();
+        for (const se of rot.seasons) for (const c of se.crops) {
+          const g = getCropGuide(c.crop_name), m = g && g.months[currentMonthName]; if (!m) continue;
+          const st = m.stages.filter((x) => hasStartStage(x.name)); if (st.length && !out.has(g.crop)) out.set(g.crop, st.map((x) => x.name).join(", "));
+        }
+        return [...out.entries()].map(([n, st]) => n + " (" + st + ")");
+      }
+      function buildCtx() {
+        const d = districtSelect.value, u = upazilaSelect.value, L = [];
+        L.push("[Farm Crop Ranking app context — use it to ground your answer, do not repeat it back. Reply in the language of the question.]");
+        L.push("Date: " + new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Dhaka" }).format(new Date()));
+        L.push("Location: " + (d ? (u ? u + ", " : "") + d + ", Bangladesh" : "not selected (general Bangladesh question)"));
+        if (d && u) {
+          const rec = labeledData.find((r) => r.district_name === d && r.thana_name === u);
+          if (rec) {
+            const st = parameterInfo.map((p) => { const n = Number(rec[p.value]); if (rec[p.value] === "" || !Number.isFinite(n)) return ""; return p.name + ": " + (p.key === "WS10M" ? (n * 3.6).toFixed(2) + " km/h" : n.toFixed(2) + (p.unit ? " " + p.unit : "")) + (p.label && rec[p.label] ? " (" + rec[p.label] + ")" : ""); }).filter(Boolean);
+            if (st.length) L.push("Long-term climate averages: " + st.join("; "));
+          }
+          const rot = rotationData.find((r) => r.district_name === d && r.thana_name === u);
+          if (rot) {
+            L.push("Salinity: " + (rot.salinity || "unknown") + (rot.flood && rot.flood.status ? " · flood/waterlogging signal: " + rot.flood.status.toLowerCase().replace(/_/g, " ") : ""));
+            const tc = topCrops(rot);
+            if (tc.length) { L.push("Top-ranked crops by season (score out of 100 using the user's priorities):"); tc.forEach((s) => L.push("- " + s.name + ": " + s.crops.map((c) => c.crop_name + " " + scoreCrop(c).toFixed(1) + " (gross margin ৳" + c.gm_tk_dec + "/decimal, BCR " + c.bcr_tc.toFixed(2) + ", salt tolerant " + (c.saline_tolerant ? "yes" : "no") + ", submergence tolerant " + (c.submergence_tolerant ? "yes" : "no") + ")").join("; "))); }
+            const sn = startNow(rot); L.push("Crops with a sowing/establishment stage in " + currentMonthName + ": " + (sn.length ? sn.join("; ") : "none in the crop-folder data"));
+          }
+        }
+        L.push("User's ranking priorities: " + priorityPct());
+        const lv = liveParts(); if (lv) L.push("Live NASA POWER weather (last 14 days, data to " + lv.date + "): " + lv.parts.map((p) => p.en + " " + p.text).join("; "));
+        return L.join("\n");
+      }
+      function refreshCard() { $("ctx-pre").textContent = buildCtx(); $("ctx-sum").textContent = loc(); }
+      function ctxSummary() {
+        const d = districtSelect.value, u = upazilaSelect.value, L = ["✦ Context added automatically · প্রসঙ্গ স্বয়ংক্রিয়ভাবে যুক্ত হয়েছে"];
+        L.push("📍 " + (d ? (u ? u + ", " : "") + d : "No location selected yet — pick a district & upazila on the Crop ranking tab for better answers."));
+        const rot = d && u && rotationData.find((r) => r.district_name === d && r.thana_name === u);
+        if (rot) L.push("🌾 " + topCrops(rot).map((s) => s.name + ": " + s.crops.map((c) => c.crop_name).join(", ")).join(" · "));
+        L.push("⚖️ " + priorityPct());
+        const lv = liveParts(); L.push("🌦️ " + (lv ? lv.parts.map((p) => p.text).join(" · ") + " (NASA POWER, to " + lv.date + ")" : d && u ? "Live weather unavailable right now" : "Live weather needs a location"));
+        return L.join("\n");
+      }
+      let announced = "";
+      async function attachContext() {
+        const key = districtSelect.value + "|" + upazilaSelect.value + "|" + priorityPct();
+        refreshCard();
+        if (key === announced) return; announced = key;
+        const m = add("✦ Adding your farm context… · প্রসঙ্গ যুক্ত হচ্ছে…", "bot"); m.classList.add("ctx-msg");
+        await Promise.race([ensureLive(), wait(6000)]);
+        m.querySelector(".bubble").textContent = ctxSummary(); msgs.scrollTop = msgs.scrollHeight; refreshCard();
+      }
+      async function ask(text) {
+        text = (text || "").trim(); if (!text || send.disabled) return;
+        add(text, "user"); input.value = ""; grow(); send.disabled = true;
+        const t = add("", "bot"); t.querySelector(".bubble").innerHTML = '<span class="dots"><i></i><i></i><i></i></span>';
+        try {
+          await Promise.race([ensureLive(), wait(3500)]);
+          const r = await fetch(API, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text: buildCtx() + "\n\nUser question: " + text }) });
+          if (!r.ok) throw new Error("server replied " + r.status);
+          const d = await r.json();
+          const full = (d.responses || []).filter((e) => e.event === "appendText" && e.text).map((e) => e.text).join("");
+          t.remove(); add(full || "[No response]", "bot");
+        } catch (e) { t.remove(); add("Sorry, the AI service didn't respond (" + e.message + "). It may be waking up — please try again in a few seconds.", "bot"); }
+        finally { send.disabled = false; input.focus({ preventScroll: true }); }
+      }
+      const loc = () => districtSelect.value ? (upazilaSelect.value ? upazilaSelect.value + ", " : "") + districtSelect.value : "Bangladesh";
+      function chips() {
+        const l = loc(); $("ai-ctx-t").textContent = l; refreshCard();
+        $("chips").replaceChildren(...["Which crops suit " + l + " this season?", "What can I plant this month in " + l + "?", "Any weather risks for farmers in " + l + " this week?", "How should I set my farm priorities?"].map((t) => { const b = document.createElement("button"); b.type = "button"; b.className = "start-chip"; b.textContent = t; b.onclick = () => ask(t); return b; }));
+      }
+      send.onclick = () => ask(input.value);
+      input.addEventListener("input", grow);
+      input.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); ask(input.value); } });
+      districtSelect.addEventListener("change", chips); upazilaSelect.addEventListener("change", chips);
+      add("Hi! I'm your AI Copilot. Ask me about crops, planting time or weather for your location. · হ্যালো! আমি আপনার এআই সহকারী।", "bot"); chips();
+      // attention: floating button + one-time hint
+      const fab = $("ai-fab"), tip = $("fab-tip"), bar = document.querySelector(".tabbar");
+      const open = () => { tip.hidden = true; $("tab-ai").click(); setTimeout(() => { $("ai-panel").scrollIntoView({ behavior: "smooth", block: "start" }); input.focus({ preventScroll: true }); }, 120); };
+      fab.onclick = open; tip.onclick = open;
+      bar.addEventListener("click", () => requestAnimationFrame(() => { const t = bar.querySelector('[aria-selected="true"]'); t && t.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" }); if (!tip.hidden && t.id === "tab-ai") tip.hidden = true; }));
+      let seen = false; try { seen = sessionStorage.getItem("fs-tip"); } catch (e) {}
+      if (!seen) fsWelcome.onClose(() => setTimeout(() => { if (!document.body.classList.contains("ai-open")) { tip.hidden = false; try { sessionStorage.setItem("fs-tip", "1"); } catch (e) {} setTimeout(() => { tip.hidden = true; }, 10000); } }, 1500));
+      // attach the farm context whenever the AI is opened (Ask AI button, hint bubble or AI Copilot tab)
+      $("tab-ai").addEventListener("click", attachContext);
+      Object.values(priorityControls).forEach((i) => i.addEventListener("input", refreshCard));
+      refreshCard();
     })();
   </script>
 </body>
