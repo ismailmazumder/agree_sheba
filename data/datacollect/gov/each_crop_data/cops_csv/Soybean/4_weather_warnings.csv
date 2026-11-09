@@ -1,0 +1,10 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Soybean,Barisal,rainfall,mm,,,
+Soybean,Barisal,rainfall,mm,,20.0,Less than 20 mm
+Soybean,Barisal,mm,,,,
+Soybean,Barisal,cloudy_weather,,,,Cloudy condition
+Soybean,Barisal,drought,days,,,Too much dry weather creates soil moisture stress
+Soybean,Barisal,wet_spell_duration,days,,,Soybeans can tolerate brief water logging but long-term causes weathering of seeds.
+Soybean,Barisal,hail_storm,,,,Early rainfall with hailstorms
+Soybean,Barisal,wind_speed,km/hr,,15.0,15 Km/hr or more
+Soybean,Barisal,temperature,°C,35.5,,35.5° C or more

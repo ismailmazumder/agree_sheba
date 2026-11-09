@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Jackfruit,Bogura,Soft rot or fruit rot,24.5-35,,,"Temp 24.5°C to 35°C, hot, humid weather and frequent rain or overhead irrigation at least six hours wetting."
+Jackfruit,Bogura,Dieback,,80,,"RH about 80%, max and min temp of 30°C & 15°C and raining."
+Jackfruit,Bogura,Gummosis,11-24,60-75,,Cold temp (11.0 to 24°C) with RH 60-75%.
+Jackfruit,Bogura,Leaf spot,24.5-33.5,65-85,10 | 15,Temp 24.50°C to 33.5°C; RH 65-85%; Rainfall 10 mm to 15 mm.

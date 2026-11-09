@@ -1,0 +1,21 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Cucumber,Bogra,rainfall,mm,30.0,20.0,20-30 mm (Creates water logging condition)
+Cucumber,Bogra,cloudy_weather,,,,Cloudy condition
+Cucumber,Bogra,drought,days,,,Drought due to excessive dry weather
+Cucumber,Bogra,wet_spell_duration,days,3.0,2.0,2 to 3 days if the water stagnant condition prevail
+Cucumber,Bogra,hail_storm,,,,Late season rainfall with hailstorms
+Cucumber,Bogra,wind_speed,km/hr,,40.0,40 Km/hr or more
+Cucumber,Bogra,temperature,°C,,15.0,"Below 15 OC and above 35 OC growth will be retard; high temperature, long day length and high light intensity hampered female flower production"
+Cucumber,Bogra,region_bogra,,,,Kharif Cucumber
+Cucumber,Bogra,region_bogra,,120.0,100.0,Life Span 100-120
+Cucumber,Bogra,months,,,,July
+Cucumber,Bogra,months,,,,August
+Cucumber,Bogra,months,,,,September
+Cucumber,Bogra,months,,,,October
+Cucumber,Bogra,rainfall,mm,30.0,20.0,20-30 mm (Creates water logging condition)
+Cucumber,Bogra,cloudy_weather,,,,Cloudy condition
+Cucumber,Bogra,drought,days,,,Drought due to excessive dry weather
+Cucumber,Bogra,wet_spell_duration,days,3.0,2.0,2 to 3 days if the water stagnant condition prevail
+Cucumber,Bogra,hail_storm,,,,Late season rainfall with hailstorms
+Cucumber,Bogra,wind_speed,km/hr,,40.0,40 Km/hr or more
+Cucumber,Bogra,temperature,°C,,15.0,"Below 15 OC and above 35 OC growth will be retard; high temperature, long day length and high light intensity hampered female flower production"

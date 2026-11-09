@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Wheat,Bogura,Blast,18-20,,,Continuous rains and average temperatures between 18-20oC during the flowering stage of the crop followed by sunny weather and humid days. Intensity increases at 30oC temperature with high relative humidity
+Wheat,Bogura,Leaf rust,15-25,,,"Temperature 15-250C, rain and high dew"
+Wheat,Bogura,Loose smut,22-25,60-85,,"Tem perat ure 22- 250C, Relat ive humi dity 60- 85%"
+Wheat,Bogura,Black point,,,,Rain during ripening

@@ -1,0 +1,12 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Ground Nut,Barishal,rainfall,mm,100.0,,>100mm/day
+Ground Nut,Barishal,rainfall,mm,50.0,,>50mm/day
+Ground Nut,Barishal,wet_spell_duration,days,30.0,,>30mm for 10days
+Ground Nut,Barishal,cloudy_weather,,,,Cloudy weather
+Ground Nut,Barishal,drought,days,15.0,,15days
+Ground Nut,Barishal,drought,days,15.0,,15 days
+Ground Nut,Barishal,wind_speed,km/hr,28.0,,28KM/HR
+Ground Nut,Barishal,wind_speed,km/hr,22.0,,22KM/HR
+Ground Nut,Barishal,wind_speed,km/hr,25.0,,25KM/HR
+Ground Nut,Barishal,hail_storm,,,,Hail Storm
+Ground Nut,Barishal,temperature,°C,,14.0,Min. <14°C & max >34°C

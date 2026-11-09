@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Banana,Bogura,Panama (Fusarium wilt disease),22-30,>65,,"Temperature 22.0°C to 30°C, humid weather and relative humidity >65%"
+Banana,Bogura,Bunchy top virus,22-30,>65,,"Temperature 22.0°C to 30°C, humid weather and relative humidity >65%"
+Banana,Bogura,Sigatoka (leaf spot),22-29.5,>60,30.0,"Temperature (22.0 to 29.5°C), relative humidity >60% and rainfall 30.0 mm"
+Banana,Bogura,Anthracnose,>25,,,Temp >25. 0°C with high humidity and frequent raining

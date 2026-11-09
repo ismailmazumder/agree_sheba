@@ -1,0 +1,62 @@
+﻿crop,region,duration_days,std_week,month,rainfall_mm,max_temp_c,min_temp_c,mean_temp_c,rh_max_pct,rh_min_pct,rh_mean_pct,sunshine_hrs,wind_direction_deg,wind_speed_kmh,phenological_stage
+Sugarcane,Bogura,427,49,December,0.0,27.7,15.0,21.4,93.7,48.1,70.9,54,222,3.7,shases
+Sugarcane,Bogura,427,50,December,3.0,26.3,14.1,20.2,94.6,50.6,72.6,48,232,3.9,Germination
+Sugarcane,Bogura,427,51,December,0.0,25.7,13.4,19.6,94.3,50.6,72.5,49,249,3.7,Germination
+Sugarcane,Bogura,427,52,December,4.0,25.0,12.4,18.7,94.6,50.0,72.3,46,248,3.7,Germination
+Sugarcane,Bogura,427,1,January,0.0,24.1,12.0,18.1,94.1,50.9,72.5,44,258,4.3,Germination
+Sugarcane,Bogura,427,2,January,2.0,24.0,11.4,17.7,94.3,49.0,71.7,44,247,5.4,Germination
+Sugarcane,Bogura,427,3,January,2.0,24.3,11.4,17.9,94.3,47.7,71.0,46,239,4.8,Germination
+Sugarcane,Bogura,427,4,January,1.0,25.4,12.0,18.7,93.9,46.0,70.0,50,252,5.0,Germination
+Sugarcane,Bogura,427,5,January,1.0,25.9,12.9,19.4,93.1,44.9,69.0,50,249,5.4,Germination
+Sugarcane,Bogura,427,6,February,1.0,26.9,13.6,20.3,92.1,41.4,66.8,52,233,5.6,Germination
+Sugarcane,Bogura,427,7,February,4.0,27.7,14.6,21.2,91.4,40.3,65.9,53,234,5.6,Tillering
+Sugarcane,Bogura,427,8,February,3.0,28.6,15.4,22.0,90.4,39.1,64.8,56,229,6.7,Tillering
+Sugarcane,Bogura,427,9,February,5.0,29.3,16.4,22.9,88.7,38.0,63.4,60,235,5.7,Tillering
+Sugarcane,Bogura,427,10,March,2.0,30.9,17.4,24.2,89.1,36.9,63.0,59,230,6.3,Tillering
+Sugarcane,Bogura,427,11,March,4.0,31.9,18.3,25.1,86.4,37.1,61.8,61,225,6.7,Tillering
+Sugarcane,Bogura,427,12,March,3.0,32.9,20.0,26.5,86.3,39.1,62.7,58,205,6.7,Tillering
+Sugarcane,Bogura,427,13,March,8.0,32.9,21.1,27.0,87.7,45.3,66.5,56,176,6.8,Tillering
+Sugarcane,Bogura,427,14,April,8.0,33.9,22.3,28.1,88.0,44.4,66.2,56,173,6.7,Tillering
+Sugarcane,Bogura,427,15,April,12.0,34.3,23.0,28.7,88.3,45.9,67.1,56,164,6.3,Tillering
+Sugarcane,Bogura,427,16,April,26.0,34.0,23.0,28.5,90.6,50.7,70.7,55,149,6.8,Tillering
+Sugarcane,Bogura,427,17,April,28.0,33.6,23.1,28.4,90.9,54.9,72.9,52,134,7.4,Tillering
+Sugarcane,Bogura,427,18,May,37.0,33.1,23.3,28.2,92.4,57.3,74.9,48,127,7.2,Tillering
+Sugarcane,Bogura,427,19,May,42.0,33.6,23.9,28.8,92.4,58.7,75.6,50,126,7.4,Tillering
+Sugarcane,Bogura,427,20,May,45.0,33.4,24.3,28.9,92.7,60.0,76.4,49,126,6.7,Tillering
+Sugarcane,Bogura,427,21,May,58.0,33.3,24.6,29.0,93.0,63.4,78.2,46,121,6.3,Tillering
+Sugarcane,Bogura,427,22,May,59.0,33.9,25.0,29.5,93.7,64.6,79.2,44,135,6.3,Tillering
+Sugarcane,Bogura,427,23,June,74.0,33.4,25.9,29.7,94.1,66.7,80.4,39,134,6.3,Grand growth
+Sugarcane,Bogura,427,24,June,70.0,32.7,26.0,29.4,95.1,70.4,82.8,33,134,7.2,Grand growth
+Sugarcane,Bogura,427,25,June,92.0,32.3,26.1,29.2,95.1,72.4,83.8,28,134,6.3,Grand growth
+Sugarcane,Bogura,427,26,June,76.0,32.3,26.1,29.2,95.6,73.9,84.8,26,132,6.7,Grand growth
+Sugarcane,Bogura,427,27,July,93.0,32.0,26.0,29.0,95.9,73.3,84.6,28,141,5.6,Grand growth
+Sugarcane,Bogura,427,28,July,80.0,31.9,26.1,29.0,95.9,74.1,85.0,31,135,5.6,Grand growth
+Sugarcane,Bogura,427,29,July,91.0,32.0,26.0,29.0,95.9,74.4,85.2,29,138,6.8,Grand growth
+Sugarcane,Bogura,427,30,July,76.0,32.1,26.1,29.1,95.9,73.3,84.6,28,143,6.1,Grand growth
+Sugarcane,Bogura,427,31,August,63.0,32.3,26.3,29.3,95.1,72.0,83.6,35,137,6.3,Grand growth
+Sugarcane,Bogura,427,32,August,61.0,32.6,26.9,29.8,95.3,71.9,83.6,37,136,5.7,Grand growth
+Sugarcane,Bogura,427,33,August,72.0,32.1,26.3,29.2,95.6,73.3,84.5,36,141,6.1,Grand growth
+Sugarcane,Bogura,427,34,August,67.0,32.3,26.4,29.4,95.9,72.7,84.3,31,147,5.6,Grand growth
+Sugarcane,Bogura,427,35,August,56.0,32.6,26.1,29.4,95.7,71.7,83.7,35,142,5.6,Grand growth
+Sugarcane,Bogura,427,36,September,60.0,32.3,26.0,29.2,95.9,72.0,84.0,35,147,5.6,Grand growth
+Sugarcane,Bogura,427,37,September,60.0,32.0,26.0,29.0,96.3,72.3,84.3,35,152,5.6,Grand growth
+Sugarcane,Bogura,427,38,September,76.0,32.1,26.0,29.1,96.1,70.7,83.4,37,160,5.6,Grand growth
+Sugarcane,Bogura,427,39,September,74.0,32.0,25.1,28.6,96.4,71.0,83.7,37,174,5.4,Grand growth
+Sugarcane,Bogura,427,40,October,51.0,32.1,25.0,28.6,96.0,68.7,82.4,44,170,5.0,Grand growth
+Sugarcane,Bogura,427,41,October,42.0,32.3,24.0,28.2,96.0,66.0,81.0,48,184,5.0,Maturity to Harvesting
+Sugarcane,Bogura,427,42,October,25.0,32.0,23.4,27.7,95.7,62.1,78.9,54,199,5.0,Maturity to Harvesting
+Sugarcane,Bogura,427,43,October,18.0,31.6,21.7,26.7,95.1,57.9,76.5,57,198,4.4,Maturity to Harvesting
+Sugarcane,Bogura,427,44,October,5.0,31.0,21.0,26.0,94.3,55.6,75.0,52,186,4.4,Maturity to Harvesting
+Sugarcane,Bogura,427,45,November,5.0,30.7,19.9,25.3,94.6,52.4,73.5,55,200,3.7,Maturity to Harvesting
+Sugarcane,Bogura,427,46,November,0.0,30.1,18.3,24.2,94.1,49.9,72.0,55,202,3.7,Maturity to Harvesting
+Sugarcane,Bogura,427,47,November,0.0,29.7,17.3,23.5,93.9,48.3,71.1,56,205,3.7,Maturity to Harvesting
+Sugarcane,Bogura,427,48,November,3.0,28.9,15.7,22.3,93.9,47.0,70.5,56,217,3.7,Maturity to Harvesting
+Sugarcane,Bogura,427,49,December,0.0,27.7,15.0,21.4,93.7,48.1,70.9,54,222,3.7,Maturity to Harvesting
+Sugarcane,Bogura,427,50,December,3.0,26.3,14.1,20.2,94.6,50.6,72.6,48,232,3.9,Maturity to Harvesting
+Sugarcane,Bogura,427,51,December,0.0,25.7,13.4,19.6,94.3,50.6,72.5,49,249,3.7,Maturity to Harvesting
+Sugarcane,Bogura,427,52,December,4.0,25.0,12.4,18.7,94.6,50.0,72.3,46,248,3.7,Maturity to Harvesting
+Sugarcane,Bogura,427,1,January,0.0,24.1,12.0,18.1,94.1,50.9,72.5,44,258,4.3,Maturity to Harvesting
+Sugarcane,Bogura,427,2,January,2.0,24.0,11.4,17.7,94.3,49.0,71.7,44,247,5.4,Maturity to Harvesting
+Sugarcane,Bogura,427,3,January,2.0,24.3,11.4,17.9,94.3,47.7,71.0,46,239,4.8,Maturity to Harvesting
+Sugarcane,Bogura,427,4,January,1.0,25.4,12.0,18.7,93.9,46.0,70.0,50,252,5.0,Maturity to Harvesting
+Sugarcane,Bogura,427,5,January,1.0,25.9,12.9,19.4,93.1,44.9,69.0,50,249,5.4,Maturity to Harvesting

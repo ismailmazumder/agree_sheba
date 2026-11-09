@@ -1,0 +1,7 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Brinjal,Bogra,Wilting,25-30,50-80,,"Temperature : 25-30° C, RH: 50-80%"
+Brinjal,Bogra,Foot rot/collar rot disease,24-30,70-80,,"Temperature : 24-30° C, RH: 70-80%"
+Brinjal,Bogra,Fruit rot,28-32,55-75,,"Temperature : 28-32° C, RH: 55-75%"
+Brinjal,Bogra,Wilting,25-30,50-80,,"Temperature : 25-30° C, RH: 50-80%"
+Brinjal,Bogra,Foot rot/collar rot disease,24-30,70-80,,"Temperature : 24-30° C, RH: 70-80%"
+Brinjal,Bogra,Fruit rot,28-32,55-75,,"Temperature : 28-32° C, RH: 55-75%"

@@ -1,0 +1,16 @@
+﻿crop,region,duration_days,std_week,month,rainfall_mm,max_temp_c,min_temp_c,mean_temp_c,rh_max_pct,rh_min_pct,rh_mean_pct,sunshine_hrs,wind_direction_deg,wind_speed_kmh,phenological_stage
+Potato,Bogura,105,41,October,42.0,32.3,24.0,28.2,96.0,66.0,81.0,48.0,184,5.0,Spouting
+Potato,Bogura,105,42,October,25.0,32.0,23.4,27.7,95.7,62.1,78.9,54.0,199,5.0,Seedling
+Potato,Bogura,105,43,October,18.0,31.6,21.7,26.7,95.1,57.9,76.5,57.0,198,4.4,Seedling
+Potato,Bogura,105,44,October,5.0,31.0,21.0,26.0,94.3,55.6,75.0,52.0,186,4.4,vegetative growth
+Potato,Bogura,105,45,November,5.0,30.7,19.9,25.3,94.6,52.4,73.5,55.0,200,3.7,vegetative growth
+Potato,Bogura,105,46,November,0.0,30.1,18.3,24.2,94.1,49.9,72.0,55.0,202,3.7,vegetative growth
+Potato,Bogura,105,47,November,0.0,29.7,17.3,23.5,93.9,48.3,71.1,56.0,205,3.7,Tuber set/ initiation
+Potato,Bogura,105,48,November,3.0,28.9,15.7,22.3,93.9,47.0,70.5,56.0,217,3.7,Tuber set/ initiation
+Potato,Bogura,105,49,December,0.0,27.7,15.0,21.4,93.7,48.1,70.9,54.0,222,3.7,Tuber set/ initiation
+Potato,Bogura,105,50,December,3.0,26.3,14.1,20.2,94.6,50.6,72.6,48.0,232,3.9,Tuber bulking/ development
+Potato,Bogura,105,51,December,0.0,25.7,13.4,19.6,94.3,50.6,72.5,49.0,249,3.7,Tuber bulking/ development
+Potato,Bogura,105,52,December,4.0,25.0,12.4,18.7,94.6,50.0,72.3,46.0,248,3.7,Tuber bulking/ development
+Potato,Bogura,105,1,January,0.0,24.1,12.0,18.1,94.1,50.9,72.5,44.0,258,4.3,Maturity
+Potato,Bogura,105,2,January,2.0,24.0,11.4,17.7,94.3,49.0,71.7,44.0,247,5.4,Maturity
+Potato,Bogura,105,3,January,2.0,24.3,11.4,17.9,94.3,47.7,71.0,46.0,239,4.8,Harve sting

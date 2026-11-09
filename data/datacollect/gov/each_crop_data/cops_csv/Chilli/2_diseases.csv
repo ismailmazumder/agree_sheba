@@ -1,0 +1,3 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Chilli,Bogra,Leaf curl,>35.0 (vector peak),,,Decreased humidity decreases disease; favored by certain rainfall
+Chilli,Bogra,Die back / Anthracnose,"28.0-32.0 (max), 22.0-25.0 (min)",>95 (for 24 hrs),,Frequent rainy & warm weather with prolonged leaf wetness favors disease

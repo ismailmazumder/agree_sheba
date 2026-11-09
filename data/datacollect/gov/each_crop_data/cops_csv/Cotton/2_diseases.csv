@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Cotton,Bogura,Fusarium wilt,5.5-32,,,Temp 5.5- 32°C
+Cotton,Bogura,Leaf spot,25-33,90-95,,Temp 25-33°C & RH >90-95%
+Cotton,Bogura,Bacterial blight,21-32.67,,,"Cool, wet weather (21 - 32.67°C)"
+Cotton,Bogura,Boll rot,24-32,,,Temp 24-32°C with moist condition

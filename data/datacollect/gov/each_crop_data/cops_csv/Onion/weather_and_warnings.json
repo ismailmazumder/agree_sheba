@@ -1,0 +1,155 @@
+{
+  "crop": "Onion",
+  "region": null,
+  "duration_days": null,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Onion",
+      "region": null,
+      "duration_days": null,
+      "std_week": 31,
+      "month": "August",
+      "rainfall_mm": 63,
+      "max_temp_c": 32.3,
+      "min_temp_c": 26.3,
+      "mean_temp_c": 29.3,
+      "rh_max_pct": 95.1,
+      "rh_min_pct": 72,
+      "rh_mean_pct": 83.6,
+      "sunshine_hrs": 35,
+      "wind_direction_deg": 137,
+      "wind_speed_kmh": 6.3,
+      "phenological_stage": "Germination and Seedling Planting"
+    },
+    {
+      "crop": "Onion",
+      "region": null,
+      "duration_days": null,
+      "std_week": 35,
+      "month": "September",
+      "rainfall_mm": 56,
+      "max_temp_c": 32.6,
+      "min_temp_c": 26.1,
+      "mean_temp_c": 29.4,
+      "rh_max_pct": 95.7,
+      "rh_min_pct": 71.7,
+      "rh_mean_pct": 83.7,
+      "sunshine_hrs": 35,
+      "wind_direction_deg": 142,
+      "wind_speed_kmh": 5.6,
+      "phenological_stage": "Vegetative Growth"
+    },
+    {
+      "crop": "Onion",
+      "region": null,
+      "duration_days": null,
+      "std_week": 40,
+      "month": "October",
+      "rainfall_mm": 51,
+      "max_temp_c": 32.1,
+      "min_temp_c": 25,
+      "mean_temp_c": 28.6,
+      "rh_max_pct": 96,
+      "rh_min_pct": 68.7,
+      "rh_mean_pct": 82.4,
+      "sunshine_hrs": 44,
+      "wind_direction_deg": 170,
+      "wind_speed_kmh": 5,
+      "phenological_stage": "Bulb formation"
+    },
+    {
+      "crop": "Onion",
+      "region": null,
+      "duration_days": null,
+      "std_week": 45,
+      "month": "November",
+      "rainfall_mm": 5,
+      "max_temp_c": 30.7,
+      "min_temp_c": 19.9,
+      "mean_temp_c": 25.3,
+      "rh_max_pct": 94.6,
+      "rh_min_pct": 52.4,
+      "rh_mean_pct": 73.5,
+      "sunshine_hrs": 55,
+      "wind_direction_deg": 200,
+      "wind_speed_kmh": 3.7,
+      "phenological_stage": "Harvesting"
+    }
+  ],
+  "weather_warnings_count": 8,
+  "weather_warnings": [
+    {
+      "crop": "Onion",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 10,
+      "lower_threshold": 5,
+      "note": "Heavy-rainfall events in short spells result in surface water stagnation (5 to 10 mm per day)"
+    },
+    {
+      "crop": "Onion",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy weather"
+    },
+    {
+      "crop": "Onion",
+      "region": "Bogura",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": 10,
+      "lower_threshold": 7,
+      "note": "7 to 10 days"
+    },
+    {
+      "crop": "Onion",
+      "region": "Bogura",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 5,
+      "lower_threshold": 3,
+      "note": "3 to 5 days"
+    },
+    {
+      "crop": "Onion",
+      "region": "Bogura",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 3,
+      "lower_threshold": 2,
+      "note": "2 to 3 days"
+    },
+    {
+      "crop": "Onion",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Hailstorms with seasonal rainfall"
+    },
+    {
+      "crop": "Onion",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 16,
+      "lower_threshold": null,
+      "note": ">= 16 km/hr"
+    },
+    {
+      "crop": "Onion",
+      "region": "Bogura",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": 35,
+      "lower_threshold": null,
+      "note": "Above 35°C"
+    }
+  ]
+}

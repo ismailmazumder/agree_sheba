@@ -1,0 +1,6 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+T. Aus dhan,Bogura,Bacterial leaf blight (BLB),28-30,80-90,>30,"Temperature 28-300C Relative Humidity 80-90%, Cloudiness, Rainfall >30mm"
+T. Aus dhan,Bogura,Sheath rot,25-28,>90,,"Temperatu re 25-280C High Relative Humidity> 90%, Cloudy weather"
+T. Aus dhan,Bogura,Sheath blight,28-32,,,"Temperature 28-320C, high Relative Humidity, cloudy weather"
+T. Aus dhan,Bogura,Blast,16-20 | 25-30,>90,,"Night temperature 16-200C, for 7.30 hours day temperature 25-300C, for 7.30 hours day night temperature >100CRelative Humidity >90%, Cloudy"
+T. Aus dhan,Bogura,Rice hispa,32-35 | 24-26,96-99,,"Maximum temperature 32-350C, Minimum temperature 24-260C, maximum Relative Humidity 96-99%,"

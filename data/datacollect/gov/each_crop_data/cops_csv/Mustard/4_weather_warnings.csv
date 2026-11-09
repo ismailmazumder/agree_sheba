@@ -1,0 +1,11 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Mustard,Bogura,rainfall,mm,50.0,,>50mm/d ay
+Mustard,Bogura,rainfall,mm,50.0,,>50mm/day
+Mustard,Bogura,cloudy_weather,,,,Cloudy weather
+Mustard,Bogura,drought,days,10.0,,>10days
+Mustard,Bogura,drought,days,20.0,,>20days
+Mustard,Bogura,drought,days,30.0,,>30days
+Mustard,Bogura,hail_storm,,,,Hail storm
+Mustard,Bogura,wind_speed,km/hr,40.0,25.0,>25-40 KMPH
+Mustard,Bogura,max_temp,°C,32.0,,"Max Temp >32°C ,min temp <10°C"
+Mustard,Bogura,min_temp,°C,,10.0,"Max Temp >32°C ,min temp <10°C"

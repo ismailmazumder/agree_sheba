@@ -1,0 +1,200 @@
+{
+  "crop": "Jute (Deshi)",
+  "region": "Bogura",
+  "duration_days": 115,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "duration_days": 115,
+      "std_week": 9,
+      "month": "March",
+      "rainfall_mm": 5,
+      "max_temp_c": 29.3,
+      "min_temp_c": 16.4,
+      "mean_temp_c": 22.9,
+      "rh_max_pct": 88.7,
+      "rh_min_pct": 38,
+      "rh_mean_pct": 63.4,
+      "sunshine_hrs": 60,
+      "wind_direction_deg": 235,
+      "wind_speed_kmh": 5.7,
+      "phenological_stage": "Germination to Emergence"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "duration_days": 115,
+      "std_week": 10,
+      "month": "March",
+      "rainfall_mm": 2,
+      "max_temp_c": 30.9,
+      "min_temp_c": 17.4,
+      "mean_temp_c": 24.2,
+      "rh_max_pct": 89.1,
+      "rh_min_pct": 36.9,
+      "rh_mean_pct": 63,
+      "sunshine_hrs": 59,
+      "wind_direction_deg": 230,
+      "wind_speed_kmh": 6.3,
+      "phenological_stage": "Seedling"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "duration_days": 115,
+      "std_week": 14,
+      "month": "April",
+      "rainfall_mm": 8,
+      "max_temp_c": 33.9,
+      "min_temp_c": 22.3,
+      "mean_temp_c": 28.1,
+      "rh_max_pct": 88,
+      "rh_min_pct": 44.4,
+      "rh_mean_pct": 66.2,
+      "sunshine_hrs": 56,
+      "wind_direction_deg": 173,
+      "wind_speed_kmh": 6.7,
+      "phenological_stage": "Vegetative"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "duration_days": 115,
+      "std_week": 21,
+      "month": "May",
+      "rainfall_mm": 58,
+      "max_temp_c": 33.3,
+      "min_temp_c": 24.6,
+      "mean_temp_c": 29,
+      "rh_max_pct": 93,
+      "rh_min_pct": 63.4,
+      "rh_mean_pct": 78.2,
+      "sunshine_hrs": 46,
+      "wind_direction_deg": 121,
+      "wind_speed_kmh": 6.3,
+      "phenological_stage": "Maturity to Harvesting"
+    }
+  ],
+  "weather_warnings_count": 13,
+  "weather_warnings": [
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": null,
+      "lower_threshold": 1000,
+      "note": "<1000 mm"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "rh",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": 60,
+      "note": "<60%"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "water_logging",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "water logging"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 15,
+      "lower_threshold": null,
+      "note": ">15mm for 19days"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": 20,
+      "lower_threshold": 15,
+      "note": "15-20 days"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Hail storm"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy weather"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 50,
+      "lower_threshold": null,
+      "note": "50KM/HR"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 40,
+      "lower_threshold": null,
+      "note": "40KM/HR"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "max_temp",
+      "unit": "°C",
+      "upper_threshold": 32,
+      "lower_threshold": null,
+      "note": "Min. temp<10°C and max. temp >32°C"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "min_temp",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 10,
+      "note": "Min. temp<10°C and max. temp >32°C"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "max_temp",
+      "unit": "°C",
+      "upper_threshold": 43,
+      "lower_threshold": null,
+      "note": "Min. Temp. <15°C and max. Temp. >43°C"
+    },
+    {
+      "crop": "Jute (Deshi)",
+      "region": "Bogura",
+      "parameter": "min_temp",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 15,
+      "note": "Min. Temp. <15°C and max. Temp. >43°C"
+    }
+  ]
+}

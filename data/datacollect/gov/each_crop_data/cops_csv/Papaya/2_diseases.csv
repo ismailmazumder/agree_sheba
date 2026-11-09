@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Papaya,Bogura,Fruit rot,30.5-35,>80,,"Temperature 30.5°C to 35°C, hot, humid weather and relative humidity >80%."
+Papaya,Bogura,Powdery mildew,21-24,<70,,Temperature 21-24oC; relative humidity below 70% with cloudy weather
+Papaya,Bogura,Mosaic virus,22-26,>80,,"Temperature (22.0 to 26°C), relative humidity >80% with dry weather"
+Papaya,Bogura,Leaf curl virus,22-27,,,Temp 22. 0°C to 27.0°C; with warm weather

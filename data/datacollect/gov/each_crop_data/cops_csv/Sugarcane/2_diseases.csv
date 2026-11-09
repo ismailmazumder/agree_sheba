@@ -1,0 +1,4 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Sugarcane,Bogura,Red rot,,90,,Temperature ° C to 31°C and high Relative humidity (90%)
+Sugarcane,Bogura,Smut,25-30,70-80,,Temperature 25-30 °C and Relative Humidity above 70-80%
+Sugarcane,Bogura,Wilt,30-35,50-60,,High day temperature (30-35° C) and Low Relative Humidity 50-60%

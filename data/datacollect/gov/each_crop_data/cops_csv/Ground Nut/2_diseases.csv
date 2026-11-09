@@ -1,0 +1,6 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Ground Nut,Barishal,Leaf spot,18-35,,60.0,Temperature 18-35°C and Rainfall at least 60mm
+Ground Nut,Barishal,Rust,20-26,>85,,"Temperature 20-26°C ,Relative Humidity above 85% and 3days rain in a week"
+Ground Nut,Barishal,Foot rot/Stem rot,20-25,>85,,"Tem. 20-25°C, RH above 85% and heavy rain"
+Ground Nut,Barishal,Bud Necrosis,16-28,,30.0,"Dry and moderately high temperature (16-28 °C), Rainfall 30 mm (for vector)"
+Ground Nut,Barishal,Thriphs,16-28,,30.0,"Dry and moderately high temperature (16-28 °C), Rainfall 30 mm"

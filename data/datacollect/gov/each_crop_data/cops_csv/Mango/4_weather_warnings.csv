@@ -1,0 +1,14 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Mango,Dinajpur,rainfall,mm,3.0,,> 3 mm
+Mango,Dinajpur,rainfall,mm,44.0,,> 44 mm
+Mango,Dinajpur,cloudy_weather,,,,Cloudy Weather
+Mango,Dinajpur,relative_humidity_max,%,90.0,,Maximum Humidity > 90% Minimum Humidity < 43%
+Mango,Dinajpur,relative_humidity_min,%,,43.0,Maximum Humidity > 90% Minimum Humidity < 43%
+Mango,Dinajpur,relative_humidity_max,%,92.0,,Maximum Humidity > 92% Minimum Humidity < 70%
+Mango,Dinajpur,relative_humidity_min,%,,70.0,Maximum Humidity > 92% Minimum Humidity < 70%
+Mango,Dinajpur,hail_storm,,,,Hail storm
+Mango,Dinajpur,wind_speed,km/hr,20.0,,> 20 km/hr
+Mango,Dinajpur,max_temp,°C,28.0,,Max. Temp. > 28 oC and Min. Temp. < 18 oC
+Mango,Dinajpur,min_temp,°C,,18.0,Max. Temp. > 28 oC and Min. Temp. < 18 oC
+Mango,Dinajpur,max_temp,°C,32.0,,Max. Temp. > 32 oC and Min. Temp. < 25 oC
+Mango,Dinajpur,min_temp,°C,,25.0,Max. Temp. > 32 oC and Min. Temp. < 25 oC

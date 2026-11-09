@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Pointed Gourd,Bogura,Root knot (Nematode),18-26,60-70,,"Temperature: 18-26°C,RH: 60-70%"
+Pointed Gourd,Bogura,Powdery Mildew,22-27,,,"Temperature: 22-27°C, Low humidity at day time and High humidity at night"
+Pointed Gourd,Bogura,Root knot (Nematode),18-26,60-70,,"Temperature: 18-26°C,RH: 60-70%"
+Pointed Gourd,Bogura,Powdery Mildew,22-27,,,"Temperature: 22-27°C, Low humidity at day time and High humidity at night"

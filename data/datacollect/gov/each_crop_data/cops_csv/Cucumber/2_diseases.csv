@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Cucumber,Bogra,Bacterial angular leaf spot,23-28,85-95,,"23OC to 28OC, RH:85% to 95% or above, Favored by rainy weather and humid condition"
+Cucumber,Bogra,Cucumber mosaic virus,26-32,,,"26 OCto 32 OC, disease development favored by certain rising of temperature, rainfall and relative humidity"
+Cucumber,Bogra,Bacterial angular leaf spot,23-28,85-95,,"23OC to 28OC, RH:85% to 95% or above, Favored by rainy weather and humid condition"
+Cucumber,Bogra,Cucumber mosaic virus,26-32,,,"26 OCto 32 OC, disease development favored by certain rising of temperature, rainfall and relative humidity"

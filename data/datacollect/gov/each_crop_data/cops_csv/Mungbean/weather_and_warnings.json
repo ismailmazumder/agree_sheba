@@ -1,0 +1,182 @@
+{
+  "crop": "Mungbean",
+  "region": "Dinajpur",
+  "duration_days": 67,
+  "phenological_stages_count": 5,
+  "phenological_stages_weather": [
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "duration_days": 67,
+      "std_week": 10,
+      "month": "March",
+      "rainfall_mm": 1,
+      "max_temp_c": 30.1,
+      "min_temp_c": 16.1,
+      "mean_temp_c": 23.1,
+      "rh_max_pct": 88.9,
+      "rh_min_pct": 35.3,
+      "rh_mean_pct": 62.1,
+      "sunshine_hrs": 59,
+      "wind_direction_deg": 230,
+      "wind_speed_kmh": 4.3,
+      "phenological_stage": "Germination"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "duration_days": 67,
+      "std_week": 12,
+      "month": "March",
+      "rainfall_mm": 2,
+      "max_temp_c": 32,
+      "min_temp_c": 18.6,
+      "mean_temp_c": 25.3,
+      "rh_max_pct": 86,
+      "rh_min_pct": 36.4,
+      "rh_mean_pct": 61.2,
+      "sunshine_hrs": 55,
+      "wind_direction_deg": 192,
+      "wind_speed_kmh": 5.6,
+      "phenological_stage": "Vegetative"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "duration_days": 67,
+      "std_week": 15,
+      "month": "April",
+      "rainfall_mm": 8,
+      "max_temp_c": 33.4,
+      "min_temp_c": 21.1,
+      "mean_temp_c": 27.3,
+      "rh_max_pct": 87.4,
+      "rh_min_pct": 43.4,
+      "rh_mean_pct": 65.4,
+      "sunshine_hrs": 55,
+      "wind_direction_deg": 150,
+      "wind_speed_kmh": 4.8,
+      "phenological_stage": "Flowering"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "duration_days": 67,
+      "std_week": 17,
+      "month": "April",
+      "rainfall_mm": 23,
+      "max_temp_c": 32.4,
+      "min_temp_c": 22,
+      "mean_temp_c": 27.2,
+      "rh_max_pct": 91.1,
+      "rh_min_pct": 53.7,
+      "rh_mean_pct": 72.4,
+      "sunshine_hrs": 50,
+      "wind_direction_deg": 123,
+      "wind_speed_kmh": 5.4,
+      "phenological_stage": "Pod initiation"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "duration_days": 67,
+      "std_week": 19,
+      "month": "May",
+      "rainfall_mm": 36,
+      "max_temp_c": 32.9,
+      "min_temp_c": 22.9,
+      "mean_temp_c": 27.9,
+      "rh_max_pct": 92,
+      "rh_min_pct": 57.3,
+      "rh_mean_pct": 74.7,
+      "sunshine_hrs": 51,
+      "wind_direction_deg": 115,
+      "wind_speed_kmh": 3.7,
+      "phenological_stage": "Maturity to Harvesting"
+    }
+  ],
+  "weather_warnings_count": 9,
+  "weather_warnings": [
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 75,
+      "lower_threshold": null,
+      "note": ">75mm/ day"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 50,
+      "lower_threshold": null,
+      "note": ">50mm/ day"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy weather"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": 20,
+      "lower_threshold": 15,
+      "note": "15-20 days"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 4,
+      "lower_threshold": 3,
+      "note": ">25mm for 3-4 days"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Hail storm"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 25,
+      "lower_threshold": null,
+      "note": ">25KM/HR"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 10,
+      "note": "Min <10 °C and max. >30°C"
+    },
+    {
+      "crop": "Mungbean",
+      "region": "Dinajpur",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 15,
+      "note": "Min <15°C and max. >35°C"
+    }
+  ]
+}

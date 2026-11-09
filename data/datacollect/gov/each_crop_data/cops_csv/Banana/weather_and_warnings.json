@@ -1,0 +1,173 @@
+{
+  "crop": "Banana",
+  "region": "Bogura",
+  "duration_days": 339,
+  "phenological_stages_count": 5,
+  "phenological_stages_weather": [
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "duration_days": 339,
+      "std_week": 6,
+      "month": "February",
+      "rainfall_mm": 1,
+      "max_temp_c": 26.9,
+      "min_temp_c": 13.6,
+      "mean_temp_c": 20.3,
+      "rh_max_pct": 92.1,
+      "rh_min_pct": 41.4,
+      "rh_mean_pct": 66.8,
+      "sunshine_hrs": 52,
+      "wind_direction_deg": 233,
+      "wind_speed_kmh": 5.6,
+      "phenological_stage": "Seedling (Sucker) stage"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "duration_days": 339,
+      "std_week": 16,
+      "month": "April",
+      "rainfall_mm": 26,
+      "max_temp_c": 34,
+      "min_temp_c": 23,
+      "mean_temp_c": 28.5,
+      "rh_max_pct": 90.6,
+      "rh_min_pct": 50.7,
+      "rh_mean_pct": 70.7,
+      "sunshine_hrs": 55,
+      "wind_direction_deg": 149,
+      "wind_speed_kmh": 6.8,
+      "phenological_stage": "Vegetative (Vigorous growth) stage"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "duration_days": 339,
+      "std_week": 24,
+      "month": "June",
+      "rainfall_mm": 70,
+      "max_temp_c": 32.7,
+      "min_temp_c": 26,
+      "mean_temp_c": 29.4,
+      "rh_max_pct": 95.1,
+      "rh_min_pct": 70.4,
+      "rh_mean_pct": 82.8,
+      "sunshine_hrs": 33,
+      "wind_direction_deg": 134,
+      "wind_speed_kmh": 7.2,
+      "phenological_stage": "Flower bud burst stage"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "duration_days": 339,
+      "std_week": 30,
+      "month": "July",
+      "rainfall_mm": 76,
+      "max_temp_c": 32.1,
+      "min_temp_c": 26.1,
+      "mean_temp_c": 29.1,
+      "rh_max_pct": 95.9,
+      "rh_min_pct": 73.3,
+      "rh_mean_pct": 84.6,
+      "sunshine_hrs": 28,
+      "wind_direction_deg": 143,
+      "wind_speed_kmh": 6.1,
+      "phenological_stage": "Fruit formation stage"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "duration_days": 339,
+      "std_week": 34,
+      "month": "August-January",
+      "rainfall_mm": 67,
+      "max_temp_c": 32.3,
+      "min_temp_c": 26.4,
+      "mean_temp_c": 29.4,
+      "rh_max_pct": 95.9,
+      "rh_min_pct": 72.7,
+      "rh_mean_pct": 84.3,
+      "sunshine_hrs": 31,
+      "wind_direction_deg": 147,
+      "wind_speed_kmh": 5.6,
+      "phenological_stage": "Fruit development maturity & harvesting stage"
+    }
+  ],
+  "weather_warnings_count": 8,
+  "weather_warnings": [
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 25,
+      "lower_threshold": null,
+      "note": "> 25 mm"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy Weather"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "parameter": "relative_humidity_max",
+      "unit": "%",
+      "upper_threshold": 92,
+      "lower_threshold": null,
+      "note": "Maximum Humidity > 92% Minimum Humidity >65%"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "parameter": "relative_humidity_min",
+      "unit": "%",
+      "upper_threshold": 65,
+      "lower_threshold": null,
+      "note": "Maximum Humidity > 92% Minimum Humidity >65%"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Hail storm"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 20,
+      "lower_threshold": null,
+      "note": "> 20 km/hr"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "parameter": "max_temp",
+      "unit": "°C",
+      "upper_threshold": 35,
+      "lower_threshold": null,
+      "note": "Max. Temp. > 35.0 oC and Min. Temp. < 15.0 oC"
+    },
+    {
+      "crop": "Banana",
+      "region": "Bogura",
+      "parameter": "min_temp",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 15,
+      "note": "Max. Temp. > 35.0 oC and Min. Temp. < 15.0 oC"
+    }
+  ]
+}

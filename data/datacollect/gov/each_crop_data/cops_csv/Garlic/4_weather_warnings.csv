@@ -1,0 +1,11 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Garlic,Bogura,rainfall,mm,15.0,,15 mm to 20 mm per day causes
+Garlic,Bogura,rainfall,mm,,,high soil moisture
+Garlic,Bogura,rainfall,mm,10.0,5.0,5 to 10 mm per day
+Garlic,Bogura,cloudy_weather,,,,Cloudy weather
+Garlic,Bogura,drought,days,,,
+Garlic,Bogura,wet_spell_duration,days,5.0,3.0,3 to 5 days
+Garlic,Bogura,wet_spell_duration,days,3.0,2.0,2 to 3 days
+Garlic,Bogura,hail_storm,,,,Early rainfall with hailstorm
+Garlic,Bogura,wind_speed,km/hr,,40.0,Less than 40 km/hr
+Garlic,Bogura,temperature,°C,35.0,,Above 35°C

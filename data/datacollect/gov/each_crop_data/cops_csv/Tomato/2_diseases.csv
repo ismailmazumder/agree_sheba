@@ -1,0 +1,4 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Tomato,Barisal,Early blight,15-30,90,,"Disease develops at moderate to warm (15°C to 30°C) temperatures; relative humidity 90% or greater, moderately to heavy rainfall"
+Tomato,Barisal,Late blight,15-27,75-90,,"Temperature: 15-27°C, prolonged hot dry days increased disease infestation; relative humidity 75 to 90% or greater"
+Tomato,Barisal,Fungal Wilting,35-43.5 | 25-30,30-50,,"Dry atmospheric conditions, Max. Soil temperature 35°C to 43.5°C; Mini. Soil temperature 25°C to 30 °C; RH: 30%- 50%"

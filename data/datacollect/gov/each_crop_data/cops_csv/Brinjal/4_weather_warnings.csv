@@ -1,0 +1,23 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Brinjal,Bogra,rainfall,mm,10.0,5.0,Rainfall exceeds 5-10 mm (one day)
+Brinjal,Bogra,cloudy_weather,,,,Cloudy condition
+Brinjal,Bogra,drought,days,,,Moisture stress in the soil due to dry and warm weather
+Brinjal,Bogra,wet_spell_duration,days,5.0,3.0,3 to 5 days
+Brinjal,Bogra,hail_storm,,,,Last season rainfall with hailstorms
+Brinjal,Bogra,wind_speed,km/hr,,40.0,40 Km/hr or more
+Brinjal,Bogra,temperature,°C,35.5,32.5,32.5 to 35.5° C
+Brinjal,Bogra,region_bogra,,,,Kharip Eggplant
+Brinjal,Bogra,region_bogra,,180.0,170.0,"Life cycle of crop, 170-180"
+Brinjal,Bogra,months,,,,March
+Brinjal,Bogra,months,,,,April
+Brinjal,Bogra,months,,,,May
+Brinjal,Bogra,months,,,,June
+Brinjal,Bogra,months,,,,July
+Brinjal,Bogra,months,,,,August
+Brinjal,Bogra,rainfall,mm,10.0,5.0,Rainfall exceeds 5-10 mm (one day)
+Brinjal,Bogra,cloudy_weather,,,,Cloudy condition
+Brinjal,Bogra,drought,days,,,Moisture stress in the soil due to dry and warm weather
+Brinjal,Bogra,wet_spell_duration,days,5.0,3.0,3 to 5 days
+Brinjal,Bogra,hail_storm,,,,Last season rainfall with hailstorms
+Brinjal,Bogra,wind_speed,km/hr,,40.0,40 Km/hr or more
+Brinjal,Bogra,temperature,°C,35.5,32.5,32.5 to 35.5° C

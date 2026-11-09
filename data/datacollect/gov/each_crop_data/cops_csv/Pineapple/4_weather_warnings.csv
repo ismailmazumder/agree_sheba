@@ -1,0 +1,9 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Pineapple,Dhaka,rainfall,mm,20.0,,> 20 mm
+Pineapple,Dhaka,cloudy_weather,,,,Cloudy Weather
+Pineapple,Dhaka,relative_humidity_max,%,90.0,,Maximum Humidity > 90% Minimum Humidity < 72%
+Pineapple,Dhaka,relative_humidity_min,%,,72.0,Maximum Humidity > 90% Minimum Humidity < 72%
+Pineapple,Dhaka,hail_storm,,,,Hail storm
+Pineapple,Dhaka,wind_speed,km/hr,20.0,,> 20 km/hr
+Pineapple,Dhaka,max_temp,°C,33.0,,Max. Temp. > 33 oC and Min. Temp. < 26 oC
+Pineapple,Dhaka,min_temp,°C,,26.0,Max. Temp. > 33 oC and Min. Temp. < 26 oC

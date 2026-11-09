@@ -1,0 +1,7 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Pumpkin (Sweet gourd),Bogura,Powdery mildew,22-27,,,"Temperature: 22-27°C,RH: Lower RH during day with higher RH during night"
+Pumpkin (Sweet gourd),Bogura,Downy mildew,25-32,75-95,,"Temperature: 25-32°C,RH: 75-95%"
+Pumpkin (Sweet gourd),Bogura,Wilting,22-27,70-80,,"Temperature: 22-27°C (Atmosphere), >24°C (Soil) RH: 70-80% (Soil)"
+Pumpkin (Sweet gourd),Bogura,Powdery mildew,22-27,,,"Temperature: 22-27°C,RH: Lower RH during day with higher RH during night"
+Pumpkin (Sweet gourd),Bogura,Downy mildew,25-32,75-95,,"Temperature: 25-32°C,RH: 75-95%"
+Pumpkin (Sweet gourd),Bogura,Wilting,22-27,70-80,,"Temperature: 22-27°C (Atmosphere), >24°C (Soil) RH: 70-80% (Soil)"

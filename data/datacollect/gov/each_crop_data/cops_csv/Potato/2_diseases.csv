@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Potato,Bogura,Late Blight,16-20,,,"Temperature 16-20°C. Cold and humid weather is congenial for spreading the disease. Low night temperature and high humidity associated with drizzling, fog and accumulation of dew on leaves. If this situation occurs, the disease becomes epidemic."
+Potato,Bogura,Bacterial wilt,28-30,80-90,,High Night Temperature ( 28-30°C) and Relative Humidity(RH) 80-90%.
+Potato,Bogura,Fusarium wilt,28-30,80-90,,High Night Temperature ( 28-30°C) and Relative Humidity(RH) 80-90%.
+Potato,Bogura,Potato Leaf Roll Virus,18-20,70,,Average temperature 18-20°C and Relative Humidity (RH) 70% (for Vector)

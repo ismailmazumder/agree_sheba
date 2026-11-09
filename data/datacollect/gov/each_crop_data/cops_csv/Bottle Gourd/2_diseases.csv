@@ -1,0 +1,9 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Bottle Gourd,Bogra,Powdery mildew,22-27,,,"Temperature: 22-27°C,RH: Lower RH during day with higher RH during night"
+Bottle Gourd,Bogra,Downy mildew,25-32,75-95,,"Temperature: 25-32°C,RH: 75-95%"
+Bottle Gourd,Bogra,Wilting,22-27,70-80,,"Temperature: 22-27°C (Atmosphere), >24°C (Soil) RH: 70-80% (Soil)"
+Bottle Gourd,Bogra,Damping off,25-27,70-80,,"Temperature: 25-27°C,RH:70-80% (soil)"
+Bottle Gourd,Bogra,Powdery mildew,22-27,,,"Temperature: 22-27°C,RH: Lower RH during day with higher RH during night"
+Bottle Gourd,Bogra,Downy mildew,25-32,75-95,,"Temperature: 25-32°C,RH: 75-95%"
+Bottle Gourd,Bogra,Wilting,22-27,70-80,,"Temperature: 22-27°C (Atmosphere), >24°C (Soil) RH: 70-80% (Soil)"
+Bottle Gourd,Bogra,Damping off,25-27,70-80,,"Temperature: 25-27°C,RH:70-80% (soil)"

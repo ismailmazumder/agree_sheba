@@ -1,0 +1,200 @@
+{
+  "crop": "Ground Nut",
+  "region": "Barishal",
+  "duration_days": 125,
+  "phenological_stages_count": 5,
+  "phenological_stages_weather": [
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "duration_days": 125,
+      "std_week": 1,
+      "month": "January",
+      "rainfall_mm": 1.3,
+      "max_temp_c": 25.1,
+      "min_temp_c": 12.6,
+      "mean_temp_c": 18.9,
+      "rh_max_pct": 98,
+      "rh_min_pct": 50.1,
+      "rh_mean_pct": 74.1,
+      "sunshine_hrs": 46.7,
+      "wind_direction_deg": 209,
+      "wind_speed_kmh": 4.5,
+      "phenological_stage": "Germi nation"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "duration_days": 125,
+      "std_week": 3,
+      "month": "January",
+      "rainfall_mm": 1,
+      "max_temp_c": 25.8,
+      "min_temp_c": 12.7,
+      "mean_temp_c": 19.2,
+      "rh_max_pct": 97.6,
+      "rh_min_pct": 48.5,
+      "rh_mean_pct": 73.1,
+      "sunshine_hrs": 47.3,
+      "wind_direction_deg": 204,
+      "wind_speed_kmh": 4.5,
+      "phenological_stage": "Vegetative"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "duration_days": 125,
+      "std_week": 6,
+      "month": "February",
+      "rainfall_mm": 3.7,
+      "max_temp_c": 27.8,
+      "min_temp_c": 14.6,
+      "mean_temp_c": 21.2,
+      "rh_max_pct": 97.1,
+      "rh_min_pct": 44.8,
+      "rh_mean_pct": 70.9,
+      "sunshine_hrs": 52.3,
+      "wind_direction_deg": 211,
+      "wind_speed_kmh": 4.6,
+      "phenological_stage": "Flowering"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "duration_days": 125,
+      "std_week": 10,
+      "month": "March",
+      "rainfall_mm": 5.3,
+      "max_temp_c": 31.7,
+      "min_temp_c": 19.5,
+      "mean_temp_c": 25.6,
+      "rh_max_pct": 97.1,
+      "rh_min_pct": 45.2,
+      "rh_mean_pct": 71.2,
+      "sunshine_hrs": 54,
+      "wind_direction_deg": 226,
+      "wind_speed_kmh": 5.2,
+      "phenological_stage": "Pod initiation"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "duration_days": 125,
+      "std_week": 15,
+      "month": "April",
+      "rainfall_mm": 21.7,
+      "max_temp_c": 33.7,
+      "min_temp_c": 24,
+      "mean_temp_c": 28.8,
+      "rh_max_pct": 96.4,
+      "rh_min_pct": 59.8,
+      "rh_mean_pct": 78.1,
+      "sunshine_hrs": 51.3,
+      "wind_direction_deg": 198,
+      "wind_speed_kmh": 7,
+      "phenological_stage": "Maturity to Harvesting"
+    }
+  ],
+  "weather_warnings_count": 11,
+  "weather_warnings": [
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 100,
+      "lower_threshold": null,
+      "note": ">100mm/day"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 50,
+      "lower_threshold": null,
+      "note": ">50mm/day"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 30,
+      "lower_threshold": null,
+      "note": ">30mm for 10days"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy weather"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": 15,
+      "lower_threshold": null,
+      "note": "15days"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": 15,
+      "lower_threshold": null,
+      "note": "15 days"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 28,
+      "lower_threshold": null,
+      "note": "28KM/HR"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 22,
+      "lower_threshold": null,
+      "note": "22KM/HR"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 25,
+      "lower_threshold": null,
+      "note": "25KM/HR"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Hail Storm"
+    },
+    {
+      "crop": "Ground Nut",
+      "region": "Barishal",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 14,
+      "note": "Min. <14°C & max >34°C"
+    }
+  ]
+}

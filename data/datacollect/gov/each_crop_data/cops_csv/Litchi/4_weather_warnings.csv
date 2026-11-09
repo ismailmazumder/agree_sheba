@@ -1,0 +1,10 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Litchi,Bogura,rainfall,mm,3.0,,> 3 mm
+Litchi,Bogura,rainfall,mm,20.0,,> 20 mm
+Litchi,Bogura,cloudy_weather,,,,Cloudy Weather
+Litchi,Bogura,relative_humidity_max,%,89.0,,Maximum Humidity > 89% Minimum Humidity > 40%
+Litchi,Bogura,relative_humidity_min,%,40.0,,Maximum Humidity > 89% Minimum Humidity > 40%
+Litchi,Bogura,hail_storm,,,,Hail storm
+Litchi,Bogura,wind_speed,km/hr,20.0,,> 20 km/hr
+Litchi,Bogura,max_temp,°C,26.0,,Max. Temp. > 26.0 oC and Min. Temp. <12.0 oC
+Litchi,Bogura,min_temp,°C,,12.0,Max. Temp. > 26.0 oC and Min. Temp. <12.0 oC

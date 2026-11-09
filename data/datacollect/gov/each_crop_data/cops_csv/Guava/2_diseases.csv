@@ -1,0 +1,6 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Guava,Barishal,Wilt,20-29 | 26-30,70-72 | 70-88,,"Mean Temp. 20.0 oC- 29.0 oC, RH: 70-72% | Mean Temp. 26.0 oC- 30.0 oC, RH: 70-88%"
+Guava,Barishal,Fruit rot,26-30,70-87,,"Mean Temp. 26.0oC -30.0oC, Relative Humidity: 70-87%"
+Guava,Barishal,Dieback,20-29 | 26-30,70-72 | 70-88,,"Mean Temp. 20.0 oC- 29.0 oC, RH: 70-72% | Mean Temp. 26.0 oC- 30.0 oC, RH: 70-88%"
+Guava,Barishal,Anthracnose,25-30,70-87,,"Mean Temp: 25.0oC -30.0oC, Relative Humidity: 70-87%"
+Guava,Barishal,Canker,25-30,70-87,,"Mean Temp: 25.0oC -30.0oC, Relative Humidity: 70-87%"

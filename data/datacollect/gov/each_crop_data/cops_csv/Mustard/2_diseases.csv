@@ -1,0 +1,4 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Mustard,Bogura,Alternaria leaf blight,25-28,,,25-28°C temp with heavy dew
+Mustard,Bogura,Stem rot,27-35,,,27-35°C temp with humid condition and low pH (<7.0)
+Mustard,Bogura,Cut warm,,,,Dry sandy- loam soil.

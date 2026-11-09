@@ -1,0 +1,281 @@
+{
+  "crop": "Bottle Gourd",
+  "region": "Bogra",
+  "duration_days": 145,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "duration_days": 145,
+      "std_week": 40,
+      "month": "October",
+      "rainfall_mm": 51,
+      "max_temp_c": 32.1,
+      "min_temp_c": 25,
+      "mean_temp_c": 28.6,
+      "rh_max_pct": 96,
+      "rh_min_pct": 68.7,
+      "rh_mean_pct": 82.4,
+      "sunshine_hrs": 44,
+      "wind_direction_deg": 170,
+      "wind_speed_kmh": 5,
+      "phenological_stage": "Germination and Seedling Planting"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "duration_days": 145,
+      "std_week": 44,
+      "month": "November",
+      "rainfall_mm": 5,
+      "max_temp_c": 31,
+      "min_temp_c": 21,
+      "mean_temp_c": 26,
+      "rh_max_pct": 94.3,
+      "rh_min_pct": 55.6,
+      "rh_mean_pct": 75,
+      "sunshine_hrs": 52,
+      "wind_direction_deg": 186,
+      "wind_speed_kmh": 4.4,
+      "phenological_stage": "Vegetative Growth"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "duration_days": 145,
+      "std_week": 50,
+      "month": "December",
+      "rainfall_mm": 3,
+      "max_temp_c": 26.3,
+      "min_temp_c": 14.1,
+      "mean_temp_c": 20.2,
+      "rh_max_pct": 94.6,
+      "rh_min_pct": 50.6,
+      "rh_mean_pct": 72.6,
+      "sunshine_hrs": 48,
+      "wind_direction_deg": 232,
+      "wind_speed_kmh": 3.9,
+      "phenological_stage": "Flowering & Fruiting"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "duration_days": 145,
+      "std_week": 3,
+      "month": "January",
+      "rainfall_mm": 2,
+      "max_temp_c": 24.3,
+      "min_temp_c": 11.4,
+      "mean_temp_c": 17.9,
+      "rh_max_pct": 94.3,
+      "rh_min_pct": 47.7,
+      "rh_mean_pct": 71,
+      "sunshine_hrs": 46,
+      "wind_direction_deg": 239,
+      "wind_speed_kmh": 4.8,
+      "phenological_stage": "Harvesting"
+    }
+  ],
+  "weather_warnings_count": 22,
+  "weather_warnings": [
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 40,
+      "lower_threshold": 30,
+      "note": "30 to 40 mm"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 20,
+      "lower_threshold": 15,
+      "note": "15 to 20 mm"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy condition"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Drought due to excessive dry and warm weather"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 5,
+      "lower_threshold": 2,
+      "note": "2 to 5 days"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Late season rainfall with hailstorms"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 40,
+      "lower_threshold": null,
+      "note": ">=40 Km/hr"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": 32,
+      "lower_threshold": null,
+      "note": ">32° C"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "region_bogra",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Kharif Bottlegourd"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "region_bogra",
+      "unit": null,
+      "upper_threshold": 120,
+      "lower_threshold": 110,
+      "note": "Life cycle of crop, 110-120"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "March"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "April"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "May"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "June"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 15,
+      "lower_threshold": 10,
+      "note": "Early rainfall (10-15 mm)"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 40,
+      "lower_threshold": null,
+      "note": ">=40 mm"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "মেঘাচ্ছন্ন অবে্থা"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Drought due to excessive dry and warm weather"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 5,
+      "lower_threshold": 2,
+      "note": "2 to 5 days"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Early rainfall with hailstorms"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 40,
+      "lower_threshold": null,
+      "note": ">=40 Km/hr"
+    },
+    {
+      "crop": "Bottle Gourd",
+      "region": "Bogra",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": 37,
+      "lower_threshold": 35,
+      "note": "35 to 37° C"
+    }
+  ]
+}

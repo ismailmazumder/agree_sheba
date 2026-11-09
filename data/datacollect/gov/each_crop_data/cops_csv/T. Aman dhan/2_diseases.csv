@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+T. Aman dhan,Bogura,Bacterial Leaf Blight,28-30,80-90,>30,"Temperature 28-300C, Relative Humidity 80-90%, Cloudiness, Rainfall >30mm"
+T. Aman dhan,Bogura,Sheath Blight,28-32,,,"Temperature 28-320C, high Relative Humidity, Cloudy weather"
+T. Aman dhan,Bogura,Blast,16-20 | 25-30,>90,,"Night temperature 16-200C, for 07 hours day temperature 25-300C, for 07 hours day night temperature >100C, Relative Humidity >90%, Cloudy"
+T. Aman dhan,Bogura,Sheath rot,25-28,>90,,"Temperature 25-280C, Cloudy weather, high Relative Humidity>90 %"

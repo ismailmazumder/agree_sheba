@@ -1,0 +1,218 @@
+{
+  "crop": "Cotton",
+  "region": "Bogura",
+  "duration_days": 182,
+  "phenological_stages_count": 5,
+  "phenological_stages_weather": [
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "duration_days": 182,
+      "std_week": 27,
+      "month": "July",
+      "rainfall_mm": 93,
+      "max_temp_c": 32,
+      "min_temp_c": 26,
+      "mean_temp_c": 29,
+      "rh_max_pct": 95.9,
+      "rh_min_pct": 73.3,
+      "rh_mean_pct": 84.6,
+      "sunshine_hrs": 28,
+      "wind_direction_deg": 141,
+      "wind_speed_kmh": 5.6,
+      "phenological_stage": "Germination & emergence"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "duration_days": 182,
+      "std_week": 29,
+      "month": "July",
+      "rainfall_mm": 91,
+      "max_temp_c": 32,
+      "min_temp_c": 26,
+      "mean_temp_c": 29,
+      "rh_max_pct": 95.9,
+      "rh_min_pct": 74.4,
+      "rh_mean_pct": 85.2,
+      "sunshine_hrs": 29,
+      "wind_direction_deg": 138,
+      "wind_speed_kmh": 6.8,
+      "phenological_stage": "Seedling establishment"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "duration_days": 182,
+      "std_week": 32,
+      "month": "August",
+      "rainfall_mm": 61,
+      "max_temp_c": 32.6,
+      "min_temp_c": 26.9,
+      "mean_temp_c": 29.8,
+      "rh_max_pct": 95.3,
+      "rh_min_pct": 71.9,
+      "rh_mean_pct": 83.6,
+      "sunshine_hrs": 37,
+      "wind_direction_deg": 136,
+      "wind_speed_kmh": 5.7,
+      "phenological_stage": "Leaf area & canopy development"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "duration_days": 182,
+      "std_week": 36,
+      "month": "September",
+      "rainfall_mm": 60,
+      "max_temp_c": 32.3,
+      "min_temp_c": 26,
+      "mean_temp_c": 29.2,
+      "rh_max_pct": 95.9,
+      "rh_min_pct": 72,
+      "rh_mean_pct": 84,
+      "sunshine_hrs": 35,
+      "wind_direction_deg": 147,
+      "wind_speed_kmh": 5.6,
+      "phenological_stage": "Squaring, Flowering & Boll formation"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "duration_days": 182,
+      "std_week": 44,
+      "month": "October",
+      "rainfall_mm": 5,
+      "max_temp_c": 31,
+      "min_temp_c": 21,
+      "mean_temp_c": 26,
+      "rh_max_pct": 94.3,
+      "rh_min_pct": 55.6,
+      "rh_mean_pct": 75,
+      "sunshine_hrs": 52,
+      "wind_direction_deg": 186,
+      "wind_speed_kmh": 4.4,
+      "phenological_stage": "Boll maturation & harvesting"
+    }
+  ],
+  "weather_warnings_count": 13,
+  "weather_warnings": [
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 70,
+      "lower_threshold": null,
+      "note": "> 70 mm"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 20,
+      "lower_threshold": null,
+      "note": "> 20 mm"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy Weather"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "relative_humidity_max",
+      "unit": "%",
+      "upper_threshold": 93,
+      "lower_threshold": null,
+      "note": "Maximum Humidity > 93% Minimum Humidity > 45%"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "relative_humidity_min",
+      "unit": "%",
+      "upper_threshold": 45,
+      "lower_threshold": null,
+      "note": "Maximum Humidity > 93% Minimum Humidity > 45%"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "relative_humidity_max",
+      "unit": "%",
+      "upper_threshold": 93,
+      "lower_threshold": null,
+      "note": "Maximum Humidity > 93% Minimum Humidity > 50%"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "relative_humidity_min",
+      "unit": "%",
+      "upper_threshold": 50,
+      "lower_threshold": null,
+      "note": "Maximum Humidity > 93% Minimum Humidity > 50%"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Hail storm"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 20,
+      "lower_threshold": null,
+      "note": "> 20 km/hr"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "max_temp",
+      "unit": "°C",
+      "upper_threshold": 33.1,
+      "lower_threshold": null,
+      "note": "Max. Temp. > 33.1 oC and Min. Temp. > 26.5oC"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "min_temp",
+      "unit": "°C",
+      "upper_threshold": 26.5,
+      "lower_threshold": null,
+      "note": "Max. Temp. > 33.1 oC and Min. Temp. > 26.5oC"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "max_temp",
+      "unit": "°C",
+      "upper_threshold": 33.6,
+      "lower_threshold": null,
+      "note": "Max. Temp. > 33.6 oC and Min. Temp. < 11 oC"
+    },
+    {
+      "crop": "Cotton",
+      "region": "Bogura",
+      "parameter": "min_temp",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 11,
+      "note": "Max. Temp. > 33.6 oC and Min. Temp. < 11 oC"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Mungbean,Dinajpur,Cercospora leaf spot,25-35,90-95,,Temperature 25-35°C with nigh temperature above 16°C and RH 90-95%.
+Mungbean,Dinajpur,Powderymildew,20-25,,,Temperature 20-25°C and moderately humid weather
+Mungbean,Dinajpur,Yellow mosaic,17-30,65-70,10.0,Temperature 17-30 ° C RH 65-70% and rainfall 8-10 mm (for vector: white fly)
+Mungbean,Dinajpur,Thriphs,16-28,,30.0,"Dry and moderately high temperature (16-28 °C),Rainfall 30 mm"

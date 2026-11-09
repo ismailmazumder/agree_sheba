@@ -1,0 +1,13 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Potato,Bogura,rainfall,mm,25.0,,>25 mm/day
+Potato,Bogura,rainfall,mm,100.0,,>100 mm/day
+Potato,Bogura,wet_spell_duration,days,25.0,,>25 mm for 2 days
+Potato,Bogura,wet_spell_duration,days,50.0,,>50 mm for 3 days
+Potato,Bogura,wet_spell_duration,days,25.0,,>25 mm for 3 days
+Potato,Bogura,cloudy_weather,,,,Cloudy Weather
+Potato,Bogura,drought,days,10.0,,>10 days
+Potato,Bogura,drought,days,15.0,,>15 days
+Potato,Bogura,wind_speed,km/hr,30.0,,>30KM/HR
+Potato,Bogura,hail_storm,,,,Hail storm
+Potato,Bogura,max_temp,°C,30.0,,Min temp < 10°C and Max. Temp >30°C
+Potato,Bogura,min_temp,°C,,10.0,Min temp < 10°C and Max. Temp >30°C

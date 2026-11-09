@@ -1,0 +1,3 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Garlic,Bogura,Basal rot,25-28,>70,,The disease generally appears when soil temperature is 25-28 °C along with high soil moisture; high temperature and drought increases the disease incidence; Relative humidity is above 70%.
+Garlic,Bogura,Blight disease,20-31,85-96,,Optimum temperature: 20-31°C; Humidity 85-96%; Cloudy rainy weather in the crop stand.

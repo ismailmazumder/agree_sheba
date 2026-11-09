@@ -1,0 +1,263 @@
+{
+  "crop": "Cucumber",
+  "region": "Bogra",
+  "duration_days": 110,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "duration_days": 110,
+      "std_week": 6,
+      "month": "February",
+      "rainfall_mm": 1,
+      "max_temp_c": 26.9,
+      "min_temp_c": 13.6,
+      "mean_temp_c": 20.3,
+      "rh_max_pct": 92.1,
+      "rh_min_pct": 41.4,
+      "rh_mean_pct": 66.8,
+      "sunshine_hrs": 52,
+      "wind_direction_deg": 233,
+      "wind_speed_kmh": 5.6,
+      "phenological_stage": "Spouting & Seedling"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "duration_days": 110,
+      "std_week": 10,
+      "month": "March",
+      "rainfall_mm": 2,
+      "max_temp_c": 30.9,
+      "min_temp_c": 17.4,
+      "mean_temp_c": 24.2,
+      "rh_max_pct": 89.1,
+      "rh_min_pct": 36.9,
+      "rh_mean_pct": 63,
+      "sunshine_hrs": 59,
+      "wind_direction_deg": 230,
+      "wind_speed_kmh": 6.3,
+      "phenological_stage": "vegetative growth"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "duration_days": 110,
+      "std_week": 13,
+      "month": "March",
+      "rainfall_mm": 8,
+      "max_temp_c": 32.9,
+      "min_temp_c": 21.1,
+      "mean_temp_c": 27,
+      "rh_max_pct": 87.7,
+      "rh_min_pct": 45.3,
+      "rh_mean_pct": 66.5,
+      "sunshine_hrs": 56,
+      "wind_direction_deg": 176,
+      "wind_speed_kmh": 6.8,
+      "phenological_stage": "Flowering & fruiting"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "duration_days": 110,
+      "std_week": 18,
+      "month": "May",
+      "rainfall_mm": 37,
+      "max_temp_c": 33.1,
+      "min_temp_c": 23.3,
+      "mean_temp_c": 28.2,
+      "rh_max_pct": 92.4,
+      "rh_min_pct": 57.3,
+      "rh_mean_pct": 74.9,
+      "sunshine_hrs": 48,
+      "wind_direction_deg": 127,
+      "wind_speed_kmh": 7.2,
+      "phenological_stage": "Harvesting"
+    }
+  ],
+  "weather_warnings_count": 20,
+  "weather_warnings": [
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 30,
+      "lower_threshold": 20,
+      "note": "20-30 mm (Creates water logging condition)"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy condition"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Drought due to excessive dry weather"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 3,
+      "lower_threshold": 2,
+      "note": "2 to 3 days if the water stagnant condition prevail"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Late season rainfall with hailstorms"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": null,
+      "lower_threshold": 40,
+      "note": "40 Km/hr or more"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 15,
+      "note": "Below 15 OC and above 35 OC growth will be retard; high temperature, long day length and high light intensity hampered female flower production"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "region_bogra",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Kharif Cucumber"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "region_bogra",
+      "unit": null,
+      "upper_threshold": 120,
+      "lower_threshold": 100,
+      "note": "Life Span 100-120"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "July"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "August"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "September"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "October"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 30,
+      "lower_threshold": 20,
+      "note": "20-30 mm (Creates water logging condition)"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy condition"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Drought due to excessive dry weather"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 3,
+      "lower_threshold": 2,
+      "note": "2 to 3 days if the water stagnant condition prevail"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Late season rainfall with hailstorms"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": null,
+      "lower_threshold": 40,
+      "note": "40 Km/hr or more"
+    },
+    {
+      "crop": "Cucumber",
+      "region": "Bogra",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 15,
+      "note": "Below 15 OC and above 35 OC growth will be retard; high temperature, long day length and high light intensity hampered female flower production"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Mungbean,Dinajpur,rainfall,mm,75.0,,>75mm/ day
+Mungbean,Dinajpur,rainfall,mm,50.0,,>50mm/ day
+Mungbean,Dinajpur,cloudy_weather,,,,Cloudy weather
+Mungbean,Dinajpur,drought,days,20.0,15.0,15-20 days
+Mungbean,Dinajpur,wet_spell_duration,days,4.0,3.0,>25mm for 3-4 days
+Mungbean,Dinajpur,hail_storm,,,,Hail storm
+Mungbean,Dinajpur,wind_speed,km/hr,25.0,,>25KM/HR
+Mungbean,Dinajpur,temperature,°C,,10.0,Min <10 °C and max. >30°C
+Mungbean,Dinajpur,temperature,°C,,15.0,Min <15°C and max. >35°C

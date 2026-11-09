@@ -1,0 +1,24 @@
+﻿crop,region,duration_days,std_week,month,rainfall_mm,max_temp_c,min_temp_c,mean_temp_c,rh_max_pct,rh_min_pct,rh_mean_pct,sunshine_hrs,wind_direction_deg,wind_speed_kmh,phenological_stage
+Boro dhan,Bogura,152,51,December,0.0,25.0,12.0,18.7,94.3,50.6,72.5,49.0,249,3.7,Seedbed
+Boro dhan,Bogura,152,52,December,4.0,25.7,13.4,19.6,94.6,50.0,72.3,46.0,248,3.7,Seedbed
+Boro dhan,Bogura,152,1,December,0.0,24.0,12.0,18.1,94.1,50.9,72.5,44.0,258,4.3,Seedbed
+Boro dhan,Bogura,152,2,January,2.0,24.0,11.4,17.7,94.3,49.0,71.7,44.0,247,5.4,Seedbed
+Boro dhan,Bogura,152,3,January,2.0,24.3,11.4,17.9,94.3,47.7,71.0,46.0,239,4.8,Seedbed
+Boro dhan,Bogura,152,4,January,1.0,25.4,12.0,18.7,93.9,46.0,70.0,50.0,252,5.0,Transplanting
+Boro dhan,Bogura,152,5,February,1.0,25.9,12.9,19.4,93.1,44.9,69.0,50.0,249,5.4,Transplanting
+Boro dhan,Bogura,152,6,February,1.0,26.9,13.6,20.3,92.1,41.4,66.8,52.0,233,5.6,Transplanting
+Boro dhan,Bogura,152,7,February,4.0,27.7,14.6,21.2,91.4,40.3,65.9,53.0,234,5.6,Transplanting
+Boro dhan,Bogura,152,8,February,3.0,28.6,15.4,22.0,90.4,39.1,64.8,56.0,229,6.7,Transplanting
+Boro dhan,Bogura,152,9,March,5.0,29.3,16.4,22.9,88.7,38.0,63.4,60.0,235,5.7,Tillering
+Boro dhan,Bogura,152,10,March,2.0,30.9,17.4,24.2,89.1,36.9,63.0,59.0,230,6.3,Tillering
+Boro dhan,Bogura,152,11,March,4.0,31.9,18.3,25.1,86.4,37.1,61.8,61.0,225,6.7,Tillering
+Boro dhan,Bogura,152,12,March,3.0,32.9,20.0,26.5,86.3,39.1,62.7,58.0,205,6.7,Tillering
+Boro dhan,Bogura,152,13,April,8.0,32.9,21.1,27.0,87.7,45.3,66.5,56.0,176,6.8,Heading
+Boro dhan,Bogura,152,14,April,8.0,33.9,22.3,28.1,88.0,44.4,66.2,56.0,173,6.7,Heading
+Boro dhan,Bogura,152,15,April,12.0,34.3,23.0,28.7,88.3,45.9,67.1,56.0,164,6.3,Heading
+Boro dhan,Bogura,152,16,April,26.0,34.0,23.0,28.5,90.6,50.7,70.7,55.0,149,6.8,Flow Grain filling erin g
+Boro dhan,Bogura,152,17,April,28.0,33.6,23.1,28.4,90.9,54.9,72.9,52.0,134,7.4,Flow Grain filling erin g
+Boro dhan,Bogura,152,18,May,37.0,33.1,23.3,28.2,92.4,57.3,74.9,48.0,127,7.2,Flow Grain filling erin g
+Boro dhan,Bogura,152,19,May,42.0,33.6,23.9,28.8,92.4,58.7,75.6,50.0,126,7.4,Maturity to Harvesting
+Boro dhan,Bogura,152,20,May,45.0,33.4,24.3,28.9,92.7,60.0,76.4,49.0,126,6.7,Maturity to Harvesting
+Boro dhan,Bogura,152,21,May,58.0,33.3,24.6,29.0,93.0,63.4,78.2,46.0,121,6.3,Maturity to Harvesting

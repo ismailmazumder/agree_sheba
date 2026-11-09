@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Lentil,Bogura,Stemphylium blight,11-25 | 20-22 | 4-5,90-96 | 40-48 | 2.5-18.8,,"Temperature 11-25 o C,Day temperature 20-22o C , night temperature 4-5 o C , relative humidity maximum 90-96% and minimum 40-48%, Soil temperature above 32o Cand Soil moisture 2.5- 18.8%,Cloudy or foggy weather."
+Lentil,Bogura,Foot rot,20-27,,,Temperature 20-27 o C
+Lentil,Bogura,Rust,20-22,85-90,,"Relative Humidity 85-90%, Temperature 20- 22o C"
+Lentil,Bogura,Fusarium wilt,,,,Hot and dry weather; Optimum temperature is around 25°C

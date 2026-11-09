@@ -1,0 +1,10 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Guava,Barishal,rainfall,mm,10.0,,> 10 mm
+Guava,Barishal,rainfall,mm,44.0,,> 44 mm
+Guava,Barishal,cloudy_weather,,,,Cloudy Weather
+Guava,Barishal,relative_humidity_max,%,95.0,,Maximum Humidity > 95% Minimum Humidity > 45%
+Guava,Barishal,relative_humidity_min,%,45.0,,Maximum Humidity > 95% Minimum Humidity > 45%
+Guava,Barishal,hail_storm,,,,Hail storm
+Guava,Barishal,wind_speed,km/hr,20.0,,> 20 km/hr
+Guava,Barishal,max_temp,°C,30.0,,Max. Temp. > 30.0oC and Min. Temp. >19.0oC
+Guava,Barishal,min_temp,°C,19.0,,Max. Temp. > 30.0oC and Min. Temp. >19.0oC

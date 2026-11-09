@@ -1,0 +1,6 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Soybean,Barisal,Common Cut warm,,,,
+Soybean,Barisal,fertility of eggs occur at 19.55 °C; RH-65% to 85%.,,,,
+Soybean,Barisal,total rainfall ranging from 11.07-94.33 mm with low or medium rainfall in previous weeks followed by high in current weeks.,,,,
+Soybean,Barisal,prolonged leaf wetness (exceed 12 hrs/day) favored disease development,,,,
+Soybean,Barisal,Yellow Mosaic Virus,18-20,,,Viral infection and symptom appearance are found most severe at 18 oC to 20 oC but may not be apparent at the temperature higher than 30 °C; Disease development favored by rainfall.

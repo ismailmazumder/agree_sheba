@@ -1,0 +1,6 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Pineapple,Dhaka,Heart rot,31-34,>90,,"Temperature 31.0°C to 34.0°C, hot, humid weather and relative humidity >90%."
+Pineapple,Dhaka,Root rot,28-34,<70,,Temperature 28-34oC; relative humidity below 70% with cloudy weather
+Pineapple,Dhaka,Base rot,28-34,>90,,"Temperature (28.0 to 34°C), relative humidity >90% with dry weather"
+Pineapple,Dhaka,Fusariosis,31-33,,,Temp 31.0°C to 33.0°C; with warm weather
+Pineapple,Dhaka,Pink disease,31-33,,,Temp 31.0°C to 33.0°C; with warm weather

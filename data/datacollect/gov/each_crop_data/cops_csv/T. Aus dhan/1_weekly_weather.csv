@@ -1,0 +1,19 @@
+﻿crop,region,duration_days,std_week,month,rainfall_mm,max_temp_c,min_temp_c,mean_temp_c,rh_max_pct,rh_min_pct,rh_mean_pct,sunshine_hrs,wind_direction_deg,wind_speed_kmh,phenological_stage
+T. Aus dhan,Bogura,126,17,April,28.0,33.6,23.1,28.4,90.9,54.9,72.9,52.0,134,7.4,Seedbed
+T. Aus dhan,Bogura,126,18,April,37.0,33.1,23.3,28.2,92.4,57.3,74.9,48.0,127,7.2,Seedbed
+T. Aus dhan,Bogura,126,19,May,42.0,33.6,23.9,28.8,92.4,58.7,75.6,50.0,126,7.4,Seedbed
+T. Aus dhan,Bogura,126,20,May,45.0,33.4,24.3,28.9,92.7,60.0,76.4,49.0,126,6.7,Transplanting
+T. Aus dhan,Bogura,126,21,May,58.0,33.3,24.6,29.0,93.0,63.4,78.2,46.0,121,6.3,Transplanting
+T. Aus dhan,Bogura,126,22,June,59.0,33.9,25.0,29.5,93.7,64.6,79.2,44.0,135,6.3,Transplanting
+T. Aus dhan,Bogura,126,23,June,74.0,33.4,25.9,29.7,94.1,66.7,80.4,39.0,134,6.3,Transplanting
+T. Aus dhan,Bogura,126,24,June,70.0,32.7,26.0,29.4,95.1,70.4,82.8,33.0,134,7.2,Tillering
+T. Aus dhan,Bogura,126,25,June,92.0,32.3,26.1,29.2,95.1,72.4,83.8,28.0,134,6.3,Tillering
+T. Aus dhan,Bogura,126,26,July,76.0,32.3,26.1,29.2,95.6,73.9,84.8,26.0,132,6.7,Tillering
+T. Aus dhan,Bogura,126,27,July,93.0,32.0,26.0,29.0,95.9,73.3,84.6,28.0,141,5.6,Heading
+T. Aus dhan,Bogura,126,28,July,80.0,31.9,26.1,29.0,95.9,74.1,85.0,31.0,135,5.6,Heading
+T. Aus dhan,Bogura,126,29,July,91.0,32.0,26.0,29.0,95.9,74.4,85.2,29.0,138,6.8,Heading
+T. Aus dhan,Bogura,126,30,August,76.0,32.1,26.1,29.1,95.9,73.3,84.6,28.0,143,6.1,Flow Grain ering Formation
+T. Aus dhan,Bogura,126,31,August,63.0,32.3,26.3,29.3,95.1,72.0,83.6,35.0,137,6.3,Flow Grain ering Formation
+T. Aus dhan,Bogura,126,32,August,61.0,32.6,26.9,29.8,95.3,71.9,83.6,37.0,136,5.7,Flow Grain ering Formation
+T. Aus dhan,Bogura,126,33,Sep,72.0,32.1,26.3,29.2,95.6,73.3,84.5,36.0,141,6.1,Maturity to Harvesting
+T. Aus dhan,Bogura,126,34,Sep,67.0,32.3,26.4,29.4,95.9,72.7,84.3,31.0,147,5.6,Maturity to Harvesting

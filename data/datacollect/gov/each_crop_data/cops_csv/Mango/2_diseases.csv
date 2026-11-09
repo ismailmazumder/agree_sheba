@@ -1,0 +1,6 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Mango,Dinajpur,Anthracnose,20-30,>95,,"A v e rage temp. 20 to 30oC , free water or RH above 95%"
+Mango,Dinajpur,Powdery mildew,20-30,>95,,"Warm days and cool nights, moderate temperatures (20-30o C) and shade or low light intensities as well as high RH above 95%"
+Mango,Dinajpur,Fruit rot,<24,,,"High humidity, high soil moisture, cloudiness and low temperatures ( below 24oC) for few days"
+Mango,Dinajpur,Malformation (fungus fusarium),,,,High temperat ures and warm moist soils
+Mango,Dinajpur,Dieback,<24,,,"High humidity, high soil moisture, cloudiness and low temperatures (below 24oC) for few days"

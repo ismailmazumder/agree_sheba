@@ -1,0 +1,9 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Onion,Bogura,rainfall,mm,10.0,5.0,Heavy-rainfall events in short spells result in surface water stagnation (5 to 10 mm per day)
+Onion,Bogura,cloudy_weather,,,,Cloudy weather
+Onion,Bogura,drought,days,10.0,7.0,7 to 10 days
+Onion,Bogura,wet_spell_duration,days,5.0,3.0,3 to 5 days
+Onion,Bogura,wet_spell_duration,days,3.0,2.0,2 to 3 days
+Onion,Bogura,hail_storm,,,,Hailstorms with seasonal rainfall
+Onion,Bogura,wind_speed,km/hr,16.0,,>= 16 km/hr
+Onion,Bogura,temperature,°C,35.0,,Above 35°C

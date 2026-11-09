@@ -1,0 +1,23 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Bottle Gourd,Bogra,rainfall,mm,40.0,30.0,30 to 40 mm
+Bottle Gourd,Bogra,rainfall,mm,20.0,15.0,15 to 20 mm
+Bottle Gourd,Bogra,cloudy_weather,,,,Cloudy condition
+Bottle Gourd,Bogra,drought,days,,,Drought due to excessive dry and warm weather
+Bottle Gourd,Bogra,wet_spell_duration,days,5.0,2.0,2 to 5 days
+Bottle Gourd,Bogra,hail_storm,,,,Late season rainfall with hailstorms
+Bottle Gourd,Bogra,wind_speed,km/hr,40.0,,>=40 Km/hr
+Bottle Gourd,Bogra,temperature,°C,32.0,,>32° C
+Bottle Gourd,Bogra,region_bogra,,,,Kharif Bottlegourd
+Bottle Gourd,Bogra,region_bogra,,120.0,110.0,"Life cycle of crop, 110-120"
+Bottle Gourd,Bogra,months,,,,March
+Bottle Gourd,Bogra,months,,,,April
+Bottle Gourd,Bogra,months,,,,May
+Bottle Gourd,Bogra,months,,,,June
+Bottle Gourd,Bogra,rainfall,mm,15.0,10.0,Early rainfall (10-15 mm)
+Bottle Gourd,Bogra,rainfall,mm,40.0,,>=40 mm
+Bottle Gourd,Bogra,cloudy_weather,,,,মেঘাচ্ছন্ন অবে্থা
+Bottle Gourd,Bogra,drought,days,,,Drought due to excessive dry and warm weather
+Bottle Gourd,Bogra,wet_spell_duration,days,5.0,2.0,2 to 5 days
+Bottle Gourd,Bogra,hail_storm,,,,Early rainfall with hailstorms
+Bottle Gourd,Bogra,wind_speed,km/hr,40.0,,>=40 Km/hr
+Bottle Gourd,Bogra,temperature,°C,37.0,35.0,35 to 37° C

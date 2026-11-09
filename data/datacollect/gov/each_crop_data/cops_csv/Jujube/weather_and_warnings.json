@@ -1,0 +1,155 @@
+{
+  "crop": "Jujube",
+  "region": "Dhaka",
+  "duration_days": 224,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "duration_days": 224,
+      "std_week": 30,
+      "month": "July",
+      "rainfall_mm": 82,
+      "max_temp_c": 32.2,
+      "min_temp_c": 26,
+      "mean_temp_c": 29.1,
+      "rh_max_pct": 94.3,
+      "rh_min_pct": 71.1,
+      "rh_mean_pct": 82.7,
+      "sunshine_hrs": 32,
+      "wind_direction_deg": 159,
+      "wind_speed_kmh": 5.9,
+      "phenological_stage": "Inflorescence emergence"
+    },
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "duration_days": 224,
+      "std_week": 34,
+      "month": "August",
+      "rainfall_mm": 63,
+      "max_temp_c": 32.3,
+      "min_temp_c": 26.2,
+      "mean_temp_c": 29.3,
+      "rh_max_pct": 94.8,
+      "rh_min_pct": 71.2,
+      "rh_mean_pct": 83,
+      "sunshine_hrs": 31.5,
+      "wind_direction_deg": 165,
+      "wind_speed_kmh": 5.4,
+      "phenological_stage": "Flowering & Fruit setting."
+    },
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "duration_days": 224,
+      "std_week": 43,
+      "month": "October",
+      "rainfall_mm": 26,
+      "max_temp_c": 31.5,
+      "min_temp_c": 22.3,
+      "mean_temp_c": 26.9,
+      "rh_max_pct": 94.8,
+      "rh_min_pct": 55.5,
+      "rh_mean_pct": 75.2,
+      "sunshine_hrs": 54,
+      "wind_direction_deg": 190,
+      "wind_speed_kmh": 3.8,
+      "phenological_stage": "Fruit development"
+    },
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "duration_days": 224,
+      "std_week": 2,
+      "month": "January",
+      "rainfall_mm": 0,
+      "max_temp_c": 23.9,
+      "min_temp_c": 12,
+      "mean_temp_c": 17.9,
+      "rh_max_pct": 94.3,
+      "rh_min_pct": 48.8,
+      "rh_mean_pct": 71.6,
+      "sunshine_hrs": 42.5,
+      "wind_direction_deg": 238,
+      "wind_speed_kmh": 4,
+      "phenological_stage": "Fruit maturity and Harvesting."
+    }
+  ],
+  "weather_warnings_count": 8,
+  "weather_warnings": [
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 30,
+      "lower_threshold": null,
+      "note": "> 30 mm"
+    },
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy Weather"
+    },
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "parameter": "relative_humidity_max",
+      "unit": "%",
+      "upper_threshold": 91,
+      "lower_threshold": null,
+      "note": "Maximum Humidity > 91% Minimum Humidity <70%"
+    },
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "parameter": "relative_humidity_min",
+      "unit": "%",
+      "upper_threshold": null,
+      "lower_threshold": 70,
+      "note": "Maximum Humidity > 91% Minimum Humidity <70%"
+    },
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Hail storm"
+    },
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 20,
+      "lower_threshold": null,
+      "note": "> 20 km/hr"
+    },
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "parameter": "max_temp",
+      "unit": "°C",
+      "upper_threshold": 32,
+      "lower_threshold": null,
+      "note": "Max. Temp. > 32.0 oC and Min. Temp. < 15.0 oC"
+    },
+    {
+      "crop": "Jujube",
+      "region": "Dhaka",
+      "parameter": "min_temp",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 15,
+      "note": "Max. Temp. > 32.0 oC and Min. Temp. < 15.0 oC"
+    }
+  ]
+}

@@ -240,10 +240,8 @@
     }
 
     /* ===== Aurora glass theme (premium) ===== */
-    :root { color-scheme: light dark; --bg:#f5f5f7; --tx:#1d1d1f; --mu:#6e6e73; --glass:rgb(255 255 255 / .72); --card:rgb(255 255 255 / .72); --card2:rgb(255 255 255 / .86); --side:var(--glass); --bd:rgb(0 0 0 / .08); --lime:#0b8f84; --blue:linear-gradient(135deg,#06b6a4,#6366f1); --field:rgb(255 255 255 / .85); --shadow:0 24px 60px -28px rgb(30 40 80 / .35); --ring:rgb(99 102 241 / .35);
+    :root { color-scheme: light; --bg:#f5f5f7; --tx:#1d1d1f; --mu:#6e6e73; --glass:rgb(255 255 255 / .72); --card:rgb(255 255 255 / .72); --card2:rgb(255 255 255 / .86); --side:var(--glass); --bd:rgb(0 0 0 / .08); --lime:#0b8f84; --blue:linear-gradient(135deg,#06b6a4,#6366f1); --field:rgb(255 255 255 / .85); --shadow:0 24px 60px -28px rgb(30 40 80 / .35); --ring:rgb(99 102 241 / .35);
       font-family: "Inter","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif; }
-    @media (prefers-color-scheme: dark) { :root { --bg:#050507; --tx:#f5f5f7; --mu:#a1a1a6; --glass:rgb(30 30 36 / .62); --card:rgb(28 28 34 / .6); --card2:rgb(40 40 48 / .75); --bd:rgb(255 255 255 / .1); --lime:#5eead4; --field:rgb(255 255 255 / .06); --shadow:0 24px 60px -28px rgb(0 0 0 / .8); --ring:rgb(94 234 212 / .35); }
-      .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) saturate(.6) brightness(.88) contrast(.92); } }
     html { background: var(--bg); scroll-behavior: smooth; }
     body { background: transparent; isolation: isolate; -webkit-font-smoothing: antialiased; }
     body::before { content:""; position: fixed; inset: -10%; z-index: -1; pointer-events: none; animation: drift 26s ease-in-out infinite alternate;
@@ -310,6 +308,14 @@
       html:not([data-lang="bn"]) .tab-bn { display: none; } .tab-button::before { display: none; }
       .hero { padding-inline: 16px; }
     }
+    /* ===== light theme fixes ===== */
+    select, option { color: #1d1d1f; }
+    option { background: #fff; }
+    select { background-color: #fff; }
+    .guidance-section p, .guidance-section ul, .method-card, .rotation-note { color: var(--mu); }
+    .crop-detail, .priority-help, .guidance-region, .month-note { color: var(--mu); }
+    #map { background: #e8eef3; }
+    .crop-pick:hover { background: rgb(99 102 241 / .08); color: inherit; transform: none; box-shadow: none; border-radius: 14px; }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js">

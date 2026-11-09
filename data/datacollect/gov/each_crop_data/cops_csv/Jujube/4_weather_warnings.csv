@@ -1,0 +1,9 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Jujube,Dhaka,rainfall,mm,30.0,,> 30 mm
+Jujube,Dhaka,cloudy_weather,,,,Cloudy Weather
+Jujube,Dhaka,relative_humidity_max,%,91.0,,Maximum Humidity > 91% Minimum Humidity <70%
+Jujube,Dhaka,relative_humidity_min,%,,70.0,Maximum Humidity > 91% Minimum Humidity <70%
+Jujube,Dhaka,hail_storm,,,,Hail storm
+Jujube,Dhaka,wind_speed,km/hr,20.0,,> 20 km/hr
+Jujube,Dhaka,max_temp,°C,32.0,,Max. Temp. > 32.0 oC and Min. Temp. < 15.0 oC
+Jujube,Dhaka,min_temp,°C,,15.0,Max. Temp. > 32.0 oC and Min. Temp. < 15.0 oC

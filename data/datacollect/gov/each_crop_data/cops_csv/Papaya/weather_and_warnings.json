@@ -1,0 +1,155 @@
+{
+  "crop": "Papaya",
+  "region": "Bogura",
+  "duration_days": 369,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "duration_days": 369,
+      "std_week": 12,
+      "month": "Feb.",
+      "rainfall_mm": 3,
+      "max_temp_c": 32.9,
+      "min_temp_c": 20,
+      "mean_temp_c": 26.5,
+      "rh_max_pct": 86.3,
+      "rh_min_pct": 39.1,
+      "rh_mean_pct": 62.7,
+      "sunshine_hrs": 58,
+      "wind_direction_deg": 205,
+      "wind_speed_kmh": 6.7,
+      "phenological_stage": "Seedling raising & transplantation"
+    },
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "duration_days": 369,
+      "std_week": 17,
+      "month": "April",
+      "rainfall_mm": 28,
+      "max_temp_c": 33.6,
+      "min_temp_c": 23.1,
+      "mean_temp_c": 28.4,
+      "rh_max_pct": 90.9,
+      "rh_min_pct": 54.9,
+      "rh_mean_pct": 72.9,
+      "sunshine_hrs": 52,
+      "wind_direction_deg": 134,
+      "wind_speed_kmh": 7.4,
+      "phenological_stage": "Vegetative stage"
+    },
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "duration_days": 369,
+      "std_week": 23,
+      "month": "May",
+      "rainfall_mm": 74,
+      "max_temp_c": 33.4,
+      "min_temp_c": 25.9,
+      "mean_temp_c": 29.7,
+      "rh_max_pct": 94.1,
+      "rh_min_pct": 66.7,
+      "rh_mean_pct": 80.4,
+      "sunshine_hrs": 39,
+      "wind_direction_deg": 134,
+      "wind_speed_kmh": 6.3,
+      "phenological_stage": "Flowering Stage"
+    },
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "duration_days": 369,
+      "std_week": 30,
+      "month": "July",
+      "rainfall_mm": 76,
+      "max_temp_c": 32.1,
+      "min_temp_c": 26.1,
+      "mean_temp_c": 29.1,
+      "rh_max_pct": 95.9,
+      "rh_min_pct": 73.3,
+      "rh_mean_pct": 84.6,
+      "sunshine_hrs": 28,
+      "wind_direction_deg": 143,
+      "wind_speed_kmh": 6.1,
+      "phenological_stage": "Fruit production and Harvesting"
+    }
+  ],
+  "weather_warnings_count": 8,
+  "weather_warnings": [
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 42,
+      "lower_threshold": null,
+      "note": "> 42 mm"
+    },
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy Weather"
+    },
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "parameter": "relative_humidity_max",
+      "unit": "%",
+      "upper_threshold": 92,
+      "lower_threshold": null,
+      "note": "Maximum Humidity > 92% Minimum Humidity < 40%"
+    },
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "parameter": "relative_humidity_min",
+      "unit": "%",
+      "upper_threshold": null,
+      "lower_threshold": 40,
+      "note": "Maximum Humidity > 92% Minimum Humidity < 40%"
+    },
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Hail storm"
+    },
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 20,
+      "lower_threshold": null,
+      "note": "> 20 km/hr"
+    },
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "parameter": "max_temp",
+      "unit": "°C",
+      "upper_threshold": 34,
+      "lower_threshold": null,
+      "note": "Max. Temp. > 34 oC and Min. Temp. < 25 oC"
+    },
+    {
+      "crop": "Papaya",
+      "region": "Bogura",
+      "parameter": "min_temp",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 25,
+      "note": "Max. Temp. > 34 oC and Min. Temp. < 25 oC"
+    }
+  ]
+}

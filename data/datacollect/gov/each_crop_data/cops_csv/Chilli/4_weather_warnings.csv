@@ -1,0 +1,9 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Chilli,Bogra,Rainfall,mm,,10.0,Early rainfall 10-15 mm per day
+Chilli,Bogra,Cloudy Weather,,,,Cloudy weather
+Chilli,Bogra,Drought,days,,7.0,Short to moderate drought (7-10 days)
+Chilli,Bogra,Duration staying wet,days,3.0,2.0,2 to 3 days
+Chilli,Bogra,Hailstorm,,,,Hailstorms with early rainfall
+Chilli,Bogra,Wind Speed,km/hr,20.0,,Upper limit <=20 km/hr
+Chilli,Bogra,Max Temperature,oC,35.0,,Fruit set adversely affected above 35 C
+Chilli,Bogra,Min Temperature,oC,,10.0,Germination and growth decreases below 10 C

@@ -1,0 +1,8 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Tomato,Barisal,rainfall,mm,20.0,,>=20 mm rainfall per day at the end of the rainy season (September-November)
+Tomato,Barisal,cloudy_weather,,,,Cloudy condition
+Tomato,Barisal,drought,days,,,Drought (moisture stress) due to excessive dry weather
+Tomato,Barisal,wet_spell_duration,days,4.0,2.0,Land remain waterlogged for 2 to 4 days
+Tomato,Barisal,hail_storm,,,,Late season rainfall with hailstorm
+Tomato,Barisal,wind_speed,km/hr,15.0,,>=15 km/hr
+Tomato,Barisal,temperature,°C,32.0,30.0,30 to 32°C

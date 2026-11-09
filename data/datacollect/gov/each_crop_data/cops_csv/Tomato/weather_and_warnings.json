@@ -1,0 +1,146 @@
+{
+  "crop": "Tomato",
+  "region": "Barisal",
+  "duration_days": 165,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "duration_days": 165,
+      "std_week": 49,
+      "month": "December",
+      "rainfall_mm": 1.7,
+      "max_temp_c": 27.8,
+      "min_temp_c": 15.6,
+      "mean_temp_c": 21.7,
+      "rh_max_pct": 98,
+      "rh_min_pct": 50.6,
+      "rh_mean_pct": 74.3,
+      "sunshine_hrs": 48.7,
+      "wind_direction_deg": 225,
+      "wind_speed_kmh": 3.1,
+      "phenological_stage": "Germination and Seedling Planting"
+    },
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "duration_days": 165,
+      "std_week": 1,
+      "month": "January",
+      "rainfall_mm": 1.3,
+      "max_temp_c": 25.1,
+      "min_temp_c": 12.6,
+      "mean_temp_c": 18.9,
+      "rh_max_pct": 98,
+      "rh_min_pct": 50.1,
+      "rh_mean_pct": 74.1,
+      "sunshine_hrs": 46.7,
+      "wind_direction_deg": 209,
+      "wind_speed_kmh": 4.5,
+      "phenological_stage": "Vegetative Growth"
+    },
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "duration_days": 165,
+      "std_week": 5,
+      "month": "February",
+      "rainfall_mm": 2.7,
+      "max_temp_c": 27,
+      "min_temp_c": 14,
+      "mean_temp_c": 20.5,
+      "rh_max_pct": 97.3,
+      "rh_min_pct": 46.2,
+      "rh_mean_pct": 71.7,
+      "sunshine_hrs": 50.3,
+      "wind_direction_deg": 217,
+      "wind_speed_kmh": 5,
+      "phenological_stage": "Flowering & Fruiting"
+    },
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "duration_days": 165,
+      "std_week": 10,
+      "month": "March",
+      "rainfall_mm": 5.3,
+      "max_temp_c": 31.7,
+      "min_temp_c": 19.5,
+      "mean_temp_c": 25.6,
+      "rh_max_pct": 97.1,
+      "rh_min_pct": 45.2,
+      "rh_mean_pct": 71.2,
+      "sunshine_hrs": 54,
+      "wind_direction_deg": 226,
+      "wind_speed_kmh": 5.2,
+      "phenological_stage": "Harvesting"
+    }
+  ],
+  "weather_warnings_count": 7,
+  "weather_warnings": [
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 20,
+      "lower_threshold": null,
+      "note": ">=20 mm rainfall per day at the end of the rainy season (September-November)"
+    },
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy condition"
+    },
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Drought (moisture stress) due to excessive dry weather"
+    },
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 4,
+      "lower_threshold": 2,
+      "note": "Land remain waterlogged for 2 to 4 days"
+    },
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Late season rainfall with hailstorm"
+    },
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 15,
+      "lower_threshold": null,
+      "note": ">=15 km/hr"
+    },
+    {
+      "crop": "Tomato",
+      "region": "Barisal",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": 32,
+      "lower_threshold": 30,
+      "note": "30 to 32°C"
+    }
+  ]
+}

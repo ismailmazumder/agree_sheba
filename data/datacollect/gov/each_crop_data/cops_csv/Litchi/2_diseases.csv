@@ -1,0 +1,5 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Litchi,Bogura,Bacterial leaf Blight,23-30,63-83,,"Mean Temp. 23.0 oC- 30.0 oC, RH: 63-83%"
+Litchi,Bogura,Fruit rot,28.4-30,75-83,,"Mean Temp. 28.4oC -30.0oC, RH: 75-83%"
+Litchi,Bogura,Panicle blight,23-29,62-75,,"Mean Temp. 23.0 oC- 29.0 oC, RH: 62-75%"
+Litchi,Bogura,Fruit blight,28.4-30,74-82,,"Mean Temp. 28.4oC -30.0oC, RH: 74-82%"

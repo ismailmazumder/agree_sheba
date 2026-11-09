@@ -1,0 +1,299 @@
+{
+  "crop": "Pointed Gourd",
+  "region": "Bogura",
+  "duration_days": 135,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "duration_days": 135,
+      "std_week": 44,
+      "month": "November",
+      "rainfall_mm": 5,
+      "max_temp_c": 31,
+      "min_temp_c": 21,
+      "mean_temp_c": 26,
+      "rh_max_pct": 94.3,
+      "rh_min_pct": 55.6,
+      "rh_mean_pct": 75,
+      "sunshine_hrs": 52,
+      "wind_direction_deg": 186,
+      "wind_speed_kmh": 4.4,
+      "phenological_stage": "Spouting & Seedling"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "duration_days": 135,
+      "std_week": 48,
+      "month": "November",
+      "rainfall_mm": 3,
+      "max_temp_c": 28.9,
+      "min_temp_c": 15.7,
+      "mean_temp_c": 22.3,
+      "rh_max_pct": 93.9,
+      "rh_min_pct": 47.5,
+      "rh_mean_pct": 70.5,
+      "sunshine_hrs": 56,
+      "wind_direction_deg": 217,
+      "wind_speed_kmh": 3.7,
+      "phenological_stage": "vegetative growth"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "duration_days": 135,
+      "std_week": 1,
+      "month": "January",
+      "rainfall_mm": 0,
+      "max_temp_c": 24,
+      "min_temp_c": 12,
+      "mean_temp_c": 18.1,
+      "rh_max_pct": 94.1,
+      "rh_min_pct": 50.9,
+      "rh_mean_pct": 72.5,
+      "sunshine_hrs": 44,
+      "wind_direction_deg": 258,
+      "wind_speed_kmh": 4.3,
+      "phenological_stage": "Flowering & fruiting"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "duration_days": 135,
+      "std_week": 7,
+      "month": "February",
+      "rainfall_mm": 4,
+      "max_temp_c": 27.7,
+      "min_temp_c": 14.6,
+      "mean_temp_c": 21.2,
+      "rh_max_pct": 91.4,
+      "rh_min_pct": 40.3,
+      "rh_mean_pct": 65.9,
+      "sunshine_hrs": 53,
+      "wind_direction_deg": 234,
+      "wind_speed_kmh": 5.6,
+      "phenological_stage": "Harvesting"
+    }
+  ],
+  "weather_warnings_count": 24,
+  "weather_warnings": [
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 10,
+      "lower_threshold": 5,
+      "note": "5-10mm (water logging)"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 15,
+      "lower_threshold": 10,
+      "note": "Early rainfall (10-15mm)"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy condition"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "drougth",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Drought due to excessive dry and warm weather(Pointed Gourd Drought Tolerant)"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 3,
+      "lower_threshold": 2,
+      "note": "Land remain waterlogged for 2-3 days"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Early rainfall with hailstorm"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 40,
+      "lower_threshold": null,
+      "note": ">=40 Km/hr"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 15,
+      "note": "Below 15°C"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": 35,
+      "lower_threshold": null,
+      "note": "Above 35°C"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "region_bogura",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Pointed Gourd- Kharif season"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "region_bogura",
+      "unit": null,
+      "upper_threshold": 120,
+      "lower_threshold": 100,
+      "note": "Duration: 100-120 days"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "month",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "March"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "month",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "April"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "month",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "May"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "month",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "June"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "month",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "July"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 15,
+      "lower_threshold": 10,
+      "note": "Early rainfall (10to 15mm)"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 40,
+      "lower_threshold": null,
+      "note": "More than 40mm rainfall"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy condition"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "drougth",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Drought due to excessive dry and warm weather(Pointed Gourd Drought Tolerant)"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 3,
+      "lower_threshold": 2,
+      "note": "Lands remain waterlogged for 2-3 days"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Early rainfall with hailstorm as well as seasonal rainfall"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 40,
+      "lower_threshold": null,
+      "note": ">=40 Km/hr"
+    },
+    {
+      "crop": "Pointed Gourd",
+      "region": "Bogura",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": 35,
+      "lower_threshold": null,
+      "note": "Above 35°C"
+    }
+  ]
+}

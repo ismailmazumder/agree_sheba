@@ -1,0 +1,7 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Lentil,Bogura,rainfall,mm,,,
+Lentil,Bogura,wet_spell_duration,days,,,
+Lentil,Bogura,cloudy_weather,,,,Cloudy weather
+Lentil,Bogura,wind_speed,km/hr,,,
+Lentil,Bogura,temperature,°C,,10.0,Min. tem. <10 o C and max. tem. >24.4°C
+Lentil,Bogura,temperature,°C,32.0,,maximum temperature >32°C

@@ -1,0 +1,155 @@
+{
+  "crop": "Jackfruit",
+  "region": "Bogura",
+  "duration_days": 227,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "duration_days": 227,
+      "std_week": 49,
+      "month": "December",
+      "rainfall_mm": 0,
+      "max_temp_c": 27.7,
+      "min_temp_c": 15,
+      "mean_temp_c": 21.4,
+      "rh_max_pct": 93.7,
+      "rh_min_pct": 48.1,
+      "rh_mean_pct": 70.9,
+      "sunshine_hrs": 54,
+      "wind_direction_deg": 222,
+      "wind_speed_kmh": 3.7,
+      "phenological_stage": "Inflorescence Emergence"
+    },
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "duration_days": 227,
+      "std_week": 1,
+      "month": "January",
+      "rainfall_mm": 0,
+      "max_temp_c": 24.1,
+      "min_temp_c": 12,
+      "mean_temp_c": 18.1,
+      "rh_max_pct": 94.1,
+      "rh_min_pct": 50.9,
+      "rh_mean_pct": 72.5,
+      "sunshine_hrs": 44,
+      "wind_direction_deg": 258,
+      "wind_speed_kmh": 4.3,
+      "phenological_stage": "Flowering"
+    },
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "duration_days": 227,
+      "std_week": 8,
+      "month": "February",
+      "rainfall_mm": 3,
+      "max_temp_c": 28.6,
+      "min_temp_c": 15.4,
+      "mean_temp_c": 22,
+      "rh_max_pct": 90.4,
+      "rh_min_pct": 39.1,
+      "rh_mean_pct": 64.8,
+      "sunshine_hrs": 56,
+      "wind_direction_deg": 229,
+      "wind_speed_kmh": 6.7,
+      "phenological_stage": "Fruit Development"
+    },
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "duration_days": 227,
+      "std_week": 18,
+      "month": "May",
+      "rainfall_mm": 37,
+      "max_temp_c": 33.1,
+      "min_temp_c": 23.3,
+      "mean_temp_c": 28.2,
+      "rh_max_pct": 92.4,
+      "rh_min_pct": 57.3,
+      "rh_mean_pct": 74.9,
+      "sunshine_hrs": 48,
+      "wind_direction_deg": 127,
+      "wind_speed_kmh": 7.2,
+      "phenological_stage": "Fruit Maturation/Ripening"
+    }
+  ],
+  "weather_warnings_count": 8,
+  "weather_warnings": [
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 5,
+      "lower_threshold": null,
+      "note": "> 5 mm"
+    },
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy Weather"
+    },
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "parameter": "relative_humidity_max",
+      "unit": "%",
+      "upper_threshold": 92,
+      "lower_threshold": null,
+      "note": "Maximum Humidity > 92% Minimum Humidity < 40%"
+    },
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "parameter": "relative_humidity_min",
+      "unit": "%",
+      "upper_threshold": null,
+      "lower_threshold": 40,
+      "note": "Maximum Humidity > 92% Minimum Humidity < 40%"
+    },
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Hail storm"
+    },
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 20,
+      "lower_threshold": null,
+      "note": "> 20 km/hr"
+    },
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "parameter": "max_temp",
+      "unit": "°C",
+      "upper_threshold": 30,
+      "lower_threshold": null,
+      "note": "Max. Temp. > 30 oC and Min. Temp. < 20 oC"
+    },
+    {
+      "crop": "Jackfruit",
+      "region": "Bogura",
+      "parameter": "min_temp",
+      "unit": "°C",
+      "upper_threshold": null,
+      "lower_threshold": 20,
+      "note": "Max. Temp. > 30 oC and Min. Temp. < 20 oC"
+    }
+  ]
+}

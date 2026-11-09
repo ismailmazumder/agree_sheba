@@ -1,0 +1,25 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Pumpkin (Sweet gourd),Bogura,rainfall,mm,30.0,20.0,20 to 30 mm rainfall (creates waterlogging condition)
+Pumpkin (Sweet gourd),Bogura,rainfall,mm,,15.0,Early rainfall (15 mm or more)
+Pumpkin (Sweet gourd),Bogura,cloudy_weather,,,,Cloudy condition
+Pumpkin (Sweet gourd),Bogura,drougth,,,,Drought due to excessive dry weather
+Pumpkin (Sweet gourd),Bogura,wet_spell_duration,days,7.0,3.0,Land remain waterlogged for 3 to 7 days
+Pumpkin (Sweet gourd),Bogura,hail_storm,,,,Seasonal rainfall with hailstorm
+Pumpkin (Sweet gourd),Bogura,hail_storm,,,,Early rainfall with hailstorm
+Pumpkin (Sweet gourd),Bogura,wind_speed,km/hr,40.0,,>=40 Km/hr
+Pumpkin (Sweet gourd),Bogura,temperature,°C,35.0,,>35° C(During cultivation period high temperature and long day length increase no. of male flowers and reduce no. of female flowers)
+Pumpkin (Sweet gourd),Bogura,bogra_region,,,,Rabi Sweet Gourd
+Pumpkin (Sweet gourd),Bogura,bogra_region,,130.0,120.0,Life Span 120-130 day
+Pumpkin (Sweet gourd),Bogura,months,,,,April
+Pumpkin (Sweet gourd),Bogura,months,,,,May
+Pumpkin (Sweet gourd),Bogura,months,,,,June
+Pumpkin (Sweet gourd),Bogura,months,,,,July
+Pumpkin (Sweet gourd),Bogura,rainfall,mm,30.0,20.0,20 to 30 mm rainfall (creates waterlogging condition)
+Pumpkin (Sweet gourd),Bogura,rainfall,mm,,15.0,Early rainfall (15 mm or more)
+Pumpkin (Sweet gourd),Bogura,cloudy_weather,,,,Cloudy condition
+Pumpkin (Sweet gourd),Bogura,drougth,,,,Drought due to excessive dry weather
+Pumpkin (Sweet gourd),Bogura,wet_spell_duration,days,7.0,3.0,Land remain waterlogged for 3 to 7 days
+Pumpkin (Sweet gourd),Bogura,hail_storm,,,,Seasonal rainfall with hailstorm
+Pumpkin (Sweet gourd),Bogura,hail_storm,,,,Early rainfall with hailstorm
+Pumpkin (Sweet gourd),Bogura,wind_speed,km/hr,40.0,,>=40 Km/hr
+Pumpkin (Sweet gourd),Bogura,temperature,°C,35.0,,>35° C(During cultivation period high temperature and long day length increase no. of male flowers and reduce no. of female flowers)

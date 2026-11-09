@@ -1,0 +1,6 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Jujube,Dhaka,Powdery Mildew,19-30,>67,,Temperature 19-30°C and relative humidity >67%
+Jujube,Dhaka,Anthracnos e,20-30,>68,,Temp 20-30°C for 12 h & relative humidity >68%
+Jujube,Dhaka,Leaf spot,20-30,>67,,Temperature 20-30°C and relative humidity >67%
+Jujube,Dhaka,Leaf rust,20-30,>67,,Temperature 20-300C & relative humidity >67%
+Jujube,Dhaka,Shooty mold,20-30,>70,,Temperature 20-30°C and relative humidity >70%

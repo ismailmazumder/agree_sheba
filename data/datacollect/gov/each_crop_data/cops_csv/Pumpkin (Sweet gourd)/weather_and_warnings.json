@@ -1,0 +1,299 @@
+{
+  "crop": "Pumpkin (Sweet gourd)",
+  "region": null,
+  "duration_days": null,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": null,
+      "duration_days": null,
+      "std_week": 42,
+      "month": "October",
+      "rainfall_mm": 25,
+      "max_temp_c": 32,
+      "min_temp_c": 23.4,
+      "mean_temp_c": 27.7,
+      "rh_max_pct": 95.7,
+      "rh_min_pct": 62.1,
+      "rh_mean_pct": 78.9,
+      "sunshine_hrs": 54,
+      "wind_direction_deg": 199,
+      "wind_speed_kmh": 5,
+      "phenological_stage": "Germination and Seedling Planting"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": null,
+      "duration_days": null,
+      "std_week": 46,
+      "month": "November",
+      "rainfall_mm": 0,
+      "max_temp_c": 30.1,
+      "min_temp_c": 18.3,
+      "mean_temp_c": 24.2,
+      "rh_max_pct": 94.1,
+      "rh_min_pct": 49.9,
+      "rh_mean_pct": 72,
+      "sunshine_hrs": 55,
+      "wind_direction_deg": 202,
+      "wind_speed_kmh": 3.7,
+      "phenological_stage": "Vegetative Growth"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": null,
+      "duration_days": null,
+      "std_week": 50,
+      "month": "December",
+      "rainfall_mm": 3,
+      "max_temp_c": 26.3,
+      "min_temp_c": 14.1,
+      "mean_temp_c": 20.2,
+      "rh_max_pct": 94.6,
+      "rh_min_pct": 50.6,
+      "rh_mean_pct": 72.6,
+      "sunshine_hrs": 48,
+      "wind_direction_deg": 232,
+      "wind_speed_kmh": 3.9,
+      "phenological_stage": "Flowering & Fruiting"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": null,
+      "duration_days": null,
+      "std_week": 3,
+      "month": "January",
+      "rainfall_mm": 2,
+      "max_temp_c": 24.3,
+      "min_temp_c": 11.4,
+      "mean_temp_c": 17.9,
+      "rh_max_pct": 94.3,
+      "rh_min_pct": 47.7,
+      "rh_mean_pct": 71,
+      "sunshine_hrs": 46,
+      "wind_direction_deg": 239,
+      "wind_speed_kmh": 4.8,
+      "phenological_stage": "Harvesting"
+    }
+  ],
+  "weather_warnings_count": 24,
+  "weather_warnings": [
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 30,
+      "lower_threshold": 20,
+      "note": "20 to 30 mm rainfall (creates waterlogging condition)"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": null,
+      "lower_threshold": 15,
+      "note": "Early rainfall (15 mm or more)"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy condition"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "drougth",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Drought due to excessive dry weather"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 7,
+      "lower_threshold": 3,
+      "note": "Land remain waterlogged for 3 to 7 days"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Seasonal rainfall with hailstorm"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Early rainfall with hailstorm"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 40,
+      "lower_threshold": null,
+      "note": ">=40 Km/hr"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": 35,
+      "lower_threshold": null,
+      "note": ">35° C(During cultivation period high temperature and long day length increase no. of male flowers and reduce no. of female flowers)"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "bogra_region",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Rabi Sweet Gourd"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "bogra_region",
+      "unit": null,
+      "upper_threshold": 130,
+      "lower_threshold": 120,
+      "note": "Life Span 120-130 day"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "April"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "May"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "June"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "months",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "July"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 30,
+      "lower_threshold": 20,
+      "note": "20 to 30 mm rainfall (creates waterlogging condition)"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": null,
+      "lower_threshold": 15,
+      "note": "Early rainfall (15 mm or more)"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy condition"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "drougth",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Drought due to excessive dry weather"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 7,
+      "lower_threshold": 3,
+      "note": "Land remain waterlogged for 3 to 7 days"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Seasonal rainfall with hailstorm"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Early rainfall with hailstorm"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 40,
+      "lower_threshold": null,
+      "note": ">=40 Km/hr"
+    },
+    {
+      "crop": "Pumpkin (Sweet gourd)",
+      "region": "Bogura",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": 35,
+      "lower_threshold": null,
+      "note": ">35° C(During cultivation period high temperature and long day length increase no. of male flowers and reduce no. of female flowers)"
+    }
+  ]
+}

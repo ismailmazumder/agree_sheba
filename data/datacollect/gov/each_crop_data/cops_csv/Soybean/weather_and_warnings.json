@@ -1,0 +1,164 @@
+{
+  "crop": "Soybean",
+  "region": "Barisal",
+  "duration_days": 115,
+  "phenological_stages_count": 4,
+  "phenological_stages_weather": [
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "duration_days": 115,
+      "std_week": 1,
+      "month": "January",
+      "rainfall_mm": 1.3,
+      "max_temp_c": 25.1,
+      "min_temp_c": 12.6,
+      "mean_temp_c": 18.9,
+      "rh_max_pct": 98,
+      "rh_min_pct": 50.1,
+      "rh_mean_pct": 74.1,
+      "sunshine_hrs": null,
+      "wind_direction_deg": 209,
+      "wind_speed_kmh": 4.5,
+      "phenological_stage": "Germination and emergence"
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "duration_days": 115,
+      "std_week": 5,
+      "month": "February",
+      "rainfall_mm": 2.7,
+      "max_temp_c": 27,
+      "min_temp_c": 14,
+      "mean_temp_c": 20.5,
+      "rh_max_pct": 97.3,
+      "rh_min_pct": 46.2,
+      "rh_mean_pct": 71.7,
+      "sunshine_hrs": null,
+      "wind_direction_deg": 217,
+      "wind_speed_kmh": 5,
+      "phenological_stage": "Vegetative stage"
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "duration_days": 115,
+      "std_week": 10,
+      "month": "March",
+      "rainfall_mm": 5.3,
+      "max_temp_c": 31.7,
+      "min_temp_c": 19.5,
+      "mean_temp_c": 25.6,
+      "rh_max_pct": 97.1,
+      "rh_min_pct": 45.2,
+      "rh_mean_pct": 71.2,
+      "sunshine_hrs": null,
+      "wind_direction_deg": 226,
+      "wind_speed_kmh": 5.2,
+      "phenological_stage": "Reproductive stage"
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "duration_days": 115,
+      "std_week": 14,
+      "month": "April",
+      "rainfall_mm": 18,
+      "max_temp_c": 33.3,
+      "min_temp_c": 23.7,
+      "mean_temp_c": 28.5,
+      "rh_max_pct": 96.6,
+      "rh_min_pct": 58,
+      "rh_mean_pct": 77.3,
+      "sunshine_hrs": null,
+      "wind_direction_deg": 200,
+      "wind_speed_kmh": 6.9,
+      "phenological_stage": "Maturity and Harvesting"
+    }
+  ],
+  "weather_warnings_count": 9,
+  "weather_warnings": [
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": null
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": null,
+      "lower_threshold": 20,
+      "note": "Less than 20 mm"
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "parameter": "mm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": null
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy condition"
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Too much dry weather creates soil moisture stress"
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Soybeans can tolerate brief water logging but long-term causes weathering of seeds."
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Early rainfall with hailstorms"
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": null,
+      "lower_threshold": 15,
+      "note": "15 Km/hr or more"
+    },
+    {
+      "crop": "Soybean",
+      "region": "Barisal",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": 35.5,
+      "lower_threshold": null,
+      "note": "35.5° C or more"
+    }
+  ]
+}

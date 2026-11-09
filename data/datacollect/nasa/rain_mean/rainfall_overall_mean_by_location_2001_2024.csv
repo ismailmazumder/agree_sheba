@@ -1,0 +1,481 @@
+﻿district_name,thana_name,upz_name_bn,latitude,longitude,overall_mean_daily_rain_mm
+Bagerhat,Bagerhat Sadar,বাগেরহাট সদর,22.655452,89.766153,6.593546
+Bagerhat,Chitalmari,চিতলমারী,22.786664,89.869220,5.825779
+Bagerhat,Fakirhat,ফকিরহাট,22.777513,89.707470,5.825779
+Bagerhat,Kachua,কচুয়া,23.341144,90.888968,6.222794
+Bagerhat,Mollahat,মোল্লাহাট,22.881864,89.756769,5.825779
+Bagerhat,Mongla,মোংলা,22.494220,89.601617,5.507960
+Bagerhat,Morrelganj,মোরেলগঞ্জ,22.449941,89.852842,6.593546
+Bagerhat,Rampal,রামপাল,22.595713,89.681621,5.507960
+Bagerhat,Sarankhola,শরণখোলা,22.095223,89.813036,8.057393
+Bandarban,Alikadam,আলীকদম,21.653009,92.314768,8.747177
+Bandarban,Bandarban Sadar,বান্দরবান সদর,22.246848,92.243349,8.130303
+Bandarban,Lama,লামা,21.793747,92.263039,8.130303
+Bandarban,Naikhongchhari,নাইক্ষ্যংছড়ি,21.426948,92.175728,14.719208
+Bandarban,Rowangchhari,রোয়াংছড়ি,22.197522,92.361620,8.130303
+Bandarban,Thanchi,থানচি,21.821096,92.435696,8.130303
+Barguna,Amtali,আমতলী,22.133909,90.236193,8.057393
+Barguna,Bamna,বামনা,22.274155,90.065334,6.593546
+Barguna,Barguna Sadar,বরগুনা সদর,22.119149,90.093369,8.057393
+Barguna,Betagi,বেতাগী,22.414161,90.165886,6.593546
+Barguna,Patharghata,পাথরঘাটা,22.071474,89.944006,8.057393
+Barguna,Taltali,তালতলী,22.023739,90.130780,8.057393
+Barishal,Agailjhara,আগৈলঝাড়া,22.971329,90.163544,5.825779
+Barishal,Babuganj,বাবুগঞ্জ,22.834068,90.318379,6.896967
+Barishal,Bakerganj,বাকেরগঞ্জ,22.547870,90.393672,8.058029
+Barishal,Banaripara,বানারীপাড়া,22.822422,90.121423,5.825779
+Barishal,Barishal Sadar (Kotwali),বরিশাল সদর,22.715,90.41,8.058029
+Barishal,Gaurnadi,গৌরনদী,22.941426,90.252616,5.825779
+Barishal,Hizla,হিজলা,22.976440,90.544691,6.896967
+Barishal,Mehendiganj,মেহেন্দিগঞ্জ,22.826070,90.526964,6.896967
+Barishal,Muladi,মুলাদী,22.887534,90.388962,6.896967
+Barishal,Wazirpur,উজিরপুর,22.882022,90.093369,5.825779
+Bhola,Bhola Sadar,ভোলা সদর,22.690181,90.620416,8.058029
+Bhola,Borhanuddin,বোরহানউদ্দিন,22.485,90.715,8.058029
+Bhola,Charfasson,চরফ্যাশন,22.199535,90.725960,11.474373
+Bhola,Daulatkhan,দৌলতখান,22.605109,90.741366,8.058029
+Bhola,Lalmohan,লালমোহন,22.308106,90.772297,8.058029
+Bhola,Manpura,মনপুরা,22.199859,90.953398,13.061239
+Bhola,Tazumuddin,তজুমদ্দিন,22.417979,90.850835,8.058029
+Bogura,Adamdighi,আদমদিঘি,24.829925,89.037048,4.092993
+Bogura,Bogura Sadar,বগুড়া সদর,24.895,89.356,5.063204
+Bogura,Dhunat,ধুনট,24.677969,89.540328,4.836373
+Bogura,Dhupchanchia,দুপচাচিঁয়া,24.881200,89.177742,5.063204
+Bogura,Gabtali,গাবতলী,24.879497,89.455309,5.063204
+Bogura,Kahaloo,কাহালু,24.831216,89.265727,5.063204
+Bogura,Nandigram,নন্দিগ্রাম,24.688568,89.227703,4.836373
+Bogura,Sariakandi,সারিয়াকান্দি,24.888773,89.570984,5.063204
+Bogura,Shajahanpur,শাজাহানপুর,24.76,89.376,5.063204
+Bogura,Sherpur,শেরপুর,24.641920,89.417464,4.836373
+Bogura,Shibganj,শিবগঞ্জ,25.000568,89.320323,5.063204
+Bogura,Sonatola,সোনাতলা,25.010183,89.502564,5.063204
+Brahamanbaria,Akhaura,আখাউড়া,23.868619,91.209729,6.405188
+Brahamanbaria,Ashuganj,আশুগঞ্জ,24.027738,90.996409,6.405188
+Brahamanbaria,Banchharampur,বাঞ্ছারামপুর,23.781,90.807,6.140055
+Brahamanbaria,Bijoynagar,বিজয়নগর,24.014186,91.226554,6.405188
+Brahamanbaria,Brahmanbaria Sadar,ব্রাহ্মণবাড়িয়া সদর,23.925825,91.116117,6.405188
+Brahamanbaria,Kasba,কসবা,23.783070,91.116117,6.405188
+Brahamanbaria,Nabinagar,নবীনগর,23.888210,90.960564,6.405188
+Brahamanbaria,Nasirnagar,নাসিরনগর,24.187002,91.173699,6.405188
+Brahamanbaria,Sarail,সরাইল,24.116373,91.077772,6.405188
+Chandpur,Chandpur Sadar,চাঁদপুর সদর,23.232099,90.663075,6.896967
+Chandpur,Faridganj,ফরিদগঞ্জ,23.127488,90.750904,6.896967
+Chandpur,Haimchar,হাইমচর,23.059443,90.648850,6.896967
+Chandpur,Hajiganj,হাজীগঞ্জ,23.258,90.837,6.222794
+Chandpur,Kachua,কচুয়া,23.341144,90.888968,6.222794
+Chandpur,Matlab Dakshin,মতলব দক্ষিণ,23.344783,90.762788,6.222794
+Chandpur,Matlab Uttar,মতলব উত্তর,23.428682,90.639370,6.222794
+Chandpur,Shahrasti,শাহরাস্তি,23.230643,90.948622,7.812280
+Chapainawabganj,Bholahat,ভোলাহাট,24.916999,88.187668,3.655272
+Chapainawabganj,Chapainawabganj Sadar,চাঁপাইনবাবগঞ্জ সদর,24.565,88.258,3.500818
+Chapainawabganj,Gomastapur,গোমস্তাপুর,24.871768,88.382199,3.655272
+Chapainawabganj,Nachole,নাচোল,24.732660,88.413728,3.500818
+Chapainawabganj,Shibganj,শিবগঞ্জ,24.683748,88.157193,3.500818
+Chattogram,Anowara,আনোয়ারা,22.233716,91.865981,12.615248
+Chattogram,Banshkhali,বাঁশখালী,21.988430,91.949021,12.615248
+Chattogram,Boalkhali,বোয়ালখালী,22.379106,91.917252,8.545326
+Chattogram,Chandanaish,চন্দনাইশ,22.243894,92.012628,12.615248
+Chattogram,Fatikchhari,ফটিকছড়ি,22.753726,91.714958,7.820786
+Chattogram,Hathazari,হাটহাজারী,22.508463,91.807459,8.545326
+Chattogram,Karnafuli,কর্ণফুলী,22.581882,92.106856,8.545326
+Chattogram,Lohagara,লোহাগাড়া,22.040195,92.100849,12.615248
+Chattogram,Mirsharai,মীরসরাই,22.773039,91.574152,7.820786
+Chattogram,Patiya,পটিয়া,22.298057,91.968583,8.545326
+Chattogram,Rangunia,রাঙ্গুনিয়া,22.487242,92.086133,8.545326
+Chattogram,Raozan,রাউজান,22.536843,91.929468,8.545326
+Chattogram,Sandwip,সন্দ্বীপ,22.491940,91.420891,8.832218
+Chattogram,Satkania,সাতকানিয়া,22.105928,92.086133,12.615248
+Chattogram,Sitakunda,সীতাকুন্ড,22.551278,91.705232,8.545326
+Chuadanga,Alamdanga,আলমডাঙ্গা,23.762667,88.943781,3.953953
+Chuadanga,Chuadanga Sadar,চুয়াডাঙ্গা সদর,23.641984,88.856576,4.096484
+Chuadanga,Damurhuda,দামুড়হুদা,23.606738,88.775850,4.096484
+Chuadanga,Jibannagar,জীবননগর,23.422604,88.823900,4.096484
+Cox'sbazar,Cox'sbazar Sadar,কক্সবাজার সদর,21.438303,91.995293,14.719208
+Cox'sbazar,Eidgaon,ঈদগাঁও,21.556,92.059,14.719208
+Cox'sbazar,Kutubdia,কুতুবদিয়া,21.816667,91.858333,12.615248
+Cox'sbazar,Maheshkhali,মহেশখালী,21.583410,91.929468,14.719208
+Cox'sbazar,Pekua,পেকুয়া,21.815550,91.953911,12.615248
+Cox'sbazar,Ramu,রামু,21.432368,92.100849,14.719208
+Cox'sbazar,Teknaf,টেকনাফ,21.055665,92.203993,10.609649
+Cox'sbazar,Ukhia,উখিয়া,21.223744,92.105755,14.462123
+Cumilla,Adarsha Sadar,আদর্শ সদর,23.48,91.157,6.669928
+Cumilla,Barura,বরুড়া,23.355106,91.039464,6.669928
+Cumilla,Brahmanpara,ব্রাহ্মণপাড়া,23.622527,91.101733,6.669928
+Cumilla,Burichang,বুড়িচং,23.535,91.117,6.669928
+Cumilla,Chandina,চান্দিনা,23.489248,91.008364,6.669928
+Cumilla,Chauddagram,চৌদ্দগ্রাম,23.305790,91.269847,6.669928
+Cumilla,Daudkandi,দাউদকান্দি,23.499518,90.772297,6.222794
+Cumilla,Debidwar,দেবিদ্বার,23.611454,90.977287,6.669928
+Cumilla,Homna,হোমনা,23.682473,90.783291,6.222794
+Cumilla,Laksam,লাকসাম,23.211686,91.116117,7.812280
+Cumilla,Lalmai,লালমাই,23.298,91.159,6.669928
+Cumilla,Manoharganj,মনোহরগঞ্জ,23.138,91.067,7.812280
+Cumilla,Meghna,মেঘনা,23.626658,90.620533,6.222794
+Cumilla,Nangalkot,নাঙ্গলকোট,23.169406,91.197716,7.812280
+Cumilla,Sadar Dakshin,সদর দক্ষিণ,23.388,91.202,6.669928
+Cumilla,Titas,তিতাস,23.766691,90.867702,6.140055
+Dhaka,Dhamrai,ধামরাই,23.917490,90.213731,5.507355
+Dhaka,Dohar,দোহার,23.617861,90.117185,5.480264
+Dhaka,Keraniganj,কেরাণীগঞ্জ,23.694376,90.337550,6.222794
+Dhaka,Nawabganj,নবাবগঞ্জ,23.653349,90.144989,5.480264
+Dhaka,Savar,সাভার,23.885689,90.133027,5.507355
+Dinajpur,Biral,বিরল,25.631868,88.537196,4.720164
+Dinajpur,Birampur,বিরামপুর,25.389946,88.991636,4.720164
+Dinajpur,Birganj,বীরগঞ্জ,25.893448,88.672358,5.637675
+Dinajpur,Bochaganj,বোচাগঞ্জ,25.799722,88.462189,5.637675
+Dinajpur,Chirirbandar,চিরিরবন্দর,25.650337,88.777052,4.720164
+Dinajpur,Dinajpur Sadar,দিনাজপুর সদর,25.585624,88.653075,4.720164
+Dinajpur,Fulbari,ফুলবাড়ী,25.471,88.901,4.720164
+Dinajpur,Ghoraghat,ঘোড়াঘাট,25.305250,89.189643,5.545185
+Dinajpur,Hakimpur,হাকিমপুর,25.292669,89.065703,5.545185
+Dinajpur,Kaharole,কাহারোল,25.821574,88.575857,5.637675
+Dinajpur,Khansama,খানসামা,25.870640,88.768638,5.637675
+Dinajpur,Nawabganj,নবাবগঞ্জ,24.741311,88.291207,3.500818
+Dinajpur,Parbatipur,পার্বতীপুর,25.654390,88.916239,4.720164
+Faridpur,Alfadanga,আলফাডাঙ্গা,23.274873,89.691022,5.480264
+Faridpur,Bhanga,ভাঙ্গা,23.406169,90.018656,5.480264
+Faridpur,Boalmari,বোয়ালমারী,23.405847,89.681621,4.721661
+Faridpur,Charbhadrasan,চরভদ্রাসন,23.596657,89.981344,5.480264
+Faridpur,Faridpur Sadar,ফরিদপুর সদর,23.620352,89.813036,5.480264
+Faridpur,Madhukhali,মধুখালী,23.548546,89.606328,4.721661
+Faridpur,Nagarkanda,নগরকান্দা,23.453769,89.906631,5.480264
+Faridpur,Sadarpur,সদরপুর,23.501411,90.055994,5.480264
+Faridpur,Saltha,সালথা,23.418,89.801,5.480264
+Feni,Chhagalnaiya,ছাগলনাইয়া,23.02,91.507,7.812280
+Feni,Daganbhuiyan,দাগনভূঞা,22.972,91.3,7.812280
+Feni,Feni Sadar,ফেনী সদর,22.971009,91.424143,7.812280
+Feni,Fulgazi,ফুলগাজী,23.118,91.442,7.812280
+Feni,Parshuram,পরশুরাম,23.209212,91.424143,7.812280
+Feni,Sonagazi,সোনাগাজী,22.876048,91.385516,7.812280
+Gaibandha,Fulchhari,ফুলছড়ি,25.259624,89.643992,5.545185
+Gaibandha,Gaibandha Sadar,গাইবান্ধা সদর,25.354243,89.568627,5.545185
+Gaibandha,Gobindaganj,গোবিন্দগঞ্জ,25.140418,89.436391,5.063204
+Gaibandha,Palashbari,পলাশবাড়ী,25.270647,89.389057,5.545185
+Gaibandha,Sadullapur,সাদুল্লাপুর,25.390939,89.465946,5.545185
+Gaibandha,Saghata,সাঘাটা,25.123111,89.582769,5.063204
+Gaibandha,Sundarganj,সুন্দরগঞ্জ,25.564362,89.519090,5.545185
+Gazipur,Gazipur Sadar,গাজীপুর সদর,24.085,90.425,6.140055
+Gazipur,Kaliakair,কালিয়াকৈর,24.102,90.266,5.507355
+Gazipur,Kaliganj,কালীগঞ্জ,23.964478,90.573071,6.140055
+Gazipur,Kapasia,কাপাসিয়া,24.166610,90.582536,6.140055
+Gazipur,Sreepur,শ্রীপুর,24.206,90.444,6.140055
+Gopalganj,Gopalganj Sadar,গোপালগঞ্জ সদর,23.901041,90.408822,6.140055
+Gopalganj,Kashiani,কাশিয়ানী,23.167846,89.794289,5.825779
+Gopalganj,Kotalipara,কোটালীপাড়া,23.048850,90.037320,5.825779
+Gopalganj,Muksudpur,মুকসুদপুর,23.263238,89.906631,5.480264
+Gopalganj,Tungipara,টুঙ্গিপাড়া,22.907337,89.898451,5.825779
+Habiganj,Ajmiriganj,আজমিরীগঞ্জ,24.548922,91.236171,8.396974
+Habiganj,Bahubal,বাহুবল,24.341248,91.537811,8.396974
+Habiganj,Baniachong,বানিয়াচং,24.499,91.367,8.396974
+Habiganj,Chunarughat,চুনারুঘাট,24.184329,91.482148,6.405188
+Habiganj,Habiganj Sadar,হবিগঞ্জ সদর,24.351263,91.424143,8.396974
+Habiganj,Lakhai,লাখাই,24.305092,91.269847,8.396974
+Habiganj,Madhabpur,মাধবপুর,24.099822,91.296327,6.405188
+Habiganj,Nabiganj,নবীগঞ্জ,24.567188,91.513601,8.396974
+Habiganj,Shayestaganj,শায়েস্তাগঞ্জ,24.275,91.407,8.396974
+Jamalpur,Dewanganj,দেওয়ানগঞ্জ,25.212430,89.756769,6.187421
+Jamalpur,Islampur,ইসলামপুর,25.070125,89.756769,6.187421
+Jamalpur,Jamalpur Sadar,জামালপুর সদর,24.856744,90.037320,6.187421
+Jamalpur,Melandaha,মেলান্দহ,24.981250,89.827089,6.187421
+Jamalpur,Sarishabari,সরিষাবাড়ী,24.751297,89.828260,6.187421
+Jashore,Abhaynagar,অভয়নগর,23.023818,89.379583,5.007600
+Jashore,Bagherpara,বাঘারপাড়া,23.214254,89.341667,5.007600
+Jashore,Chaugachha,চৌগাছা,23.260329,89.037048,4.096484
+Jashore,Jashore Sadar,যশোর সদর,23.182,89.219,5.007600
+Jashore,Jhikargachha,ঝিকরগাছা,23.099907,89.099108,5.007600
+Jashore,Keshabpur,কেশবপুর,22.880184,89.227703,5.007600
+Jashore,Manirampur,মণিরামপুর,23.023153,89.227703,5.007600
+Jashore,Sharsha,শার্শা,23.069281,88.960536,4.442809
+Jhalokathi,Jhalokathi Sadar,ঝালকাঠি সদর,22.68,90.193,6.593546
+Jhalokathi,Kanthalia,কাঠালিয়া,22.419,90.102,6.593546
+Jhalokathi,Nalchhity,নলছিটি,22.601,90.271,6.593546
+Jhalokathi,Rajapur,রাজাপুর,22.548296,90.130780,6.593546
+Jhenaidah,Harinakunda,হরিণাকুন্ডু,23.641528,89.075250,4.721661
+Jhenaidah,Jhenaidah Sadar,ঝিনাইদহ সদর,23.499124,89.151548,4.721661
+Jhenaidah,Kaliganj,কালীগঞ্জ,23.356252,89.151548,4.721661
+Jhenaidah,Kotchandpur,কোটচাঁদপুর,23.407529,89.011958,4.096484
+Jhenaidah,Maheshpur,মহেশপুর,23.330349,88.826301,4.096484
+Jhenaidah,Shailkupa,শৈলকুপা,23.684083,89.241966,4.721661
+Joypurhat,Akkelpur,আক্কেলপুর,24.969246,89.020323,4.092993
+Joypurhat,Joypurhat Sadar,জয়পুরহাট সদর,25.108,89.021,4.092993
+Joypurhat,Kalai,কালাই,25.080035,89.199161,5.063204
+Joypurhat,Khetlal,ক্ষেতলাল,25.038009,89.108648,5.063204
+Joypurhat,Panchbibi,পাঁচবিবি,25.209753,89.075250,5.063204
+Khagrachhari,Dighinala,দিঘীনালা,23.240847,92.064069,7.820786
+Khagrachhari,Guimara,গুইমারা,22.958,91.923,7.820786
+Khagrachhari,Khagrachhari Sadar,খাগড়াছড়ি সদর,23.158,91.998,7.820786
+Khagrachhari,Lakshmichhari,লক্ষীছড়ি,22.796168,91.912366,7.820786
+Khagrachhari,Mahalchhari,মহালছড়ি,22.931698,92.029768,7.820786
+Khagrachhari,Manikchhari,মানিকছড়ি,22.841723,91.836710,7.820786
+Khagrachhari,Matiranga,মাটিরাঙ্গা,23.040799,91.873302,7.820786
+Khagrachhari,Panchhari,পানছড়ি,23.302459,91.897713,6.684225
+Khagrachhari,Ramgarh,রামগড়,22.967507,91.773357,7.820786
+Khulna,Batiaghata,বটিয়াঘাটা,22.726361,89.502564,5.507960
+Khulna,Dacope,দাকোপ,22.601235,89.507287,5.507960
+Khulna,Dighalia,দিঘলিয়া,22.881361,89.530890,5.007600
+Khulna,Dumuria,ডুমুরিয়া,22.857225,89.436391,5.007600
+Khulna,Koyra,কয়রা,22.094086,89.360630,6.022941
+Khulna,Paikgachha,পাইকগাছা,22.593092,89.316765,5.507960
+Khulna,Phultala,ফুলতলা,22.940664,89.445851,5.007600
+Khulna,Rupsa,রূপসা,22.822051,89.634580,5.007600
+Khulna,Terokhada,তেরখাদা,22.935322,89.667514,5.007600
+Kishoreganj,Bajitpur,বাজিতপুর,24.213799,90.952204,6.405188
+Kishoreganj,Hossainpur,হোসেনপুর,24.439631,90.667818,7.098535
+Kishoreganj,Itna,ইটনা,24.544192,91.077772,8.396974
+Kishoreganj,Karimganj,করিমগঞ্জ,24.450395,90.886583,7.098535
+Kishoreganj,Katiadi,কটিয়াদী,24.308222,90.810357,7.098535
+Kishoreganj,Kishoreganj Sadar,কিশোরগঞ্জ সদর,24.403491,90.772297,7.098535
+Kishoreganj,Mithamain,মিঠামইন,24.419558,91.063402,8.396974
+Kishoreganj,Nikli,নিকলী,24.354873,90.962952,8.396974
+Kishoreganj,Pakundia,পাকুন্দিয়া,24.308785,90.696285,7.098535
+Kishoreganj,Tarail,তাড়াইল,24.545202,90.924750,7.098535
+Kurigram,Bhurungamari,ভূরুঙ্গামারী,26.111958,89.681621,6.087937
+Kurigram,Char Rajibpur,চর রাজিবপুর,25.461324,89.766153,6.165181
+Kurigram,Chilmari,চিলমারী,25.581041,89.661635,5.545185
+Kurigram,Kurigram Sadar,কুড়িগ্রাম সদর,25.810346,89.648698,6.087937
+Kurigram,Nageshwari,নাগেশ্বরী,25.970247,89.756769,6.049673
+Kurigram,Phulbari,ফুলবাড়ী,25.445444,88.883883,4.720164
+Kurigram,Rajarhat,রাজারহাট,25.780435,89.530890,6.087937
+Kurigram,Raumari,রৌমারী,25.593,89.828,6.165181
+Kurigram,Ulipur,উলিপুর,25.656420,89.620456,5.545185
+Kushtia,Bheramara,ভেড়ামারা,24.020975,88.992234,3.953953
+Kushtia,Daulatpur,দৌলতপুর,24.020689,88.845504,3.953953
+Kushtia,Khoksa,খোকসা,23.797376,89.294221,4.724110
+Kushtia,Kumarkhali,কুমারখালী,23.859581,89.239589,4.724110
+Kushtia,Kushtia Sadar,কুষ্টিয়া সদর,23.831919,89.075250,4.724110
+Kushtia,Mirpur,মিরপুর,23.879030,88.998810,3.953953
+Lakshmipur,Kamalnagar,কমলনগর,22.757,90.854,6.896967
+Lakshmipur,Lakshmipur Sadar,লক্ষ্মীপুর সদর,22.951183,90.867513,6.896967
+Lakshmipur,Ramganj,রামগঞ্জ,23.117854,90.886583,6.896967
+Lakshmipur,Ramgati,রামগতি,22.652914,90.934297,8.058029
+Lakshmipur,Roypur,রায়পুর,22.975850,90.696285,6.896967
+Lalmonirhat,Aditmari,আদিতমারী,25.921826,89.379583,6.087937
+Lalmonirhat,Hatibandha,হাতীবান্ধা,26.142222,89.134870,6.087937
+Lalmonirhat,Kaliganj,কালীগঞ্জ,25.968598,89.265727,6.087937
+Lalmonirhat,Lalmonirhat Sadar,লালমনিরহাট সদর,25.879,89.453,6.087937
+Lalmonirhat,Patgram,পাটগ্রাম,26.356951,89.008373,6.029784
+Madaripur,Dasar,ডাসার,23.092,90.161,5.825779
+Madaripur,Kalkini,কালকিনি,23.072433,90.280787,5.825779
+Madaripur,Madaripur Sadar,মাদারীপুর সদর,23.215535,90.168227,5.825779
+Madaripur,Rajoir,রাজৈর,23.206683,90.048990,5.825779
+Madaripur,Shibchar,শিবচর,23.358449,90.168227,5.480264
+Magura,Magura Sadar,মাগুরা সদর,23.452716,89.417464,4.721661
+Magura,Mohammadpur,মহম্মদপুর,23.405578,89.568627,4.721661
+Magura,Shalikha,শালিখা,23.357162,89.341667,4.721661
+Magura,Sreepur,শ্রীপুর,24.199657,90.480910,6.140055
+Manikganj,Daulatpur,দৌলতপুর,23.941626,89.803664,5.507355
+Manikganj,Harirampur,হরিরামপুর,23.715676,89.962680,5.480264
+Manikganj,Manikganj Sadar,মানিকগঞ্জ সদর,23.834677,90.018656,5.507355
+Manikganj,Saturia,সাটুরিয়া,23.972972,90.036153,5.507355
+Manikganj,Shibalaya,শিবালয়,23.834622,89.869220,5.507355
+Manikganj,Singair,সিংগাইর,23.786991,90.168227,5.507355
+Maulvibazar,Barlekha,বড়লেখা,24.721927,92.203993,7.403556
+Maulvibazar,Juri,জুড়ী,24.580060,92.164672,8.596408
+Maulvibazar,Kamalganj,কমলগঞ্জ,24.275148,91.870861,8.596408
+Maulvibazar,Kulaura,কুলাউড়া,24.525464,92.034666,8.596408
+Maulvibazar,Maulvibazar Sadar,মৌলভীবাজার সদর,24.499,91.713,8.596408
+Maulvibazar,Rajnagar,রাজনগর,24.560229,91.870861,8.596408
+Maulvibazar,Sreemangal,শ্রীমঙ্গল,24.300960,91.695509,8.596408
+Meherpur,Gangni,গাংনী,23.820652,88.742183,3.953953
+Meherpur,Meherpur Sadar,মেহেরপুর সদর,23.778046,88.650939,3.953953
+Meherpur,Mujibnagar,মুজিবনগর,23.646846,88.592761,4.096484
+Munshiganj,Gazaria,গজারিয়া,23.547811,90.620416,6.222794
+Munshiganj,Lohajang,লৌহজং,23.474305,90.320730,6.222794
+Munshiganj,Munshiganj Sadar,মুন্সীগঞ্জ সদর,23.500474,90.544691,6.222794
+Munshiganj,Serajdikhan,সিরাজদিখান,23.596162,90.393672,6.222794
+Munshiganj,Sreenagar,শ্রীনগর,23.548790,90.280787,5.480264
+Munshiganj,Tongibari,টংগিবাড়ী,23.509655,90.466750,6.222794
+Mymensingh,Bhaluka,ভালুকা,24.407929,90.386607,7.098535
+Mymensingh,Dhobaura,ধোবাউড়া,25.116904,90.506882,7.897058
+Mymensingh,Fulbaria,ফুলবাড়ীয়া,24.571553,90.262004,5.872218
+Mymensingh,Gaffargaon,গফরগাঁও,24.457185,90.548696,7.098535
+Mymensingh,Gauripur,গৌরীপুর,24.736913,90.582536,7.098535
+Mymensingh,Ishwarganj,ঈশ্বরগঞ্জ,24.692342,90.594370,7.098535
+Mymensingh,Muktagachha,মুক্তাগাছা,24.766018,90.256137,6.187421
+Mymensingh,Mymensingh Sadar,ময়মনসিংহ সদর,24.785106,90.356008,7.897058
+Mymensingh,Nandail,নান্দাইল,24.568722,90.690353,7.098535
+Mymensingh,Phulpur,ফুলপুর,24.975079,90.318379,7.897058
+Mymensingh,Tarakanda,তারাকান্দা,24.864,90.463,7.897058
+Mymensingh,Trishal,ত্রিশাল,24.581658,90.394850,7.098535
+Naogaon,Atrai,আত্রাই,24.592473,89.037048,3.927821
+Naogaon,Badalgachhi,বদলগাছী,24.968485,88.910249,4.092993
+Naogaon,Dhamoirhat,ধামইরহাট,25.150396,88.851503,4.092993
+Naogaon,Mahadebpur,মহাদেবপুর,24.922,88.764,4.092993
+Naogaon,Manda,মান্দা,24.756593,88.749400,4.092993
+Naogaon,Naogaon Sadar,নওগাঁ সদর,24.781390,88.883883,4.092993
+Naogaon,Niamatpur,নিয়ামতপুর,24.833623,88.569819,4.092993
+Naogaon,Patnitala,পত্নীতলা,25.064922,88.730153,4.092993
+Naogaon,Porsha,পোরশা,25.015333,88.498499,4.092993
+Naogaon,Raninagar,রাণীনগর,24.728486,88.955750,3.927821
+Naogaon,Sapahar,সাপাহার,25.134111,88.517852,4.092993
+Narail,Kalia,কালিয়া,23.024629,89.643992,5.007600
+Narail,Lohagara,লোহাগড়া,23.167579,89.643992,5.007600
+Narail,Narail Sadar,নড়াইল সদর,23.165700,89.499000,5.007600
+Narayanganj,Araihazar,আড়াইহাজার,23.791656,90.653591,6.140055
+Narayanganj,Bandar,বন্দর,23.631449,90.535236,6.222794
+Narayanganj,Rupganj,রূপগঞ্জ,23.833721,90.544691,6.140055
+Narayanganj,Sonargaon,সোনারগাঁ,23.690642,90.620416,6.222794
+Narsingdi,Belabo,বেলাবো,24.106647,90.851430,6.140055
+Narsingdi,Manohardi,মনোহরদী,24.161,90.731,6.140055
+Narsingdi,Narsingdi Sadar,নরসিংদী সদর,23.880702,90.696285,6.140055
+Narsingdi,Palash,পলাশ,23.964178,90.648850,6.140055
+Narsingdi,Roypura,রায়পুরা,23.962,90.872,6.140055
+Narsingdi,Shibpur,শিবপুর,24.023079,90.772297,6.140055
+Natore,Bagatipara,বাগাতিপাড়া,24.302402,88.964126,3.927821
+Natore,Baraigram,বড়াইগ্রাম,24.284100,89.132500,4.836373
+Natore,Gurudaspur,গুরুদাসপুর,24.374,89.205,4.836373
+Natore,Lalpur,লালপুর,24.211746,88.960536,3.953953
+Natore,Naldanga,নলডাঙ্গা,24.506,88.976,3.927821
+Natore,Natore Sadar,নাটোর সদর,24.402158,88.998810,3.927821
+Natore,Singra,সিংড়া,24.524,89.184,4.836373
+Netrakona,Atpara,আটপাড়া,24.809776,90.860365,7.897058
+Netrakona,Barhatta,বারহাট্টা,24.925333,90.886583,7.897058
+Netrakona,Durgapur,দুর্গাপুর,25.113273,90.674933,7.897058
+Netrakona,Kalmakanda,কলমাকান্দা,25.067912,90.848452,7.897058
+Netrakona,Kendua,কেন্দুয়া,24.688369,90.810357,7.098535
+Netrakona,Khaliajuri,খালিয়াজুরী,24.686418,91.116117,8.396974
+Netrakona,Madan,মদন,24.714300,90.946200,8.396974
+Netrakona,Mohanganj,মোহনগঞ্জ,24.874322,90.979677,10.398992
+Netrakona,Netrakona Sadar,নেত্রকোণা সদর,24.855000,90.715300,7.897058
+Netrakona,Purbadhala,পূর্বধলা,24.926823,90.582536,7.897058
+Nilphamari,Dimla,ডিমলা,26.179610,88.979678,5.637675
+Nilphamari,Domar,ডোমার,26.154662,88.807089,5.637675
+Nilphamari,Jaldhaka,জলঢাকা,26.019664,89.016591,5.637675
+Nilphamari,Kishoreganj,কিশোরগঞ্জ,25.920213,89.075250,6.087937
+Nilphamari,Nilphamari Sadar,নীলফামারী সদর,25.989363,88.826301,5.637675
+Nilphamari,Saidpur,সৈয়দপুর,25.782954,88.898267,5.637675
+Noakhali,Begumganj,বেগমগঞ্জ,22.931933,91.092147,7.812280
+Noakhali,Chatkhil,চাটখিল,23.057793,90.972509,7.812280
+Noakhali,Companiganj,কোম্পানীগঞ্জ,22.759,91.301,7.812280
+Noakhali,Hatiya,হাতিয়া,22.348,91.091,8.832218
+Noakhali,Kabirhat,কবিরহাট,22.811,91.199,7.812280
+Noakhali,Noakhali Sadar,নোয়াখালী সদর,22.831012,91.039464,7.812280
+Noakhali,Senbagh,সেনবাগ,22.991,91.213,7.812280
+Noakhali,Sonaimuri,সোনাইমুড়ী,23.050927,91.111322,7.812280
+Noakhali,Subarnachar,সুবর্ণচর,22.619,91.156,8.832218
+Pabna,Atgharia,আটঘরিয়া,24.118212,89.227703,4.724110
+Pabna,Bera,বেড়া,24.076563,89.614570,4.724110
+Pabna,Bhangura,ভাঙ্গুড়া,24.249792,89.407997,4.724110
+Pabna,Chatmohar,চাটমোহর,24.213690,89.303715,4.724110
+Pabna,Faridpur,ফরিদপুর,23.542392,89.630892,4.721661
+Pabna,Ishwardi,ঈশ্বরদী,24.070032,89.113417,4.724110
+Pabna,Pabna Sadar,পাবনা সদর,24.023264,89.265727,4.724110
+Pabna,Santhia,সাঁথিয়া,24.071871,89.530890,4.724110
+Pabna,Sujanagar,সুজানগর,23.942153,89.421014,4.724110
+Panchagarh,Atwari,আটোয়ারী,26.245454,88.421001,4.835877
+Panchagarh,Boda,বোদা,26.247440,88.614484,5.637675
+Panchagarh,Debiganj,দেবীগঞ্জ,26.106746,88.730153,5.637675
+Panchagarh,Panchagarh Sadar,পঞ্চগড় সদর,26.389110,88.614484,6.029784
+Panchagarh,Tentulia,তেঁতুলিয়া,26.517007,88.430695,5.154196
+Patuakhali,Bauphal,বাউফল,22.419253,90.556514,8.058029
+Patuakhali,Dashmina,দশমিনা,22.279140,90.568340,8.058029
+Patuakhali,Dumki,দুমকী,22.464453,90.384253,8.058029
+Patuakhali,Galachipa,গলাচিপা,22.163373,90.410162,11.474373
+Patuakhali,Kalapara,কলাপাড়া,21.904449,90.186964,8.057393
+Patuakhali,Mirzaganj,মির্জাগঞ্জ,22.362453,90.210882,6.593546
+Patuakhali,Patuakhali Sadar,পটুয়াখালী সদর,22.357231,90.356008,8.058029
+Patuakhali,Rangabali,রাঙ্গাবালী,21.904040,90.412518,11.474373
+Pirojpur,Bhandaria,ভান্ডারিয়া,22.441067,90.009327,6.593546
+Pirojpur,Indurkani,ইন্দুরকানী,22.466,89.965,6.593546
+Pirojpur,Kawkhali,কাউখালী,22.606,90.057,6.593546
+Pirojpur,Mathbaria,মঠবাড়ীয়া,22.292046,89.958012,6.593546
+Pirojpur,Nazirpur,নাজিরপুর,22.786716,89.981344,5.825779
+Pirojpur,Nesarabad (Swarupkati),নেছারাবাদ (স্বরুপকাঠী),22.744964,90.116746,6.593546
+Pirojpur,Pirojpur Sadar,পিরোজপুর সদর,22.596026,89.981344,6.593546
+Rajbari,Baliakandi,বালিয়াকান্দি,23.634687,89.547405,4.721661
+Rajbari,Kalukhali,কালুখালী,23.427954,89.083143,4.721661
+Rajbari,Pangsha,পাংশা,23.780022,89.412731,4.724110
+Rajbari,Rajbari Sadar,রাজবাড়ী সদর,23.715315,89.662811,4.721661
+Rajshahi,Bagha,বাঘা,24.210922,88.845504,3.953953
+Rajshahi,Baghmara,বাগমারা,24.590836,88.807089,3.927821
+Rajshahi,Charghat,চারঘাট,24.278531,88.751805,3.927821
+Rajshahi,Durgapur,দুর্গাপুর,24.447993,88.768638,3.927821
+Rajshahi,Godagari,গোদাগাড়ী,24.468738,88.440388,3.927821
+Rajshahi,Mohanpur,মোহনপুর,24.544858,88.636196,3.927821
+Rajshahi,Paba,পবা,24.435048,88.643431,3.927821
+Rajshahi,Puthia,পুঠিয়া,24.401072,88.845504,3.927821
+Rajshahi,Tanore,তানোর,24.635966,88.537196,3.927821
+Rangamati,Baghaichhari,বাঘাইছড়ি,23.383,92.237,6.002063
+Rangamati,Barkal,বরকল,22.725156,92.379511,7.176319
+Rangamati,Belaichhari,বিলাইছড়ি,22.362260,92.499992,7.176319
+Rangamati,Juraichhari,জুরাছড়ি,22.670822,92.378894,7.176319
+Rangamati,Kaptai,কাপ্তাই,22.494382,92.221207,7.176319
+Rangamati,Kawkhali,কাউখালী,22.623,92.012,8.545326
+Rangamati,Langadu,লংগদু,22.938589,92.184328,7.820786
+Rangamati,Naniarchar,নানিয়ারচর,22.834,92.073,7.820786
+Rangamati,Rajasthali,রাজস্থলী,22.389281,92.282738,7.176319
+Rangamati,Rangamati Sadar,রাঙ্গামাটি সদর,22.652733,92.184328,8.545326
+Rangpur,Badarganj,বদরগঞ্জ,25.653968,89.070477,5.545185
+Rangpur,Gangachara,গংগাচড়া,25.873792,89.227703,6.087937
+Rangpur,Kaunia,কাউনিয়া,25.774166,89.431660,6.087937
+Rangpur,Mithapukur,মিঠাপুকুর,25.613733,89.284725,5.545185
+Rangpur,Pirgachha,পীরগাছা,25.685349,89.417464,5.545185
+Rangpur,Pirganj,পীরগঞ্জ,25.436218,89.313206,5.545185
+Rangpur,Rangpur Sadar,রংপুর সদর,25.731814,89.227703,5.545185
+Rangpur,Taraganj,তারাগঞ্জ,25.778018,89.037048,5.637675
+Satkhira,Assasuni,আশাশুনি,22.546319,89.189643,5.507960
+Satkhira,Debhata,দেবহাটা,22.580946,88.989245,4.823841
+Satkhira,Kalaroa,কলারোয়া,22.879150,89.037048,4.442809
+Satkhira,Kaliganj,কালিগঞ্জ,23.964478,90.573071,6.140055
+Satkhira,Satkhira Sadar,সাতক্ষীরা সদর,22.736163,89.037048,4.823841
+Satkhira,Shyamnagar,শ্যামনগর,21.950168,89.170600,6.022941
+Satkhira,Tala,তালা,22.760933,89.208677,5.007600
+Shariatpur,Bhedarganj,ভেদরগঞ্জ,23.214812,90.506882,6.896967
+Shariatpur,Damudya,ডামুড্যা,23.131682,90.421944,6.896967
+Shariatpur,Gosairhat,গোসাইরহাট,23.098840,90.452595,6.896967
+Shariatpur,Naria,নড়িয়া,23.262676,90.431373,6.222794
+Shariatpur,Shariatpur Sadar,শরিয়তপুর সদর,23.219,90.317,6.896967
+Shariatpur,Zanjira,জাজিরা,23.347831,90.300753,5.480264
+Sherpur,Jhenaigati,ঝিনাইগাতী,25.185938,90.062999,6.187421
+Sherpur,Nakla,নকলা,24.975276,90.205711,6.187421
+Sherpur,Nalitabari,নালিতাবাড়ী,25.141367,90.186964,6.187421
+Sherpur,Sherpur Sadar,শেরপুর সদর,25.022872,90.018656,6.187421
+Sirajganj,Belkuchi,বেলকুচি,24.310114,89.719213,5.872218
+Sirajganj,Chauhali,চৌহালি,24.072394,89.756769,5.507355
+Sirajganj,Kamarkhanda,কামারখন্দ,24.393171,89.653403,4.836373
+Sirajganj,Kazipur,কাজীপুর,24.690208,89.681621,4.836373
+Sirajganj,Royganj,রায়গঞ্জ,24.499779,89.530890,4.836373
+Sirajganj,Shahjadpur,শাহজাদপুর,24.190940,89.587482,4.724110
+Sirajganj,Sirajganj Sadar,সিরাজগঞ্জ সদর,24.500170,89.681621,4.836373
+Sirajganj,Tarash,তাড়াশ,24.430891,89.372477,4.836373
+Sirajganj,Ullahpara,উল্লাপাড়া,24.357192,89.530890,4.836373
+Sunamganj,Bishwambarpur,বিশ্বম্ভরপুর,25.109,91.315,10.398992
+Sunamganj,Chhatak,ছাতক,25.038747,91.669996,10.748252
+Sunamganj,Dharampasha,ধর্মপাশা,24.899324,91.011951,10.398992
+Sunamganj,Dowarabazar,দোয়ারাবাজার,25.109403,91.578999,10.748252
+Sunamganj,Jagannathpur,জগন্নাথপুর,24.753710,91.559612,10.398992
+Sunamganj,Jamalganj,জামালগঞ্জ,24.970664,91.192911,10.398992
+Sunamganj,Madhyanagar,মধ্যনগর,25.09,91.013,10.398992
+Sunamganj,Shalla,শাল্লা,24.687,91.259,8.396974
+Sunamganj,Shantiganj,শান্তিগঞ্জ,24.912,91.408,10.398992
+Sunamganj,Sunamganj Sadar,সুনামগঞ্জ সদর,25.016453,91.385516,10.398992
+Sunamganj,Tahirpur,তাহিরপুর,25.099049,91.175500,10.398992
+Sylhet,Balaganj,বালাগঞ্জ,24.680128,91.773357,8.596408
+Sylhet,Beanibazar,বিয়ানীবাজার,24.821961,92.158531,10.748252
+Sylhet,Companiganj,কোম্পানীগঞ্জ,25.088167,91.755099,10.748252
+Sylhet,Dakshin Surma,দক্ষিণ সুরমা,24.821123,91.890388,10.748252
+Sylhet,Fenchuganj,ফেঞ্চুগঞ্জ,24.689450,91.978367,8.596408
+Sylhet,Golapganj,গোলাপগঞ্জ,24.858063,92.015076,10.748252
+Sylhet,Gowainghat,গোয়াইনঘাট,25.104767,91.968583,10.748252
+Sylhet,Jaintiapur,জৈন্তাপুর,25.133783,92.121704,10.748252
+Sylhet,Kanaighat,কানাইঘাট,25.008820,92.255654,8.340819
+Sylhet,Osmani Nagar,ওসমানী নগর,24.719019,91.746581,8.596408
+Sylhet,Sylhet Sadar,সিলেট সদর,24.964447,91.812332,10.748252
+Sylhet,Zakiganj,জকিগঞ্জ,24.878121,92.367789,8.340819
+Tangail,Basail,বাসাইল,24.233097,90.051325,5.507355
+Tangail,Bhuapur,ভূঞাপুর,24.452840,89.794289,5.872218
+Tangail,Delduar,দেলদুয়ার,24.120143,89.944006,5.507355
+Tangail,Dhanbari,ধনবাড়ী,24.690533,89.944006,5.872218
+Tangail,Ghatail,ঘাটাইল,24.476738,90.037320,5.872218
+Tangail,Gopalpur,গোপালপুর,24.562854,89.927659,5.872218
+Tangail,Kalihati,কালিহাতী,24.357903,89.944006,5.872218
+Tangail,Madhupur,মধুপুর,24.643032,90.055994,5.872218
+Tangail,Mirzapur,মির্জাপুর,24.105253,90.105056,5.507355
+Tangail,Nagarpur,নাগরপুর,24.057671,89.876238,5.507355
+Tangail,Sakhipur,সখিপুর,24.286485,90.186964,5.872218
+Tangail,Tangail Sadar,টাঙ্গাইল সদর,24.262769,89.869220,5.872218
+Thakurgaon,Baliadangi,বালিয়াডাঙ্গী,26.090234,88.275314,4.835877
+Thakurgaon,Haripur,হরিপুর,25.864090,88.148657,4.835877
+Thakurgaon,Pirganj,পীরগঞ্জ,25.819123,88.343362,4.835877
+Thakurgaon,Ranisankail,রাণীশংকৈল,25.892046,88.258286,4.835877
+Thakurgaon,Thakurgaon Sadar,ঠাকুরগাঁও সদর,26.080287,88.440388,5.637675

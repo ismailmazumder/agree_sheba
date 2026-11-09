@@ -1,0 +1,9 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Papaya,Bogura,rainfall,mm,42.0,,> 42 mm
+Papaya,Bogura,cloudy_weather,,,,Cloudy Weather
+Papaya,Bogura,relative_humidity_max,%,92.0,,Maximum Humidity > 92% Minimum Humidity < 40%
+Papaya,Bogura,relative_humidity_min,%,,40.0,Maximum Humidity > 92% Minimum Humidity < 40%
+Papaya,Bogura,hail_storm,,,,Hail storm
+Papaya,Bogura,wind_speed,km/hr,20.0,,> 20 km/hr
+Papaya,Bogura,max_temp,°C,34.0,,Max. Temp. > 34 oC and Min. Temp. < 25 oC
+Papaya,Bogura,min_temp,°C,,25.0,Max. Temp. > 34 oC and Min. Temp. < 25 oC

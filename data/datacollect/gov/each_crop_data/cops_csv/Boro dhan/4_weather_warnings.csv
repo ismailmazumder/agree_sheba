@@ -1,0 +1,11 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Boro dhan,Bogura,rainfall,mm,50.0,,>50 mm/day
+Boro dhan,Bogura,rainfall,mm,100.0,,>100 mm/day
+Boro dhan,Bogura,wet_spell_duration,days,25.0,,>25 mm for 3 days
+Boro dhan,Bogura,wet_spell_duration,days,50.0,,>50 mm for 4 days
+Boro dhan,Bogura,wet_spell_duration,days,20.0,,20 mm for 4 days
+Boro dhan,Bogura,cloudy_weather,,,,Cloudy weather
+Boro dhan,Bogura,wind_speed,km/hr,50.0,,>50 km/hr
+Boro dhan,Bogura,wind_speed,km/hr,40.0,,>40 km/hr
+Boro dhan,Bogura,wind_speed,km/hr,30.0,,>30 km/hr
+Boro dhan,Bogura,temperature,°C,,10.0,Minimum Temperature <10o C

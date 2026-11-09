@@ -1,0 +1,227 @@
+{
+  "crop": "Sugarcane",
+  "region": "Bogura",
+  "duration_days": 427,
+  "phenological_stages_count": 5,
+  "phenological_stages_weather": [
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "duration_days": 427,
+      "std_week": 49,
+      "month": "December",
+      "rainfall_mm": 0,
+      "max_temp_c": 27.7,
+      "min_temp_c": 15,
+      "mean_temp_c": 21.4,
+      "rh_max_pct": 93.7,
+      "rh_min_pct": 48.1,
+      "rh_mean_pct": 70.9,
+      "sunshine_hrs": 54,
+      "wind_direction_deg": 222,
+      "wind_speed_kmh": 3.7,
+      "phenological_stage": "shases"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "duration_days": 427,
+      "std_week": 50,
+      "month": "December",
+      "rainfall_mm": 3,
+      "max_temp_c": 26.3,
+      "min_temp_c": 14.1,
+      "mean_temp_c": 20.2,
+      "rh_max_pct": 94.6,
+      "rh_min_pct": 50.6,
+      "rh_mean_pct": 72.6,
+      "sunshine_hrs": 48,
+      "wind_direction_deg": 232,
+      "wind_speed_kmh": 3.9,
+      "phenological_stage": "Germination"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "duration_days": 427,
+      "std_week": 7,
+      "month": "February",
+      "rainfall_mm": 4,
+      "max_temp_c": 27.7,
+      "min_temp_c": 14.6,
+      "mean_temp_c": 21.2,
+      "rh_max_pct": 91.4,
+      "rh_min_pct": 40.3,
+      "rh_mean_pct": 65.9,
+      "sunshine_hrs": 53,
+      "wind_direction_deg": 234,
+      "wind_speed_kmh": 5.6,
+      "phenological_stage": "Tillering"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "duration_days": 427,
+      "std_week": 23,
+      "month": "June",
+      "rainfall_mm": 74,
+      "max_temp_c": 33.4,
+      "min_temp_c": 25.9,
+      "mean_temp_c": 29.7,
+      "rh_max_pct": 94.1,
+      "rh_min_pct": 66.7,
+      "rh_mean_pct": 80.4,
+      "sunshine_hrs": 39,
+      "wind_direction_deg": 134,
+      "wind_speed_kmh": 6.3,
+      "phenological_stage": "Grand growth"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "duration_days": 427,
+      "std_week": 41,
+      "month": "October",
+      "rainfall_mm": 42,
+      "max_temp_c": 32.3,
+      "min_temp_c": 24,
+      "mean_temp_c": 28.2,
+      "rh_max_pct": 96,
+      "rh_min_pct": 66,
+      "rh_mean_pct": 81,
+      "sunshine_hrs": 48,
+      "wind_direction_deg": 184,
+      "wind_speed_kmh": 5,
+      "phenological_stage": "Maturity to Harvesting"
+    }
+  ],
+  "weather_warnings_count": 14,
+  "weather_warnings": [
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 30,
+      "lower_threshold": null,
+      "note": ">30mm/day"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "rainfall",
+      "unit": "mm",
+      "upper_threshold": 120,
+      "lower_threshold": null,
+      "note": ">120mm/day"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 20,
+      "lower_threshold": null,
+      "note": ">20mm for 3days"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 64,
+      "lower_threshold": null,
+      "note": ">64 mm for 7days"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "wet_spell_duration",
+      "unit": "days",
+      "upper_threshold": 40,
+      "lower_threshold": null,
+      "note": ">40 mm for 5days"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "soil_moisture",
+      "unit": null,
+      "upper_threshold": 50,
+      "lower_threshold": null,
+      "note": "50% depletion require irrigation"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "soil_moisture",
+      "unit": null,
+      "upper_threshold": 75,
+      "lower_threshold": null,
+      "note": "75% depletion require irrigation"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": 20,
+      "lower_threshold": 15,
+      "note": "15-20days"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": 30,
+      "lower_threshold": 20,
+      "note": "20-30 days"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "drought",
+      "unit": "days",
+      "upper_threshold": 30,
+      "lower_threshold": 25,
+      "note": "25-30days"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "cloudy_weather",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Cloudy Weather"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "wind_speed",
+      "unit": "km/hr",
+      "upper_threshold": 40,
+      "lower_threshold": 30,
+      "note": "30-40KM/HR"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "hail_storm",
+      "unit": null,
+      "upper_threshold": null,
+      "lower_threshold": null,
+      "note": "Hail Storm"
+    },
+    {
+      "crop": "Sugarcane",
+      "region": "Bogura",
+      "parameter": "temperature",
+      "unit": "°C",
+      "upper_threshold": 37,
+      "lower_threshold": null,
+      "note": "Temperature above 37°C"
+    }
+  ]
+}

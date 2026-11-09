@@ -1,0 +1,4 @@
+﻿crop,region,disease,temp_range_c,rh_threshold_pct,rainfall_threshold_mm,other_condition
+Boro dhan,Bogura,Bacterial Leaf Blight,28-30,80-90,>30,"Temperature 28-30o C, Relative Humidity 80-90%, Cloudiness, Rainfall >30mm"
+Boro dhan,Bogura,Sheath Blight,28-32,,,"Temperature 28-32o C, high Relative Humidity, Cloudy weather"
+Boro dhan,Bogura,Blast,16-20 | 25-30,>90,,"Night temperature 16-20oC, for 8.30 hours day temperature 25-30oC, for 8.30 hours day night temperature >10oC Relative Humidity >90%, Cloudy"

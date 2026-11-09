@@ -1,0 +1,15 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Sugarcane,Bogura,rainfall,mm,30.0,,>30mm/day
+Sugarcane,Bogura,rainfall,mm,120.0,,>120mm/day
+Sugarcane,Bogura,wet_spell_duration,days,20.0,,>20mm for 3days
+Sugarcane,Bogura,wet_spell_duration,days,64.0,,>64 mm for 7days
+Sugarcane,Bogura,wet_spell_duration,days,40.0,,>40 mm for 5days
+Sugarcane,Bogura,soil_moisture,,50.0,,50% depletion require irrigation
+Sugarcane,Bogura,soil_moisture,,75.0,,75% depletion require irrigation
+Sugarcane,Bogura,drought,days,20.0,15.0,15-20days
+Sugarcane,Bogura,drought,days,30.0,20.0,20-30 days
+Sugarcane,Bogura,drought,days,30.0,25.0,25-30days
+Sugarcane,Bogura,cloudy_weather,,,,Cloudy Weather
+Sugarcane,Bogura,wind_speed,km/hr,40.0,30.0,30-40KM/HR
+Sugarcane,Bogura,hail_storm,,,,Hail Storm
+Sugarcane,Bogura,temperature,°C,37.0,,Temperature above 37°C

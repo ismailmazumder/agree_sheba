@@ -1,0 +1,14 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Jute (Deshi),Bogura,rainfall,mm,,1000.0,<1000 mm
+Jute (Deshi),Bogura,rh,,,60.0,<60%
+Jute (Deshi),Bogura,water_logging,,,,water logging
+Jute (Deshi),Bogura,wet_spell_duration,days,15.0,,>15mm for 19days
+Jute (Deshi),Bogura,drought,days,20.0,15.0,15-20 days
+Jute (Deshi),Bogura,hail_storm,,,,Hail storm
+Jute (Deshi),Bogura,cloudy_weather,,,,Cloudy weather
+Jute (Deshi),Bogura,wind_speed,km/hr,50.0,,50KM/HR
+Jute (Deshi),Bogura,wind_speed,km/hr,40.0,,40KM/HR
+Jute (Deshi),Bogura,max_temp,°C,32.0,,Min. temp<10°C and max. temp >32°C
+Jute (Deshi),Bogura,min_temp,°C,,10.0,Min. temp<10°C and max. temp >32°C
+Jute (Deshi),Bogura,max_temp,°C,43.0,,Min. Temp. <15°C and max. Temp. >43°C
+Jute (Deshi),Bogura,min_temp,°C,,15.0,Min. Temp. <15°C and max. Temp. >43°C

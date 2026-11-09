@@ -1,0 +1,2 @@
+early_period,early_valid_onset_years,early_median_days_after_may_1,late_period,late_valid_onset_years,late_median_days_after_may_1,test,mann_whitney_u,p_value,alpha,five_day_threshold_mm,conclusion
+2001-2012,0,,2013-2025,1,-1.0,two-sided Mann-Whitney U,,,0.05,56.1200016438961,insufficient valid onset years for both periods

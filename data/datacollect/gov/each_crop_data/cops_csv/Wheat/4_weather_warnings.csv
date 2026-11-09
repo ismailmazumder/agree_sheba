@@ -1,0 +1,11 @@
+﻿crop,region,parameter,unit,upper_threshold,lower_threshold,note
+Wheat,Bogura,rainfall,mm,50.0,,>50 mm/day
+Wheat,Bogura,rainfall,mm,100.0,,>100mm/day
+Wheat,Bogura,wet_spell_duration,days,4.0,3.0,>50 mm for 3-4 days
+Wheat,Bogura,wet_spell_duration,days,4.0,3.0,>75 mm for 3-4 days
+Wheat,Bogura,wet_spell_duration,days,4.0,3.0,>50mm for 3-4 days
+Wheat,Bogura,cloudy_weather,,,,Cloudy Weather
+Wheat,Bogura,drought,days,20.0,,20 days
+Wheat,Bogura,wind_speed,km/hr,50.0,,>50 km/hr
+Wheat,Bogura,max_temp,°C,30.0,,>300C
+Wheat,Bogura,min_temp,°C,,15.0,<150C
