@@ -414,6 +414,40 @@
     .ctx-card summary em { font-style: normal; font-weight: 600; color: var(--mu); }
     .ctx-card pre { max-height: 220px; margin: 10px 0 0; overflow: auto; color: var(--mu); font: inherit; font-size: .82rem; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
     .ctx-msg .bubble { border-style: dashed; }
+
+    /* ===== data sources page ===== */
+    .sources-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; align-items: flex-start; margin-bottom: 20px; }
+    .sources-head h2 { margin: 0 0 6px; }
+    .sources-head .hint { max-width: 70ch; margin: 0; line-height: 1.55; }
+    .source-repo { display: inline-flex; align-items: center; gap: 8px; min-height: 42px; padding: 0 16px; text-decoration: none; font-weight: 700; white-space: nowrap; }
+    .source-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 14px; }
+    .source-card { display: flex; flex-direction: column; gap: 10px; padding: 18px; border: 1px solid var(--bd); border-radius: 24px; background: var(--card); backdrop-filter: blur(18px) saturate(160%); -webkit-backdrop-filter: blur(18px) saturate(160%); box-shadow: var(--shadow), inset 0 1px 0 rgb(255 255 255 / .35); transition: transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s; }
+    .source-card:hover { transform: translateY(-3px); }
+    .source-top { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .source-badge { padding: 4px 10px; border-radius: 999px; background: rgb(11 143 132 / .12); color: var(--lime); font-size: .7rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .source-kind { color: var(--mu); font-size: .78rem; font-weight: 600; }
+    .source-card h3 { margin: 0; font-size: 1.05rem; color: var(--tx); }
+    .source-card > p { margin: 0; color: var(--mu); font-size: .9rem; line-height: 1.55; }
+    .source-meta { display: grid; gap: 6px; margin: 0; }
+    .source-meta div { display: grid; grid-template-columns: 86px 1fr; gap: 10px; font-size: .82rem; line-height: 1.4; }
+    .source-meta dt { color: var(--mu); }
+    .source-meta dd { margin: 0; color: var(--tx); }
+    .source-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; }
+    .source-links a { padding: 6px 11px; border: 1px solid var(--bd); border-radius: 999px; color: var(--lime); font-size: .8rem; font-weight: 700; text-decoration: none; transition: background .2s, color .2s, border-color .2s; }
+    .source-links a:hover { background: var(--blue); border-color: transparent; color: #fff; }
+    .source-section { margin-top: 28px; }
+    .source-section > h3 { margin: 0 0 4px; color: var(--tx); font-size: 1.15rem; }
+    .source-section > p { margin: 0 0 14px; color: var(--mu); font-size: .9rem; line-height: 1.55; }
+    .source-table-wrap { overflow-x: auto; border: 1px solid var(--bd); border-radius: 20px; background: var(--card); box-shadow: var(--shadow); }
+    .source-table { width: 100%; min-width: 620px; border-collapse: collapse; font-size: .88rem; }
+    .source-table th, .source-table td { padding: 11px 14px; text-align: left; border-bottom: 1px solid var(--bd); }
+    .source-table th { color: var(--mu); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
+    .source-table td { color: var(--tx); }
+    .source-table tbody tr:last-child td { border-bottom: 0; }
+    .source-table tbody tr:hover { background: rgb(99 102 241 / .06); }
+    .source-note { margin-top: 16px; padding: 14px 16px; border-left: 4px solid var(--lime); border-radius: 12px; background: var(--card2); color: var(--mu); font-size: .86rem; line-height: 1.6; }
+    .source-note b { color: var(--tx); }
+    @media (max-width: 600px) { .source-meta div { grid-template-columns: 1fr; gap: 1px; } }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js">
@@ -461,6 +495,7 @@
       <button class="tab-button" id="tab-priorities" type="button" role="tab" aria-selected="false" aria-controls="priorities-panel"><span class="tab-en">Priority</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">অগ্রাধিকার</span></button>
       <button class="tab-button" id="tab-live" type="button" role="tab" aria-selected="false" aria-controls="live-panel"><span class="tab-en">Live field</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">সরাসরি মাঠ</span></button>
       <button class="tab-button" id="tab-ai" type="button" role="tab" aria-selected="false" aria-controls="ai-panel"><span class="tab-en">AI Copilot</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">এআই সহকারী</span><em class="new">NEW</em></button>
+      <button class="tab-button" id="tab-sources" type="button" role="tab" aria-selected="false" aria-controls="sources-panel"><span class="tab-en">Data sources</span><span class="tab-sep"> · </span><span class="tab-bn" lang="bn">তথ্যসূত্র</span></button>
     </nav>
 
     <section class="panel" id="results-panel" role="tabpanel" aria-labelledby="tab-results">
@@ -577,6 +612,211 @@
         <div class="chat-input"><textarea id="userInput" rows="1" placeholder="Type a message…" aria-label="Message"></textarea><button id="sendBtn" class="send" type="button">Send</button></div>
       </div>
       <p class="live-note">Replies come from an external AI service and can be wrong — double-check important farming decisions. Please don't share personal details. Not an official NASA product.</p>
+    </section>
+    <section class="panel" id="sources-panel" role="tabpanel" aria-labelledby="tab-sources" hidden>
+      <div class="sources-head">
+        <div>
+          <h2><span class="en">Data sources</span><span class="sep"> · </span><span lang="bn">তথ্যসূত্র</span></h2>
+          <p class="hint">Every dataset, provider and scientific method behind the crop rankings, water-demand estimates and live field conditions. Full documentation lives in the project README.</p>
+        </div>
+        <a class="button-secondary source-repo" href="https://github.com/ismailmazumder/agree_sheba/blob/main/README.md" target="_blank" rel="noopener">↗ README on GitHub</a>
+      </div>
+
+      <section class="source-section" aria-labelledby="sources-data-title" style="margin-top:0">
+        <h3 id="sources-data-title"><span class="en">Agricultural, satellite &amp; climate datasets</span><span class="sep"> · </span><span lang="bn">কৃষি, স্যাটেলাইট ও জলবায়ু তথ্যসেট</span></h3>
+        <p>Nine primary sources feed the app. Each card shows who provides the data, what it is used for, and where to read the original documentation.</p>
+
+        <div class="source-grid">
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">Bangladesh</span><span class="source-kind">Administrative data</span></div>
+            <h3>Bangladesh Crop Zoning</h3>
+            <p>Location-specific crop suitability, seasons, varieties and situations, plus gross margin and benefit–cost indicators for every district and upazila.</p>
+            <dl class="source-meta">
+              <div><dt>Provider</dt><dd>BARC · Crop Zoning Project</dd></div>
+              <div><dt>Used for</dt><dd>Crop suitability &amp; economics</dd></div>
+              <div><dt>Resolution</dt><dd>District / upazila</dd></div>
+              <div><dt>API</dt><dd>api1.cropzoning.gov.bd/api</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://cropzoning.gov.bd/" target="_blank" rel="noopener">Portal</a>
+              <a href="https://portal.cropzoning.gov.bd/cropSuitability" target="_blank" rel="noopener">Suitability</a>
+              <a href="https://czis.cropzoning.gov.bd/" target="_blank" rel="noopener">CZIS</a>
+            </div>
+          </article>
+
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">Bangladesh</span><span class="source-kind">Agro-meteorology</span></div>
+            <h3>BAMIS</h3>
+            <p>Crop growth stages, weekly weather profiles, disease and insect-pest references, weather warnings and crop-specific agricultural calendars.</p>
+            <dl class="source-meta">
+              <div><dt>Provider</dt><dd>Bangladesh Agro-Meteorological Information Service</dd></div>
+              <div><dt>Used for</dt><dd>Crop guidance &amp; warnings</dd></div>
+              <div><dt>Resolution</dt><dd>Crop / district reference</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://www.bamis.gov.bd/" target="_blank" rel="noopener">Official website</a>
+            </div>
+          </article>
+
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">NASA</span><span class="source-kind">Atmospheric reanalysis</span></div>
+            <h3>MERRA-2</h3>
+            <p>Global atmospheric reanalysis providing temperature, humidity, surface pressure and surface soil-wetness context for environmental characterisation.</p>
+            <dl class="source-meta">
+              <div><dt>Variables</dt><dd>T2M · QV2M · PS · GWETTOP</dd></div>
+              <div><dt>Used for</dt><dd>Climate &amp; soil-wetness context</dd></div>
+              <div><dt>Resolution</dt><dd>Global reanalysis grid</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/" target="_blank" rel="noopener">Documentation</a>
+            </div>
+          </article>
+
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">NASA</span><span class="source-kind">Radiation</span></div>
+            <h3>CERES</h3>
+            <p>Clouds and the Earth's Radiant Energy System. The local dataset carries an all-sky surface UV index as an additional radiation-related indicator.</p>
+            <dl class="source-meta">
+              <div><dt>Variable</dt><dd>ALLSKY_SFC_UV_INDEX</dd></div>
+              <div><dt>Used for</dt><dd>Radiation context</dd></div>
+              <div><dt>Resolution</dt><dd>Product-dependent</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://ceres.larc.nasa.gov/" target="_blank" rel="noopener">Documentation</a>
+            </div>
+          </article>
+
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">NASA</span><span class="source-kind">Precipitation</span></div>
+            <h3>GPM IMERG</h3>
+            <p>Satellite precipitation retrievals (V07B) processed from daily files into monthly and seasonal rainfall, wet-day frequency and monsoon-onset statistics.</p>
+            <dl class="source-meta">
+              <div><dt>Product</dt><dd>3B-DAY.MS.MRG.3IMERG · V07B</dd></div>
+              <div><dt>Used for</dt><dd>Rainfall &amp; season analysis</dd></div>
+              <div><dt>Resolution</dt><dd>0.1°</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://gpm.nasa.gov/data/imerg" target="_blank" rel="noopener">GPM portal</a>
+            </div>
+          </article>
+
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">NASA / JPL</span><span class="source-kind">Surface water</span></div>
+            <h3>OPERA DSWx-S1</h3>
+            <p>Sentinel-1 radar-derived surface-water classification used to estimate possible inundation frequency and compare it with permanent-water signals.</p>
+            <dl class="source-meta">
+              <div><dt>Dataset ID</dt><dd>OPERA/DSWX/L3_V1/S1</dd></div>
+              <div><dt>Used for</dt><dd>Historical water signal</dd></div>
+              <div><dt>Resolution</dt><dd>30 m</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://developers.google.com/earth-engine/datasets/catalog/OPERA_DSWX_L3_V1_S1" target="_blank" rel="noopener">Earth Engine catalog</a>
+            </div>
+          </article>
+
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">JRC</span><span class="source-kind">Historical water</span></div>
+            <h3>Global Surface Water</h3>
+            <p>European Commission Joint Research Centre dataset. The occurrence band is used as a permanent-water reference when interpreting OPERA detections.</p>
+            <dl class="source-meta">
+              <div><dt>Dataset ID</dt><dd>JRC/GSW1_4/GlobalSurfaceWater</dd></div>
+              <div><dt>Used for</dt><dd>Permanent-water reference</dd></div>
+              <div><dt>Resolution</dt><dd>30 m</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_GlobalSurfaceWater" target="_blank" rel="noopener">Earth Engine catalog</a>
+            </div>
+          </article>
+
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">NASA</span><span class="source-kind">Surface reflectance</span></div>
+            <h3>MODIS MOD09A1</h3>
+            <p>Eight-day, 500 m surface reflectance. Near-infrared (B02) and shortwave-infrared (B06) bands drive the Land Surface Water Index with QC filtering.</p>
+            <dl class="source-meta">
+              <div><dt>Dataset ID</dt><dd>MODIS/061/MOD09A1</dd></div>
+              <div><dt>Used for</dt><dd>LSWI vegetation-water signal</dd></div>
+              <div><dt>Resolution</dt><dd>500 m · 8-day composite</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09A1" target="_blank" rel="noopener">Earth Engine catalog</a>
+            </div>
+          </article>
+
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">NASA</span><span class="source-kind">Meteorology</span></div>
+            <h3>POWER</h3>
+            <p>Prediction of Worldwide Energy Resources. Supplies daily temperature, humidity, wind, pressure, precipitation and solar radiation for climate analysis, ET₀ and the live field tab.</p>
+            <dl class="source-meta">
+              <div><dt>Variables</dt><dd>T2M · T2M_MAX/MIN · T2MDEW · RH2M · WS2M/WS10M · PRECTOTCORR · PS · ALLSKY_SFC_SW_DWN</dd></div>
+              <div><dt>Used for</dt><dd>ET₀, water demand, live weather</dd></div>
+              <div><dt>Resolution</dt><dd>Parameter-dependent</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://power.larc.nasa.gov/" target="_blank" rel="noopener">POWER portal</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="source-section" aria-labelledby="sources-model-title">
+        <h3 id="sources-model-title"><span class="en">Agronomic models</span><span class="sep"> · </span><span lang="bn">কৃষি-বৈজ্ঞানিক মডেল</span></h3>
+        <p>Two established scientific methods turn weather data and crop parameters into calculated indicators. These are models, not direct field measurements.</p>
+
+        <div class="source-grid">
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">FAO</span><span class="source-kind">Crop water demand</span></div>
+            <h3>FAO-56 Penman–Monteith</h3>
+            <p>Reference evapotranspiration (ET₀) is calculated from temperature, humidity, wind, radiation and pressure, then scaled by crop coefficients: ETc = Kc × ET₀. Results are reported in mm and m³/ha.</p>
+            <dl class="source-meta">
+              <div><dt>Reference</dt><dd>Allen et al. (1998), FAO Irrigation &amp; Drainage Paper 56</dd></div>
+              <div><dt>Used for</dt><dd>Seasonal crop water demand</dd></div>
+              <div><dt>Output</dt><dd>crops_data_with_water_demand.csv</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://www.fao.org/4/x0490e/x0490e00.htm" target="_blank" rel="noopener">FAO publication</a>
+            </div>
+          </article>
+
+          <article class="source-card">
+            <div class="source-top"><span class="source-badge">Model</span><span class="source-kind">Salinity response</span></div>
+            <h3>Maas &amp; Hoffman</h3>
+            <p>Relates root-zone salinity to relative yield: Y = 100 − b(ECe − a), where <em>a</em> is the crop threshold and <em>b</em> the yield-reduction slope. Thresholds are derived for 100%, 90%, 75%, 50% and 0% relative yield.</p>
+            <dl class="source-meta">
+              <div><dt>Reference</dt><dd>Maas &amp; Hoffman (1977), Crop Salt Tolerance—Current Assessment</dd></div>
+              <div><dt>Used for</dt><dd>Crop salinity tolerance</dd></div>
+              <div><dt>Output</dt><dd>crops_data_with_salt_tolerance.csv</dd></div>
+            </dl>
+            <div class="source-links">
+              <a href="https://www.fao.org/4/T0234e/T0234E03.htm" target="_blank" rel="noopener">FAO water quality</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="source-section" aria-labelledby="sources-table-title">
+        <h3 id="sources-table-title"><span class="en">Dataset comparison</span><span class="sep"> · </span><span lang="bn">তথ্যসেট তুলনা</span></h3>
+        <p>Spatial resolution is indicative and does not imply that every dataset is available at every location or has equivalent effective accuracy.</p>
+        <div class="source-table-wrap">
+          <table class="source-table">
+            <thead>
+              <tr><th>Dataset</th><th>Provider</th><th>Spatial resolution</th><th>Main application</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Crop Zoning</td><td>Bangladesh</td><td>Administrative</td><td>Crop suitability</td></tr>
+              <tr><td>MERRA-2</td><td>NASA</td><td>Global reanalysis grid</td><td>Climate</td></tr>
+              <tr><td>CERES</td><td>NASA</td><td>Product-dependent</td><td>Radiation</td></tr>
+              <tr><td>GPM IMERG</td><td>NASA</td><td>0.1°</td><td>Rainfall</td></tr>
+              <tr><td>OPERA DSWx-S1</td><td>NASA / JPL</td><td>30 m</td><td>Surface water</td></tr>
+              <tr><td>Global Surface Water</td><td>JRC</td><td>30 m</td><td>Historical water occurrence</td></tr>
+              <tr><td>MOD09A1</td><td>NASA</td><td>500 m</td><td>Surface reflectance</td></tr>
+              <tr><td>POWER</td><td>NASA</td><td>Parameter-dependent</td><td>Meteorology</td></tr>
+              <tr><td>FAO-56</td><td>FAO methodology</td><td>Calculation-dependent</td><td>Crop water demand</td></tr>
+              <tr><td>Maas &amp; Hoffman</td><td>Scientific model</td><td>Calculation-dependent</td><td>Salinity response</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="source-note"><b>Provenance note · তথ্যের উৎস:</b> Every recommendation should be traceable to its source data, calculation and assumptions. Satellite-derived indicators are not field measurements, and theoretical crop tolerances are not measurements of a particular farm. The app also uses OpenStreetMap tiles for the map, Open-Meteo geocoding for place search, and NASA POWER live values for the Live field tab. AgriSheba is an independent research prototype — not an official product of NASA, FAO, BARC, BAMIS or any other data provider.</p>
+      </section>
     </section>
     <footer class="foot"><p>Built for the NASA Space Apps Challenge — a community science initiative. Not an official NASA product. · NASA স্পেস অ্যাপস চ্যালেঞ্জের জন্য তৈরি — একটি কমিউনিটি সায়েন্স উদ্যোগ। এটি NASA-র কোনো দাপ্তরিক পণ্য নয়।</p></footer>
   </main>
@@ -702,7 +942,7 @@ const labeledData = [{"district_name":"Bagerhat","thana_name":"Bagerhat Sadar","
     }
 
     function activateTab(which) {
-      const map = { results: [resultsTab, resultsPanel], priorities: [prioritiesTab, prioritiesPanel], live: [document.getElementById("tab-live"), document.getElementById("live-panel")], ai: [document.getElementById("tab-ai"), document.getElementById("ai-panel")] };
+      const map = { results: [resultsTab, resultsPanel], priorities: [prioritiesTab, prioritiesPanel], live: [document.getElementById("tab-live"), document.getElementById("live-panel")], ai: [document.getElementById("tab-ai"), document.getElementById("ai-panel")], sources: [document.getElementById("tab-sources"), document.getElementById("sources-panel")] };
       for (const [k, [t, p]] of Object.entries(map)) { t.setAttribute("aria-selected", String(k === which)); p.hidden = k !== which; }
       if (which === "live") loadLive();
       document.body.classList.toggle("ai-open", which === "ai");
@@ -712,6 +952,7 @@ const labeledData = [{"district_name":"Bagerhat","thana_name":"Bagerhat Sadar","
     prioritiesTab.addEventListener("click", () => activateTab("priorities"));
     document.getElementById("tab-live").addEventListener("click", () => activateTab("live"));
     document.getElementById("tab-ai").addEventListener("click", () => activateTab("ai"));
+    document.getElementById("tab-sources").addEventListener("click", () => activateTab("sources"));
     for (const input of Object.values(priorityControls)) {
       input.addEventListener("input", updatePriorityDisplay);
     }
