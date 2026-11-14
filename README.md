@@ -726,41 +726,39 @@ Spatial resolution is indicative and does not imply that every dataset is availa
 
 # 📁 Repository Structure
 
+Start with these file guides to find the code and data:
+
+- [`data/README.md`](data/README.md) — map of the data folders.
+- [`data/datasets/README.md`](data/datasets/README.md) — the committed, prepared datasets.
+- [`data/datacollect/README.md`](data/datacollect/README.md) — map of the collection and processing workflows.
+- [`data/datacollect/gov/README.md`](data/datacollect/gov/README.md) — Bangladesh government and crop-calendar files.
+- [`data/datacollect/gov/each_crop_data/README.md`](data/datacollect/gov/each_crop_data/README.md) — crop-specific files and scripts.
+- [`data/datacollect/nasa/README.md`](data/datacollect/nasa/README.md) — NASA and satellite workflows.
+
 ```text
 agree_sheba/
 │
 ├── README.md
-├── index.html
-├── index copy.html
-├── index copy 2.html
-├── indexthree.html
-│
-├── crops_data_with_salt_tolerance.csv
+├── index.html                         # Main browser app
+├── index copy.html                    # Separate app variant
+├── index copy 2.html                  # Separate app variant
+├── indexthree.html                    # Separate app variant
+├── crops_data_with_salt_tolerance.csv # Standalone CSV export
 │
 └── data/
-    │
+    ├── README.md                      # Data folder index
     ├── datasets/
-    │   ├── crop_economics_suitability(extrainfo).csv
-    │   ├── crops_data.csv
-    │   ├── crops_data_with_salt_tolerance.csv
-    │   ├── crops_data_with_water_demand.csv
-    │   ├── crops_weather_and_warnings.json
-    │   ├── cumilla_nasa_data.csv
-    │   ├── district_locations.csv
-    │   ├── location_flood_assessment.csv
-    │   ├── location_with_lat_lon.csv
-    │   ├── season.csv
-    │   └── upazila_salinity_decisions.csv
-    │
+    │   ├── README.md                  # Prepared dataset inventory
+    │   └── ...                        # CSV and JSON inputs/outputs
     └── datacollect/
-        │
+        ├── README.md                  # Collection workflow index
         ├── gov/
-        │   ├── mighty_crop_data.py
-        │   ├── salty.csv
+        │   ├── README.md
+        │   ├── mighty_crop_data.py    # Crop Zoning API collector
         │   └── each_crop_data/
-        │
+        │       └── README.md
         └── nasa/
-            │
+            ├── README.md
             ├── crop_water_demand/
             ├── crop_salt_tola/
             ├── flood/
@@ -769,6 +767,10 @@ agree_sheba/
             ├── rain_imperg/
             └── rain_mean/
 ```
+
+The HTML files are independent pages, not modules imported by one another. `index.html` is the primary page; the other names are separate variants. The root-level salinity CSV and the similarly named file in `data/datasets/` are separate copies, so check the intended version before using either.
+
+Agent tooling note: skills use `.claude/skills/<skill-name>/SKILL.md`; they are separate from README files. This repository currently has no skill folders, `CLAUDE.md`, or `AGENTS.md`. The example Space Apps setup also assumes `cache/`, `demo_fixtures/`, and `src/compute/` folders, an `OFFLINE=1` workflow, and `make` commands, none of which are present here. Treat those examples as future design guidance, not implemented project capabilities.
 
 ---
 
